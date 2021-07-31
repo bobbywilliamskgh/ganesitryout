@@ -102,8 +102,8 @@ app.get("/participants/:email", (req, res) => {
   participant.handleParticipantGet(req, res, db);
 });
 
-app.listen(process.env.PORT || 3000, () => {
-  console.log(`app is running in port 3000 ${process.env.PORT}`);
+app.listen(8800, () => {
+  console.log("Backend server is running");
 });
 
 // PLANNING API
