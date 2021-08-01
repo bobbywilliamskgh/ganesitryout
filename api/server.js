@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const bcrypt = require("bcrypt");
 const cors = require("cors");
@@ -12,10 +13,10 @@ const participant = require("./controllers/participant");
 const db = knex({
   client: "pg",
   connection: {
-    host: "127.0.0.1",
-    user: "bobbywilliamskgh",
-    password: "Lambogini123",
-    database: "ganesitryout",
+    host: process.env.DB_HOST,
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_DATABASE,
   },
 });
 
@@ -70,35 +71,36 @@ app.use(cors());
 
 // app.use(express.static(__dirname + "/public"));
 
-app.get("/", (req, res) => {
+app.get("/api", (req, res) => {
   res.json("success");
+  console.log("sucess");
 });
 
-app.post("/signin", (req, res) => {
+app.post("/api/signin", (req, res) => {
   signin.handleSignin(req, res, db, bcrypt);
 });
 
-app.post("/register", (req, res) => {
+app.post("/api/register", (req, res) => {
   register.handleRegister(req, res, db, bcrypt);
 });
 
-app.get("/info/:id", (req, res) => {
+app.get("/api/info/:id", (req, res) => {
   info.handleInfoGet(req, res, db);
 });
 
-app.post("/results", (req, res) => {
+app.post("/api/results", (req, res) => {
   result.handleResultPost(req, res, db);
 });
 
-app.get("/leaderboard/:tryoutId", (req, res) => {
+app.get("/api/leaderboard/:tryoutId", (req, res) => {
   leaderboard.handleLeaderboardGet(req, res, db);
 });
 
-app.get("/results/:userId", (req, res) => {
+app.get("/api/results/:userId", (req, res) => {
   result.handleResultGet(req, res, db);
 });
 
-app.get("/participants/:email", (req, res) => {
+app.get("/api/participants/:email", (req, res) => {
   participant.handleParticipantGet(req, res, db);
 });
 
