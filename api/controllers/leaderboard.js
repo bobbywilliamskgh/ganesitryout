@@ -21,7 +21,7 @@ const handleLeaderboardGet = (req, res, db) => {
       .where("is_passed", false)
       .then((data) => {
         failedUsers = data;
-        trx
+        return trx
           .select(
             "users.user_id",
             "users.name",
