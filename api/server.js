@@ -73,6 +73,7 @@ app.use(cors());
 
 app.get("/api", (req, res) => {
   res.json("success");
+  console.log("sucess");
 });
 
 app.post("/api/signin", (req, res) => {
