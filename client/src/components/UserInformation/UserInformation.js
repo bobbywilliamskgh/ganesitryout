@@ -11,7 +11,7 @@ class UserInformation extends Component {
   }
 
   componentDidMount() {
-    fetch(`${process.env.REACT_APP_API_URL}info/${this.props.userId}`)
+    fetch(`${process.env.REACT_APP_API_URL}/info/${this.props.userId}`)
       .then((res) => res.json())
       .then(
         (user) => {

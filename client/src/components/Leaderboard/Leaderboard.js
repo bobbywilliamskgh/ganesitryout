@@ -9,7 +9,7 @@ class Leaderboard extends Component {
   }
 
   componentDidMount() {
-    fetch(`http://localhost:3000/leaderboard/${this.props.tryoutId}`)
+    fetch(`${process.env.REACT_APP_API_URL}/leaderboard/${this.props.tryoutId}`)
       .then((response) => response.json())
       .then(
         (users) => {

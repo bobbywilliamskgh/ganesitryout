@@ -30,7 +30,7 @@ class Signup extends Component {
   onSubmitRegister = () => {
     console.log("submit register");
     console.log("fetch");
-    fetch(`${process.env.REACT_APP_API_URL}register`, {
+    fetch(`${process.env.REACT_APP_API_URL}/register`, {
       method: "post",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
