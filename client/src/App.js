@@ -57,7 +57,7 @@ class App extends Component {
   };
 
   componentDidMount() {
-    fetch(process.env.REACT_APP_API_URL)
+    fetch(`${process.env.REACT_APP_API_URL}/`)
       .then((response) => response.json())
       .then(console.log);
   }
@@ -194,7 +194,7 @@ class App extends Component {
       total_score: totalScore,
       isPassed: isPassed,
     });
-    fetch("https://powerful-eyrie-55332.herokuapp.com/results", {
+    fetch(`${process.env.REACT_APP_API_URL}/results`, {
       method: "post",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({

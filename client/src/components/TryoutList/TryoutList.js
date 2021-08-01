@@ -19,7 +19,7 @@ class TryoutList extends Component {
       isFinishTryout: false,
     };
 
-    fetch(`https://powerful-eyrie-55332.herokuapp.com/participants/${this.props.user.email}`)
+    fetch(`${process.env.REACT_APP_API_URL}/participants/${this.props.user.email}`)
       .then((response) => response.json())
       .then(
         (participant) => {
@@ -30,7 +30,7 @@ class TryoutList extends Component {
             console.log("participant is not exist");
             userStatus.isParticipant = false;
           }
-          fetch(`https://powerful-eyrie-55332.herokuapp.com/results/${this.props.user.id}`)
+          fetch(`${process.env.REACT_APP_API_URL}/results/${this.props.user.id}`)
             .then((response) => response.json())
             .then(
               (user) => {
