@@ -1,4 +1,5 @@
 import { Component } from "react";
+import baseURL from "../../apis/baseUrl";
 
 class Leaderboard extends Component {
   constructor(props) {
@@ -9,7 +10,7 @@ class Leaderboard extends Component {
   }
 
   componentDidMount() {
-    fetch(`${process.env.REACT_APP_API_URL}/leaderboard/${this.props.tryoutId}`)
+    fetch(`${baseURL}/leaderboard/${this.props.tryoutId}`)
       .then((response) => response.json())
       .then(
         (users) => {

@@ -10,15 +10,27 @@ const result = require("./controllers/result");
 const leaderboard = require("./controllers/leaderboard");
 const participant = require("./controllers/participant");
 
+// Development
 const db = knex({
   client: "pg",
   connection: {
-    host: process.env.DB_HOST,
-    user: process.env.DB_USER,
-    password: process.env.DB_PASSWORD,
-    database: process.env.DB_DATABASE,
+    host: "localhost",
+    user: "bobbywilliamskgh",
+    password: "Lambogini123",
+    database: "ganesitryout",
   },
 });
+
+// Production
+// const db = knex({
+//   client: "pg",
+//   connection: {
+//     host: process.env.DB_HOST,
+//     user: process.env.DB_USER,
+//     password: process.env.DB_PASSWORD,
+//     database: process.env.DB_DATABASE,
+//   },
+// });
 
 //console.log(postgres.select().from("users"));
 
@@ -104,9 +116,15 @@ app.get("/api/participants/:email", (req, res) => {
   participant.handleParticipantGet(req, res, db);
 });
 
+// Development
 app.listen(8800, () => {
   console.log("Backend server is running");
 });
+
+// Production
+// app.listen(8800, () => {
+//   console.log("Backend server is running");
+// });
 
 // PLANNING API
 

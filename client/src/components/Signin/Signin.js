@@ -1,11 +1,12 @@
 import { Component } from "react";
-
+import baseURL from "../../apis/baseUrl";
 class Signin extends Component {
   constructor(props) {
     super(props);
     this.state = {
       signInEmail: "",
       signInPassword: "",
+      validationText: "",
     };
   }
 
@@ -19,7 +20,7 @@ class Signin extends Component {
 
   onSubmitSignIn = async () => {
     try {
-      const response = await fetch(`${process.env.REACT_APP_API_URL}/signin`, {
+      const response = await fetch(`${baseURL}/signin`, {
         method: "post",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -29,7 +30,8 @@ class Signin extends Component {
       });
       if (response.status !== 200) {
         if (response.status === 400) {
-          console.log("email atau password yang Anda masukkan salah");
+          console.log("Email atau password yang Anda masukkan salah");
+          this.setState({ validationText: "Email atau password salah" });
         }
       } else {
         const user = await response.json();
@@ -83,6 +85,7 @@ class Signin extends Component {
                   name="password"
                   id="password"
                 />
+                <p className="red">{this.state.validationText}</p>
               </div>
             </fieldset>
             <div className="">

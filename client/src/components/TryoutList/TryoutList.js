@@ -1,5 +1,6 @@
 import exam from "../../images/exam.png";
 import { Component } from "react";
+import baseURL from "../../apis/baseUrl";
 
 class TryoutList extends Component {
   constructor(props) {
@@ -19,7 +20,7 @@ class TryoutList extends Component {
       isFinishTryout: false,
     };
 
-    fetch(`${process.env.REACT_APP_API_URL}/participants/${this.props.user.email}`)
+    fetch(`${baseURL}/participants/${this.props.user.email}`)
       .then((response) => response.json())
       .then(
         (participant) => {
@@ -30,7 +31,7 @@ class TryoutList extends Component {
             console.log("participant is not exist");
             userStatus.isParticipant = false;
           }
-          fetch(`${process.env.REACT_APP_API_URL}/results/${this.props.user.id}`)
+          fetch(`${baseURL}/results/${this.props.user.id}`)
             .then((response) => response.json())
             .then(
               (user) => {

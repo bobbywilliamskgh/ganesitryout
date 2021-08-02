@@ -1,4 +1,5 @@
 import { Component } from "react";
+import baseURL from "../../apis/baseUrl";
 
 class UserInformation extends Component {
   constructor(props) {
@@ -11,7 +12,7 @@ class UserInformation extends Component {
   }
 
   componentDidMount() {
-    fetch(`${process.env.REACT_APP_API_URL}/info/${this.props.userId}`)
+    fetch(`${baseURL}/info/${this.props.userId}`)
       .then((res) => res.json())
       .then(
         (user) => {

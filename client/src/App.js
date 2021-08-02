@@ -10,6 +10,7 @@ import TryoutList from "./components/TryoutList/TryoutList";
 import TryoutTest from "./components/TryoutTest/TryoutTest";
 import TestResult from "./components/TestResult.js/TestResult";
 import Leaderboard from "./components/Leaderboard/Leaderboard";
+import baseURL from "./apis/baseUrl";
 // import TestInstruction from "./components/TestInstruction/TestInstruction";
 
 const particlesOptions = {
@@ -57,7 +58,7 @@ class App extends Component {
   };
 
   componentDidMount() {
-    fetch(`${process.env.REACT_APP_API_URL}/`)
+    fetch(`${baseURL}/`)
       .then((response) => response.json())
       .then(console.log);
   }
@@ -194,7 +195,8 @@ class App extends Component {
       total_score: totalScore,
       isPassed: isPassed,
     });
-    fetch(`${process.env.REACT_APP_API_URL}/results`, {
+
+    fetch(`${baseURL}/results`, {
       method: "post",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({

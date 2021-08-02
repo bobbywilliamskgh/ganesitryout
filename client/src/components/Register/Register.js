@@ -1,4 +1,5 @@
 import { Component } from "react";
+import baseURL from "../../apis/baseUrl";
 
 class Signup extends Component {
   constructor(props) {
@@ -8,6 +9,8 @@ class Signup extends Component {
       provinsi: "",
       email: "",
       password: "",
+      passwordConfirmation: "",
+      isSubmit: false,
     };
   }
 
@@ -27,29 +30,75 @@ class Signup extends Component {
     this.setState({ password: event.target.value });
   };
 
+  onPasswordConfirmationChange = (event) => {
+    console.log("confirm password", event.target.value);
+    this.setState({ passwordConfirmation: event.target.value });
+  };
+
+  validateEmail = () => {
+    const { email } = this.state;
+    var mailformat = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+    if (email.match(mailformat)) {
+      return true;
+    } else {
+      return false;
+    }
+  };
+
+  passwordValidation = () => {
+    const { password, passwordConfirmation } = this.state;
+    console.log("password", password);
+    console.log("cf password", passwordConfirmation);
+    if (password === passwordConfirmation && password.length >= 8) {
+      console.log("password valid");
+      return true;
+    } else {
+      console.log("password invalid");
+      return false;
+    }
+  };
+
+  validation = () => {
+    const { name, provinsi, email, password, passwordConfirmation } = this.state;
+    const isEmailValid = this.validateEmail();
+    const isPasswordValid = this.passwordValidation();
+    if (name && provinsi && email && password && passwordConfirmation && isPasswordValid && isEmailValid) {
+      return true;
+    } else {
+      return false;
+    }
+  };
+
   onSubmitRegister = () => {
     console.log("submit register");
     console.log("fetch");
-    fetch(`${process.env.REACT_APP_API_URL}/register`, {
-      method: "post",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        name: this.state.name,
-        provinsi: this.state.provinsi,
-        email: this.state.email,
-        password: this.state.password,
-      }),
-    })
-      .then((response) => response.json())
-      .then((user) => {
-        if (user.user_id) {
-          this.props.loadUser(user);
-          this.props.onRouteChange("home");
-        }
-      });
+    const isValid = this.validation();
+    if (isValid) {
+      fetch(`${baseURL}/register`, {
+        method: "post",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: this.state.name,
+          provinsi: this.state.provinsi,
+          email: this.state.email,
+          password: this.state.password,
+        }),
+      })
+        .then((response) => response.json())
+        .then((user) => {
+          if (user.user_id) {
+            this.props.loadUser(user);
+            this.props.onRouteChange("home");
+          }
+        });
+    } else {
+      console.log("not valid");
+      this.setState({ isSubmit: true });
+    }
   };
 
   render() {
+    const { name, provinsi, email, password, passwordConfirmation, isSubmit } = this.state;
     return (
       <article className="br3 ba b--black-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center">
         <main className="pa4 black-80">
@@ -67,12 +116,20 @@ class Signup extends Component {
                   name="nama-lengkap"
                   id="nama-lengkap"
                 />
+                {isSubmit ? <div>{name.length === 0 ? <p className="ma0">Wajib diisi</p> : <p></p>}</div> : <p></p>}
               </div>
               <div className="mt3">
                 <label className="db fw6 lh-copy f6" htmlFor="asal-provinsi">
                   Asal Provinsi
                 </label>
-                <select name="provinces" id="provinces" onChange={this.onProvinsiChange}>
+                <select
+                  className="b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100"
+                  name="provinces"
+                  id="provinces"
+                  onChange={this.onProvinsiChange}
+                  style={{ textAlign: "center" }}
+                >
+                  <option selected disabled className="tc"></option>
                   <option value="Aceh">Aceh</option>
                   <option value="Sumatera Utara">Sumatera Utara</option>
                   <option value="Sumatera Barat">Sumatera Barat</option>
@@ -108,6 +165,7 @@ class Signup extends Component {
                   <option value="Papua Barat">Papua Barat</option>
                   <option value="Papua">Papua</option>
                 </select>
+                {isSubmit ? <div>{provinsi.length === 0 ? <p className="ma0">Wajib diisi</p> : <p></p>}</div> : <p></p>}
               </div>
               <div className="mt3">
                 <label className="db fw6 lh-copy f6" htmlFor="email-address">
@@ -120,6 +178,14 @@ class Signup extends Component {
                   name="email-address"
                   id="email-address"
                 />
+                {isSubmit ? (
+                  <div>
+                    {email.length === 0 ? <p className="ma0">Wajib diisi</p> : <p></p>}
+                    {!email.match(/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/) ? <p className="ma0">Email tidak valid</p> : <p></p>}
+                  </div>
+                ) : (
+                  <p></p>
+                )}
               </div>
               <div className="mv3">
                 <label className="db fw6 lh-copy f6" htmlFor="password">
@@ -132,17 +198,34 @@ class Signup extends Component {
                   name="password"
                   id="password"
                 />
+                {isSubmit ? (
+                  <div>
+                    {password.length === 0 ? <p className="ma0">Wajib diisi</p> : <p></p>}
+                    {password.length < 8 ? <p className="ma0">Harus minimal 8 karakter</p> : <p></p>}
+                  </div>
+                ) : (
+                  <p></p>
+                )}
               </div>
               <div className="mt3">
                 <label className="db fw6 lh-copy f6" htmlFor="email-address">
                   Konfirmasi Password
                 </label>
                 <input
+                  onChange={this.onPasswordConfirmationChange}
                   className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100"
                   type="password"
                   name="password-confirmation"
                   id="password-confirmation"
                 />
+                {isSubmit ? (
+                  <div>
+                    {passwordConfirmation.length === 0 ? <p className="ma0">Wajib diisi</p> : <p></p>}
+                    {password !== passwordConfirmation ? <p className="ma0">Password tidak sama</p> : <p></p>}
+                  </div>
+                ) : (
+                  <p></p>
+                )}
               </div>
             </fieldset>
             <div className="">
