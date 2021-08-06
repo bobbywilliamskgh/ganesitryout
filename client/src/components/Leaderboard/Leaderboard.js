@@ -10,7 +10,15 @@ class Leaderboard extends Component {
   }
 
   componentDidMount() {
-    fetch(`${baseURL}/leaderboard/${this.props.tryoutId}`)
+    const myHeaders = new Headers();
+    myHeaders.append("Content-Type", "application/json");
+    myHeaders.append("Authorization", `Bearer ${localStorage.getItem("authToken")}`);
+    const tryoutId = this.props.match.params.tryoutId;
+    console.log("tryoutId", tryoutId);
+    fetch(`${baseURL}/private/leaderboard/${tryoutId}`, {
+      method: "GET",
+      headers: myHeaders,
+    })
       .then((response) => response.json())
       .then(
         (users) => {
@@ -22,7 +30,8 @@ class Leaderboard extends Component {
   }
   render() {
     const { users } = this.state;
-    const { tryoutId } = this.props;
+    // const { tryoutId } = this.props;
+    const tryoutId = this.props.match.params.tryoutId;
     return (
       <div>
         <h2>{`Peringkat Tryout ${tryoutId}`}</h2>

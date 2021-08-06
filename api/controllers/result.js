@@ -23,6 +23,7 @@ const handleResultPost = (req, res, db) => {
 const handleResultGet = (req, res, db) => {
   const { userId } = req.params;
   console.log("userId", userId);
+  if (!req.userId) return res.json({ message: "unauthenticated!" });
   db.select("user_id")
     .from("results")
     .where("user_id", userId)
