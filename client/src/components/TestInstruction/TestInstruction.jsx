@@ -92,7 +92,8 @@ class TestInstruction extends Component {
     // const userId = this.props.userId;
     console.log("startTryout...");
     if (isParticipant && !isFinishTryout) {
-      history.push("/tryout/4", { userId: userId });
+      // history.push("/tryout/4", { userId: userId });
+      history.replace("tryout/4", { userId: userId });
       // setTryoutId("4");
       // onRouteChange("tryout");
     } else {
