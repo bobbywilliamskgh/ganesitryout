@@ -225,7 +225,7 @@ class App extends Component {
             <Route exact path="/login" component={Signin} />
             <Route exact path="/register" component={Signup} />
             <PrivateRoute exact path="/leaderboard/:tryoutId" component={Leaderboard} />
-            <PrivateRoute exact path="/tryout/:tryoutId" component={TryoutTest} />
+            <PrivateRoute exact path="/tryout/:tryoutId/:userId" component={TryoutTest} />
             <PrivateRoute exact path="/result/:userId" component={TestResult} />
             {/* <Route path="/" exact>
               <Home user={user} setTryoutId={this.setTryoutId} />
