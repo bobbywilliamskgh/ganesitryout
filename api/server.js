@@ -147,7 +147,7 @@ app.use("/api/private", require("./routes/private"));
 // );
 
 // Development
-app.listen(8800, () => {
+app.listen(process.env.PORT || 8800, () => {
   console.log("Backend server is running");
 });
 
