@@ -1179,10 +1179,10 @@ class TryoutTest extends Component {
     window.addEventListener("beforeunload", this.onUnload);
   }
 
-  // componentWillUnmount() {
-  //   console.log("willunmount");
-  //   window.removeEventListener("beforeunload", this.onUnload);
-  // }
+  componentWillUnmount() {
+    console.log("willunmount");
+    window.removeEventListener("beforeunload", this.onUnload);
+  }
 
   changeQuestionNumber = (num) => {
     // console.log("num", num);
