@@ -1,10 +1,10 @@
 import React from "react";
 
-const CountDownTimer = ({ tryoutId, onRouteChange, onSubmitTest, countScore, onSubmitResult }) => {
+const CountDownTimer = ({ onSubmitTest }) => {
   const hoursMinSecs = {
-    hours: 0,
-    minutes: 0,
-    seconds: 30,
+    hours: 1,
+    minutes: 40,
+    seconds: 0,
   };
   const { hours = 0, minutes = 0, seconds = 60 } = hoursMinSecs;
   const [[hrs, mins, secs], setTime] = React.useState([hours, minutes, seconds]);
@@ -26,7 +26,7 @@ const CountDownTimer = ({ tryoutId, onRouteChange, onSubmitTest, countScore, onS
     const timerId = setInterval(() => tick(), 1000);
     if (hrs === 0 && mins === 0 && secs === 0) {
       clearInterval(timerId);
-      onSubmitTest(tryoutId, countScore, onRouteChange, onSubmitResult);
+      onSubmitTest();
     }
     return () => clearInterval(timerId);
   });
