@@ -1,4 +1,4 @@
-const TestInformation = ({ totalAnswered, onRouteChange, tryoutId, onSubmitTest, countScore, onSubmitResult }) => {
+const TestInformation = ({ totalAnswered, onSubmitTest }) => {
   return (
     <article className="br3 ba b--black-10 w-100 w-50-m w-100-l h-25 mw6 shadow-5 center">
       <div className="lh-copy measure center f7 f5-ns black-70">
@@ -9,7 +9,7 @@ const TestInformation = ({ totalAnswered, onRouteChange, tryoutId, onSubmitTest,
         <form
           onSubmit={(e) => {
             e.preventDefault();
-            onSubmitTest(tryoutId, countScore, onRouteChange, onSubmitResult);
+            onSubmitTest();
           }}
         >
           <input className="button f6 link dim br2 ph3 pv2 mb2 dib white bg-near-black" type="submit" value="Selesai Ujian" />

@@ -1,24 +1,25 @@
 require("dotenv").config();
 const express = require("express");
-const bcrypt = require("bcrypt");
-const cors = require("cors");
-const knex = require("knex");
-const register = require("./controllers/register");
-const signin = require("./controllers/signin");
-const info = require("./controllers/info");
-const result = require("./controllers/result");
-const leaderboard = require("./controllers/leaderboard");
-const participant = require("./controllers/participant");
 
-const db = knex({
-  client: "pg",
-  connection: {
-    host: process.env.DB_HOST,
-    user: process.env.DB_USER,
-    password: process.env.DB_PASSWORD,
-    database: process.env.DB_DATABASE,
-  },
-});
+const cors = require("cors");
+
+// const info = require("./controllers/info");
+// const result = require("./controllers/result");
+// const leaderboard = require("./controllers/leaderboard");
+// const participant = require("./controllers/participant");
+// const authController = require("./controllers/auth");
+// const authJwt = require("./middleware/authJwt");
+
+// Production
+// const db = knex({
+//   client: "pg",
+//   connection: {
+//     host: process.env.DB_HOST,
+//     user: process.env.DB_USER,
+//     password: process.env.DB_PASSWORD,
+//     database: process.env.DB_DATABASE,
+//   },
+// });
 
 //console.log(postgres.select().from("users"));
 
@@ -76,37 +77,84 @@ app.get("/api", (req, res) => {
   console.log("sucess");
 });
 
-app.post("/api/signin", (req, res) => {
-  signin.handleSignin(req, res, db, bcrypt);
-});
+// router.use((req, res, next) => {
+//   res.header("Access-Control-Allow-Headers", "x-access-token, Origin, Content-Type, Accept");
+//   next();
+// });
 
-app.post("/api/register", (req, res) => {
-  register.handleRegister(req, res, db, bcrypt);
-});
+// Connecting Routes
+app.use("/api/auth", require("./routes/auth"));
+app.use("/api/private", require("./routes/private"));
 
-app.get("/api/info/:id", (req, res) => {
-  info.handleInfoGet(req, res, db);
-});
+// router.post("/api/auth/signin", (req, res) => {
+//   authController.signin(req, res, db, bcrypt);
+//   // signin.handleSignin(req, res, db, bcrypt);
+// });
 
-app.post("/api/results", (req, res) => {
-  result.handleResultPost(req, res, db);
-});
+// router.post("/api/auth/register", (req, res) => {
+//   authController.signup(req, res, db, bcrypt);
+//   // register.handleRegister(req, res, db, bcrypt);
+// });
 
-app.get("/api/leaderboard/:tryoutId", (req, res) => {
-  leaderboard.handleLeaderboardGet(req, res, db);
-});
+// router.get(
+//   "/api/info/:id",
+//   (req, res, next) => {
+//     authJwt.authJwt(req, res, next);
+//   },
+//   (req, res) => {
+//     info.handleInfoGet(req, res, db);
+//   }
+// );
 
-app.get("/api/results/:userId", (req, res) => {
-  result.handleResultGet(req, res, db);
-});
+// router.post(
+//   "/api/results",
+//   (req, res, next) => {
+//     authJwt.authJwt(req, res, next);
+//   },
+//   (req, res) => {
+//     result.handleResultPost(req, res, db);
+//   }
+// );
 
-app.get("/api/participants/:email", (req, res) => {
-  participant.handleParticipantGet(req, res, db);
-});
+// router.get(
+//   "/api/leaderboard/:tryoutId",
+//   (req, res, next) => {
+//     authJwt.authJwt(req, res, next);
+//   },
+//   (req, res) => {
+//     leaderboard.handleLeaderboardGet(req, res, db);
+//   }
+// );
 
+// router.get(
+//   "/api/results/:userId",
+//   (req, res, next) => {
+//     authJwt.authJwt(req, res, next);
+//   },
+//   (req, res) => {
+//     result.handleResultGet(req, res, db);
+//   }
+// );
+
+// router.get(
+//   "/api/participants/:email",
+//   (req, res, next) => {
+//     authJwt.authJwt(req, res, next);
+//   },
+//   (req, res) => {
+//     participant.handleParticipantGet(req, res, db);
+//   }
+// );
+
+// Development
 app.listen(8800, () => {
   console.log("Backend server is running");
 });
+
+// Production
+// app.listen(8800, () => {
+//   console.log("Backend server is running");
+// });
 
 // PLANNING API
 

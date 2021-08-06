@@ -1,72 +1,26 @@
 import exam from "../../images/exam.png";
 import { Component } from "react";
+import { Link } from "react-router-dom";
+import CountDownTryoutDay from "../CountDownTryoutDay/CountDownTryoutDay";
 
 class TryoutList extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      userStatus: {
-        isParticipant: false,
-        isFinishTryout: false,
-      },
-      isStartButtonClicked: false,
+      isCountDown: false,
     };
   }
 
-  componentDidMount() {
-    let userStatus = {
-      isParticipant: false,
-      isFinishTryout: false,
-    };
-
-    fetch(`${process.env.REACT_APP_API_URL}/participants/${this.props.user.email}`)
-      .then((response) => response.json())
-      .then(
-        (participant) => {
-          if (participant.email) {
-            console.log("participant exist");
-            userStatus.isParticipant = true;
-          } else {
-            console.log("participant is not exist");
-            userStatus.isParticipant = false;
-          }
-          fetch(`${process.env.REACT_APP_API_URL}/results/${this.props.user.id}`)
-            .then((response) => response.json())
-            .then(
-              (user) => {
-                if (user.user_id) {
-                  console.log("user has been done tryout");
-                  userStatus.isFinishTryout = true;
-                } else {
-                  console.log("user has not finished tryout yet");
-                  userStatus.isFinishTryout = false;
-                }
-                this.setState({ userStatus: userStatus });
-              },
-              (error) => {
-                console.log(error);
-              }
-            );
-        },
-        (error) => {
-          console.log(error);
-        }
-      );
-  }
-
-  startTryout = (setTryoutId, onRouteChange) => {
-    const { isParticipant, isFinishTryout } = this.state.userStatus;
-    if (isParticipant && !isFinishTryout) {
-      setTryoutId("4");
-      onRouteChange("tryout");
-    } else {
-      this.setState({ isStartButtonClicked: true });
-    }
+  stopCountDown = () => {
+    console.log("stop countdown");
+    this.setState({ isCountDown: false });
   };
 
   render() {
-    const { onRouteChange, setTryoutId } = this.props;
-    const { userStatus, isStartButtonClicked } = this.state;
+    // const { setTryoutId, userId } = this.props;
+    const { isCountDown } = this.state;
+    const { userId } = this.props;
+    // const { userStatus, isStartButtonClicked } = this.state;
     return (
       <article className="br3 ba b--black-10 mv4 w-100 w-100-m w-100-l mw9 shadow-5">
         <p className="pl4 tl">Akan Berlangsung</p>
@@ -76,29 +30,43 @@ class TryoutList extends Component {
             <div className="pl3 flex-auto">
               <span className="f6 db black-70">Tryout 4</span>
               {/* <span class="f6 db black-70">Countdown</span> */}
-              <div onClick={() => this.startTryout(setTryoutId, onRouteChange)} className="f4 fw6 green button center" style={{ width: "fit-content" }}>
-                Mulai
-              </div>
-              {isStartButtonClicked ? (
-                <div>
-                  {userStatus.isParticipant ? <p></p> : <p className="red">Kamu belum menyelesaikan persyaratan</p>}
-                  {userStatus.isFinishTryout ? <p className="red">Kamu hanya boleh 1 kali tryout</p> : <p></p>}
-                </div>
+              {/* <Link
+                to={{
+                  pathname: "/instruksi",
+                  state: { userId: userId },
+                }}
+              > */}
+              {/* <div className="f4 fw6 green button center" style={{ width: "fit-content" }}>
+                  Instruksi
+                </div> */}
+              {/* </Link> */}
+              {isCountDown ? (
+                <CountDownTryoutDay stopCountDown={this.stopCountDown} />
               ) : (
-                <div></div>
+                <Link
+                  to={{
+                    pathname: "/instruksi",
+                    state: { userId: userId },
+                  }}
+                >
+                  <div className="f4 fw6 green button center" style={{ width: "fit-content" }}>
+                    Instruksi
+                  </div>
+                </Link>
               )}
 
-              <div
-                onClick={() => {
-                  setTryoutId("4");
-                  onRouteChange("leaderboard");
-                }}
+              <Link
+                // onClick={() => {
+                //   setTryoutId("4");
+                //   onRouteChange("leaderboard");
+                // }}
+                to={"leaderboard/4"}
                 className="f4 fw6 green button center"
                 href="tryout"
                 style={{ width: "fit-content" }}
               >
                 Peringkat
-              </div>
+              </Link>
             </div>
           </li>
         </ul>

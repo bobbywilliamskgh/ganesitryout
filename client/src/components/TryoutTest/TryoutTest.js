@@ -2,6 +2,8 @@ import { Component } from "react";
 import TestInformation from "../TestInformation/TestInformation";
 import CountDownTimer from "../CountDownTimer/CountDownTImer";
 import TestContent from "../TestContent/TestContent";
+import baseURL from "../../apis/baseUrl";
+import { Prompt } from "react-router-dom";
 
 class AnswerKey {
   tryoutId;
@@ -1164,6 +1166,23 @@ class TryoutTest extends Component {
     };
   }
 
+  onUnload = (e) => {
+    console.log("onUnload");
+    // the method that will be used for both add and remove event
+    // e.preventDefault();
+    e.returnValue = "";
+  };
+
+  componentDidMount() {
+    console.log("didMount");
+    window.addEventListener("beforeunload", this.onUnload);
+  }
+
+  // componentWillUnmount() {
+  //   console.log("willunmount");
+  //   window.removeEventListener("beforeunload", this.onUnload);
+  // }
+
   changeQuestionNumber = (num) => {
     // console.log("num", num);
     console.log("changeQuestion", num);
@@ -1251,18 +1270,173 @@ class TryoutTest extends Component {
     this.setState({ totalAnswered: totalAnswered });
   };
 
-  onSubmitTest = (tryoutId, countScore, onRouteChange, onSubmitResult) => {
+  countTwkScore = (userAnswers, twkAnswers) => {
+    let twkScore = 0;
+    for (let i = 0; i < 30; i++) {
+      if (userAnswers[i].answerChosen === twkAnswers[i].answer) {
+        twkScore += 5;
+      }
+    }
+    return twkScore;
+  };
+
+  countTiuScore = (userAnswers, tiuAnswers) => {
+    let tiuScore = 0;
+    let j = 0;
+    for (let i = 30; i < 65; i++) {
+      if (userAnswers[i].answerChosen === tiuAnswers[j].answer) {
+        tiuScore += 5;
+      }
+      j++;
+    }
+    return tiuScore;
+  };
+
+  countTkpScore = (userAnswers, tkpAnswers) => {
+    let tkpScore = 0;
+    let j = 0;
+    for (let i = 65; i < 110; i++) {
+      let answer = tkpAnswers[j].answer; // arrray of answer
+      const userAnswer = userAnswers[i].answerChosen;
+      switch (userAnswer) {
+        case "A":
+          tkpScore += answer[0].value;
+          break;
+        case "B":
+          tkpScore += answer[1].value;
+          break;
+        case "C":
+          tkpScore += answer[2].value;
+          break;
+        case "D":
+          tkpScore += answer[3].value;
+          break;
+        case "E":
+          tkpScore += answer[4].value;
+          break;
+        default:
+          break;
+      }
+      j++;
+    }
+    return tkpScore;
+  };
+
+  countTotalScore = (twkScore, tiuScore, tkpScore) => {
+    let totalScore = 0;
+    totalScore = twkScore + tiuScore + tkpScore;
+    return totalScore;
+  };
+
+  countScore = (answerKey, userAnswers) => {
+    console.log("countScore", answerKey);
+    const twkAnswers = answerKey.getTwkAnswers();
+    const tiuAnswers = answerKey.getTiuAnswers();
+    const tkpAnswers = answerKey.getTkpAnswers();
+    console.log("userAnswers", userAnswers);
+    console.log("twkAnswers", twkAnswers);
+    console.log("tiuAnswers", tiuAnswers);
+    console.log("tkpAnswers", tkpAnswers);
+
+    // count TWK Score
+    const twkScore = this.countTwkScore(userAnswers, twkAnswers);
+    // count TIU Score
+    const tiuScore = this.countTiuScore(userAnswers, tiuAnswers);
+    // count TKP Score
+    const tkpScore = this.countTkpScore(userAnswers, tkpAnswers);
+    // count Total Score
+    const totalScore = this.countTotalScore(twkScore, tiuScore, tkpScore);
+    // Passed or Failed
+    let isPassed = false;
+    if (twkScore >= 65 && tiuScore >= 80 && tkpScore >= 156) {
+      isPassed = true;
+    }
+    // score object
+    const score = {
+      twk: twkScore,
+      tiu: tiuScore,
+      tkp: tkpScore,
+      total: totalScore,
+      isPassed: isPassed,
+    };
+
+    console.log("twkScore", twkScore);
+    console.log("tiuScore", tiuScore);
+    console.log("tkpScore", tkpScore);
+    console.log("totalScore", totalScore);
+    console.log("isPassed", isPassed);
+    // this.setState({ score: { twk: twkScore, tiu: tiuScore, tkp: tkpScore, total: totalScore, isPassed: isPassed } });
+    return score;
+  };
+
+  onSubmitResult = (score) => {
+    // api calls
+    console.log("onSubmitResult");
+    // const { user, tryoutId } = this.state;
+    // const userId = user.id;
+    const tryoutId = this.props.match.params.tryoutId;
+    const data = this.props.location.state;
+    console.log("data from location state");
+    const userId = data.userId;
+    const twkScore = score.twk;
+    const tiuScore = score.tiu;
+    const tkpScore = score.tkp;
+    const totalScore = score.total;
+    const isPassed = score.isPassed;
+    console.log("result", {
+      user_id: userId,
+      tryout_id: tryoutId,
+      twk_score: twkScore,
+      tiu_score: tiuScore,
+      tkp_score: tkpScore,
+      total_score: totalScore,
+      isPassed: isPassed,
+    });
+    const myHeaders = new Headers();
+    myHeaders.append("Content-Type", "application/json");
+    myHeaders.append("Authorization", `Bearer ${localStorage.getItem("authToken")}`);
+
+    fetch(`${baseURL}/private/results`, {
+      method: "post",
+      headers: myHeaders,
+      body: JSON.stringify({
+        userId: userId,
+        tryoutId: tryoutId,
+        twkScore: twkScore,
+        tiuScore: tiuScore,
+        tkpScore: tkpScore,
+        totalScore: totalScore,
+        isPassed: isPassed,
+      }),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        console.log("data", data);
+        this.props.history.replace(`/result/${userId}`, { userId: userId });
+      });
+  };
+
+  onSubmitTest = () => {
+    console.log("onSubmitTest...");
+    const tryoutId = this.props.match.params.tryoutId;
+    console.log("tryoutId", tryoutId);
     const answerKey = answerKeys[parseInt(tryoutId, 10) - 1];
     const userAnswers = this.state.userAnswers;
     console.log("userAnswers in onSubmitTest", userAnswers);
-    const score = countScore(answerKey, userAnswers);
-    onSubmitResult(score);
-    onRouteChange("result");
+    const score = this.countScore(answerKey, userAnswers);
+    this.onSubmitResult(score);
+    // onRouteChange("result");
   };
 
   render() {
+    console.log("render TryoutTest");
     const { totalAnswered, questionNumber, numbers, userAnswers, currentChoice } = this.state;
-    const { tryoutId, onRouteChange, countScore, onSubmitResult } = this.props;
+    // const { tryoutId, onRouteChange, countScore, onSubmitResult } = this.props;
+    const tryoutId = this.props.match.params.tryoutId;
+    console.log("tryoutId in TryoutTest", tryoutId);
+    const data = this.props.location.state;
+    console.log("userId in TryoutTest", data.userId);
+    // populate data
     answerKeys[3].setTryoutId("4");
     answerKeys[3].setTwkAnswers([
       {
@@ -2657,21 +2831,9 @@ class TryoutTest extends Component {
     ]);
     return (
       <div>
-        <TestInformation
-          totalAnswered={totalAnswered}
-          onRouteChange={onRouteChange}
-          tryoutId={tryoutId}
-          onSubmitTest={this.onSubmitTest}
-          countScore={countScore}
-          onSubmitResult={onSubmitResult}
-        />
-        <CountDownTimer
-          tryoutId={tryoutId}
-          onRouteChange={onRouteChange}
-          onSubmitTest={this.onSubmitTest}
-          countScore={countScore}
-          onSubmitResult={onSubmitResult}
-        />
+        <Prompt when={true} message="Anggap ini ujian asli! Jangan meninggalkan halaman sebelum selesai ujian!" />
+        <TestInformation totalAnswered={totalAnswered} onSubmitTest={this.onSubmitTest} />
+        <CountDownTimer onSubmitTest={this.onSubmitTest} />
         <TestContent
           tryoutId={tryoutId}
           questionNumber={questionNumber}
