@@ -11,6 +11,7 @@ const sendToken = (user, statusCode, res) => {
 
 exports.register = (req, res, next) => {
   const { name, provinsi, email, password } = req.body;
+  console.log("req.body", req.body);
   const saltRounds = 10;
   const salt = bcrypt.genSaltSync(saltRounds);
   const hash = bcrypt.hashSync(password, salt);
@@ -23,6 +24,7 @@ exports.register = (req, res, next) => {
       .into("login")
       .returning("email")
       .then((loginEmail) => {
+	console.log("loginEmail", loginEmail);
         return trx("users")
           .returning("*")
           .insert({
@@ -39,6 +41,7 @@ exports.register = (req, res, next) => {
       .then(trx.commit)
       .catch(trx.rollback);
   }).catch((err) => {
+    console.log("error register", err);
     res.status(400).json("unable to register");
   });
 };
