@@ -85,7 +85,10 @@ class TestInstruction extends Component {
 
   startTryout = () => {
     const { isParticipant, isFinishTryout } = this.state.userStatus;
-    const { userId, history } = this.props;
+    const { history } = this.props;
+    const data = this.props.location.state;
+    const userId = data.userId;
+    console.log("userId in TestInstruction", userId);
     // const userId = this.props.userId;
     console.log("startTryout...");
     if (isParticipant && !isFinishTryout) {
