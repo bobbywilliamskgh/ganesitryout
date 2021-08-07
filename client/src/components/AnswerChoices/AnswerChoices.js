@@ -1,7 +1,7 @@
 import AnswerChoice from "../AnswerChoice/AnswerChoice";
 
 const AnswerChoices = ({ questId, answerChoices, onUserAnswerChange, answerChosen, isAnswerSaved, isQuestionClicked, currentAnswer }) => {
-  console.log("answeChoices", answerChoices);
+  // console.log("answeChoices", answerChoices);
   return (
     <div className="pa4 pl0">
       <fieldset id="answer_choices" className="bn pl0">

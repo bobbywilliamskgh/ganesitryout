@@ -10,7 +10,7 @@ const UserInformation = () => {
   const [provinsi, setProvinsi] = useState("");
 
   useEffect(() => {
-    console.log("useEffect UserInformation");
+    // console.log("useEffect UserInformation");
     const fetchPrivateDate = async () => {
       const config = {
         headers: {
@@ -21,7 +21,7 @@ const UserInformation = () => {
 
       try {
         const { data } = await axios.get(`${baseURL}/private/info`, config);
-        console.log("user", data.user);
+        // console.log("user", data.user);
         const user = data.user;
         setName(user.name);
         setEmail(user.email);

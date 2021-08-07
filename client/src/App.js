@@ -5,7 +5,7 @@ import Particles from "react-particles-js";
 import Signin from "./components/Signin/Signin";
 import Signup from "./components/Register/Register";
 import TryoutTest from "./components/TryoutTest/TryoutTest";
-import TestResult from "./components/TestResult.js/TestResult";
+import TestResult from "./components/TestResult/TestResult";
 import Leaderboard from "./components/Leaderboard/Leaderboard";
 import Home from "./components/Home/Home";
 import PrivateRoute from "./components/routing/PrivateRoute";

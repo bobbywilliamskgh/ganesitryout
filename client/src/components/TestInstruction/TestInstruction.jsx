@@ -15,7 +15,7 @@ class TestInstruction extends Component {
   }
 
   componentDidMount() {
-    console.log("didmount");
+    // console.log("didmount");
     let userStatus = {
       isParticipant: false,
       isFinishTryout: false,
@@ -27,12 +27,12 @@ class TestInstruction extends Component {
 
     const data = this.props.location.state;
     if (!data) {
-      console.log("data", data);
+      // console.log("data", data);
 
       this.setState({ isInstructionClicked: false });
       return;
     }
-    console.log("data from tryoutList", data);
+    // console.log("data from tryoutList", data);
     const userId = data.userId;
     fetch(`${baseURL}/private/participants/${userId}`, {
       method: "GET",
@@ -41,12 +41,12 @@ class TestInstruction extends Component {
       .then((response) => response.json())
       .then(
         (data) => {
-          console.log("data", data);
+          // console.log("data", data);
           if (data.success) {
-            console.log("user is participant", data.participant);
+            // console.log("user is participant", data.participant);
             userStatus.isParticipant = true;
           } else {
-            console.log("user is not participant", data.participant);
+            // console.log("user is not participant", data.participant);
             userStatus.isParticipant = false;
           }
           fetch(`${baseURL}/private/results/${userId}`, {
@@ -88,7 +88,7 @@ class TestInstruction extends Component {
     const { history } = this.props;
     const data = this.props.location.state;
     const userId = data.userId;
-    console.log("userId in TestInstruction", userId);
+    // console.log("userId in TestInstruction", userId);
     // const userId = this.props.userId;
     console.log("startTryout...");
     if (isParticipant && !isFinishTryout) {

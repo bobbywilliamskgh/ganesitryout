@@ -34,14 +34,14 @@ class SelectionNumbers extends Component {
   };
 
   saveAndNextQuestion = (saveAnswer, nextQuestion, questionNumber, currentChoice, incrementTotalAnswered, userAnswers) => {
-    console.log("currentChoice", currentChoice);
+    // console.log("currentChoice", currentChoice);
     const answerChosen = currentChoice.answerChosen;
     let questId = currentChoice.questId;
     questId = parseInt(questId, 10);
     const isAnswerSaved = userAnswers[questionNumber - 1].isAnswerSaved;
-    console.log("isAnswerSaved", isAnswerSaved);
-    console.log("answerChosen after click save", answerChosen);
-    console.log("questId === questionNumber", questId === questionNumber);
+    // console.log("isAnswerSaved", isAnswerSaved);
+    // console.log("answerChosen after click save", answerChosen);
+    // console.log("questId === questionNumber", questId === questionNumber);
     // could be saved if user click radio button before hit save button or if user doesn't click radio button but the answer has been saved before
     if ((questId === questionNumber && answerChosen.length !== 0) || isAnswerSaved) {
       if (!isAnswerSaved) {
@@ -50,7 +50,7 @@ class SelectionNumbers extends Component {
       }
       if (answerChosen.length !== 0) {
         // if answerChosen is not empty string
-        console.log("answerChosen is not empty");
+        // console.log("answerChosen is not empty");
         saveAnswer(questionNumber);
       }
       this.continue(questionNumber, nextQuestion);

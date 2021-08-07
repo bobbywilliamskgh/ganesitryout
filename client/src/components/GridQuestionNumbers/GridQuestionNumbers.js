@@ -18,7 +18,7 @@ class GridQuestionNumbers extends Component {
     const listNumbers = numbers.map((number) => (
       <QuestionNumber key={number.id} id={number.id} changeQuestionNumber={changeQuestionNumber} isSaved={number.isSaved} questionNumber={questionNumber} />
     ));
-    console.log("listNumbers", listNumbers);
+    // console.log("listNumbers", listNumbers);
     return (
       <article className="ma4 br3 ba b--black-10 w-100 w-100-m w-100-l h-25 mw6 tl shadow-5 flex">
         <img

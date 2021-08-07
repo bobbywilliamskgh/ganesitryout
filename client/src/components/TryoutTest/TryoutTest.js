@@ -1168,28 +1168,28 @@ class TryoutTest extends Component {
   }
 
   onUnload = (e) => {
-    console.log("onUnload");
+    // console.log("onUnload");
     // the method that will be used for both add and remove event
     // e.preventDefault();
     e.returnValue = "";
   };
 
   componentDidMount() {
-    console.log("didMount");
+    // console.log("didMount");
     window.addEventListener("beforeunload", this.onUnload);
   }
 
   componentWillUnmount() {
-    console.log("willunmount");
+    // console.log("willunmount");
     window.removeEventListener("beforeunload", this.onUnload);
   }
 
   changeQuestionNumber = (num) => {
     // console.log("num", num);
-    console.log("changeQuestion", num);
+    // console.log("changeQuestion", num);
     const newUserAnswers = this.state.userAnswers;
     newUserAnswers[num - 1].isQuestionClicked = true;
-    console.log("userAnswers after changeQuestionNumber", newUserAnswers);
+    // console.log("userAnswers after changeQuestionNumber", newUserAnswers);
     // reset currentChoice
     const currentChoice = this.state.currentChoice;
     currentChoice.questId = "";
@@ -1198,7 +1198,7 @@ class TryoutTest extends Component {
   };
 
   saveAnswer = (number) => {
-    console.log("saveAnswer");
+    // console.log("saveAnswer");
     // To make a mark for question that has been answered
     const numbers = this.state.numbers;
     numbers[number - 1].isSaved = true;
@@ -1208,7 +1208,7 @@ class TryoutTest extends Component {
     const userChoice = this.state.currentChoice.answerChosen;
     newUserAnswers[number - 1].answerChosen = userChoice;
     newUserAnswers[number - 1].isAnswerSaved = true;
-    console.log("newUserAnswer", newUserAnswers);
+    // console.log("newUserAnswer", newUserAnswers);
 
     this.setState({ numbers: numbers, userAnswers: newUserAnswers });
 
@@ -1220,16 +1220,16 @@ class TryoutTest extends Component {
   };
 
   nextQuestion = (num) => {
-    console.log("nextQuestion", num);
+    // console.log("nextQuestion", num);
     const nextNum = ++num;
     const newUserAnswers = this.state.userAnswers;
     newUserAnswers[nextNum - 1].isQuestionClicked = true;
-    console.log("nextNumber", nextNum);
+    // console.log("nextNumber", nextNum);
     this.setState({ questionNumber: nextNum, userAnswers: newUserAnswers });
   };
 
   onUserAnswerChange = (event, questId) => {
-    console.log("onUserAnswerChange");
+    // console.log("onUserAnswerChange");
     let target = event.target;
     let userChoice = "";
     switch (target.id) {
@@ -1255,17 +1255,17 @@ class TryoutTest extends Component {
     questId = parseInt(questId, 10);
     // newUserAnswers[questId - 1].answerChosen = userChoice;
     newUserAnswers[questId - 1].isQuestionClicked = false;
-    console.log("newUserAnswer", newUserAnswers);
+    // console.log("newUserAnswer", newUserAnswers);
     const currentChoice = this.state.currentChoice;
     questId = questId.toString(); // id
     currentChoice.questId = questId;
     currentChoice.answerChosen = userChoice;
-    console.log("currentChoice", currentChoice);
+    // console.log("currentChoice", currentChoice);
     this.setState({ userAnswers: newUserAnswers, currentChoice: currentChoice });
   };
 
   incrementTotalAnswered = () => {
-    console.log("incrementTotalAnswered");
+    // console.log("incrementTotalAnswered");
     let totalAnswered = this.state.totalAnswered;
     totalAnswered++;
     this.setState({ totalAnswered: totalAnswered });
@@ -1330,14 +1330,14 @@ class TryoutTest extends Component {
   };
 
   countScore = (answerKey, userAnswers) => {
-    console.log("countScore", answerKey);
+    // console.log("countScore", answerKey);
     const twkAnswers = answerKey.getTwkAnswers();
     const tiuAnswers = answerKey.getTiuAnswers();
     const tkpAnswers = answerKey.getTkpAnswers();
-    console.log("userAnswers", userAnswers);
-    console.log("twkAnswers", twkAnswers);
-    console.log("tiuAnswers", tiuAnswers);
-    console.log("tkpAnswers", tkpAnswers);
+    // console.log("userAnswers", userAnswers);
+    // console.log("twkAnswers", twkAnswers);
+    // console.log("tiuAnswers", tiuAnswers);
+    // console.log("tkpAnswers", tkpAnswers);
 
     // count TWK Score
     const twkScore = this.countTwkScore(userAnswers, twkAnswers);
@@ -1361,38 +1361,38 @@ class TryoutTest extends Component {
       isPassed: isPassed,
     };
 
-    console.log("twkScore", twkScore);
-    console.log("tiuScore", tiuScore);
-    console.log("tkpScore", tkpScore);
-    console.log("totalScore", totalScore);
-    console.log("isPassed", isPassed);
+    // console.log("twkScore", twkScore);
+    // console.log("tiuScore", tiuScore);
+    // console.log("tkpScore", tkpScore);
+    // console.log("totalScore", totalScore);
+    // console.log("isPassed", isPassed);
     // this.setState({ score: { twk: twkScore, tiu: tiuScore, tkp: tkpScore, total: totalScore, isPassed: isPassed } });
     return score;
   };
 
   onSubmitResult = (score) => {
     // api calls
-    console.log("onSubmitResult");
+    // console.log("onSubmitResult");
     // const { user, tryoutId } = this.state;
     // const userId = user.id;
     const tryoutId = this.props.match.params.tryoutId;
     const data = this.props.location.state;
-    console.log("data from location state");
+    // console.log("data from location state");
     const userId = data.userId;
     const twkScore = score.twk;
     const tiuScore = score.tiu;
     const tkpScore = score.tkp;
     const totalScore = score.total;
     const isPassed = score.isPassed;
-    console.log("result", {
-      user_id: userId,
-      tryout_id: tryoutId,
-      twk_score: twkScore,
-      tiu_score: tiuScore,
-      tkp_score: tkpScore,
-      total_score: totalScore,
-      isPassed: isPassed,
-    });
+    // console.log("result", {
+    //   user_id: userId,
+    //   tryout_id: tryoutId,
+    //   twk_score: twkScore,
+    //   tiu_score: tiuScore,
+    //   tkp_score: tkpScore,
+    //   total_score: totalScore,
+    //   isPassed: isPassed,
+    // });
     const myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
     myHeaders.append("Authorization", `Bearer ${localStorage.getItem("authToken")}`);
@@ -1411,7 +1411,7 @@ class TryoutTest extends Component {
     })
       .then((response) => response.json())
       .then((data) => {
-        console.log("data", data);
+        // console.log("data", data);
         this.props.history.replace(`/result/${userId}`, { userId: userId });
       });
   };
@@ -1420,10 +1420,10 @@ class TryoutTest extends Component {
     this.setState({ isNavBlock: false });
     console.log("onSubmitTest...");
     const tryoutId = this.props.match.params.tryoutId;
-    console.log("tryoutId", tryoutId);
+    // console.log("tryoutId", tryoutId);
     const answerKey = answerKeys[parseInt(tryoutId, 10) - 1];
     const userAnswers = this.state.userAnswers;
-    console.log("userAnswers in onSubmitTest", userAnswers);
+    // console.log("userAnswers in onSubmitTest", userAnswers);
     const score = this.countScore(answerKey, userAnswers);
     this.onSubmitResult(score);
     // onRouteChange("result");
@@ -1434,9 +1434,9 @@ class TryoutTest extends Component {
     const { totalAnswered, questionNumber, numbers, userAnswers, currentChoice, isNavBlock } = this.state;
     // const { tryoutId, onRouteChange, countScore, onSubmitResult } = this.props;
     const tryoutId = this.props.match.params.tryoutId;
-    console.log("tryoutId in TryoutTest", tryoutId);
+    // console.log("tryoutId in TryoutTest", tryoutId);
     const data = this.props.location.state;
-    console.log("userId in TryoutTest", data.userId);
+    // console.log("userId in TryoutTest", data.userId);
     // populate data
     answerKeys[3].setTryoutId("4");
     answerKeys[3].setTwkAnswers([

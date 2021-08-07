@@ -19,7 +19,7 @@ const CountDownTryoutDay = (props) => {
       if (distance < 0) {
         clearInterval(x);
         props.stopCountDown();
-        console.log("timeout");
+        // console.log("timeout");
       }
 
       // Time calculations for days, hours, minutes and seconds

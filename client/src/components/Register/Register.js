@@ -51,13 +51,13 @@ const Signup = ({ history }) => {
 
   const passwordValidation = () => {
     // const { password, passwordConfirmation } = this.state;
-    console.log("password", password);
-    console.log("cf password", confirmpassword);
+    // console.log("password", password);
+    // console.log("cf password", confirmpassword);
     if (password === confirmpassword && password.length >= 8) {
-      console.log("password valid");
+      // console.log("password valid");
       return true;
     } else {
-      console.log("password invalid");
+      // console.log("password invalid");
       return false;
     }
   };
