@@ -1433,7 +1433,7 @@ class TryoutTest extends Component {
     console.log("render TryoutTest");
     const { totalAnswered, questionNumber, numbers, userAnswers, currentChoice, isNavBlock } = this.state;
     // const { tryoutId, onRouteChange, countScore, onSubmitResult } = this.props;
-    // const tryoutId = this.props.match.params.tryoutId;
+    const tryoutId = this.props.match.params.tryoutId;
     // console.log("tryoutId in TryoutTest", tryoutId);
     // const data = this.props.location.state;
     // console.log("userId in TryoutTest", data.userId);
