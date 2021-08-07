@@ -72,7 +72,7 @@ class TryoutList extends Component {
             <img className="w2 h2 w3-ns h3-ns br-100" src={exam} alt="exam-icon" />
             <div className="pl3 flex-auto">
               <span className="f6 db black-70">Tryout 1</span>
-              <span className="f6 db black-70">01/01/2021</span>
+              <span className="f6 db black-70">08/05/2021</span>
             </div>
             <div>
               <a href="tel:" className="f6 link blue hover-dark-gray">
@@ -84,7 +84,7 @@ class TryoutList extends Component {
             <img className="w2 h2 w3-ns h3-ns br-100" src={exam} alt="exam-icon" />
             <div className="pl3 flex-auto">
               <span className="f6 db black-70">Tryout 2</span>
-              <span className="f6 db black-70">01/01/2021</span>
+              <span className="f6 db black-70">22/05/2021</span>
             </div>
             <div>
               <a href="tel:" className="f6 link blue hover-dark-gray">
@@ -96,7 +96,7 @@ class TryoutList extends Component {
             <img className="w2 h2 w3-ns h3-ns br-100" src={exam} alt="exam-icon" />
             <div className="pl3 flex-auto">
               <span className="f6 db black-70">Tryout 3</span>
-              <span className="f6 db black-70">01/01/2021</span>
+              <span className="f6 db black-70">18/06/2021</span>
             </div>
             <div>
               <a href="tel:" className="f6 link blue hover-dark-gray">
