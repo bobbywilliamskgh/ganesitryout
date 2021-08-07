@@ -12,7 +12,7 @@ const Home = ({ history }) => {
   const [userId, setUserId] = useState("");
 
   useEffect(() => {
-    console.log("useEffect Home");
+    // console.log("useEffect Home");
     const fetchPrivateDate = async () => {
       const config = {
         headers: {
@@ -23,7 +23,7 @@ const Home = ({ history }) => {
 
       try {
         const { data } = await axios.get(`${baseURL}/private`, config);
-        console.log(data);
+        // console.log(data);
         setUserId(data.id);
         // setPrivateData(data.data);
       } catch (error) {
@@ -41,7 +41,7 @@ const Home = ({ history }) => {
     history.push("/login");
   };
 
-  console.log("userId", userId);
+  // console.log("userId", userId);
 
   return (
     <div>

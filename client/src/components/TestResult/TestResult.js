@@ -17,7 +17,7 @@ const TestResult = (props) => {
       try {
         const userId = props.match.params.userId;
         const { data } = await axios.get(`${baseURL}/private/results/${userId}`, config);
-        console.log(data);
+        // console.log(data);
         if (!data.success) {
           return;
         }
