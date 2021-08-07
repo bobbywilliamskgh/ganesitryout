@@ -1411,7 +1411,7 @@ class TryoutTest extends Component {
     })
       .then((response) => response.json())
       .then((data) => {
-        // console.log("data", data);
+        console.log("data", data);
         this.props.history.replace(`/result/${userId}`, { userId: userId });
       });
   };
@@ -1433,9 +1433,9 @@ class TryoutTest extends Component {
     console.log("render TryoutTest");
     const { totalAnswered, questionNumber, numbers, userAnswers, currentChoice, isNavBlock } = this.state;
     // const { tryoutId, onRouteChange, countScore, onSubmitResult } = this.props;
-    const tryoutId = this.props.match.params.tryoutId;
+    // const tryoutId = this.props.match.params.tryoutId;
     // console.log("tryoutId in TryoutTest", tryoutId);
-    const data = this.props.location.state;
+    // const data = this.props.location.state;
     // console.log("userId in TryoutTest", data.userId);
     // populate data
     answerKeys[3].setTryoutId("4");
