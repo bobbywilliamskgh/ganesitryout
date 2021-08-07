@@ -1,5 +1,4 @@
 const { db } = require("../config/db");
-const participant = require("./participant");
 
 exports.getHomeRoute = (req, res, next) => {
   res.status(200).json({
