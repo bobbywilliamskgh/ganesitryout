@@ -131,20 +131,30 @@ const QuestionAnswer = ({ questionNumber, tryoutId, onUserAnswerChange, userAnsw
       ]),
     ]),
     new TryoutModel("4", [
-      new QuestionModel("1", "twk", "pertanyaan1TO4 ?", [
-        new AnswerChoiceModel("A", "pilihanATO4"),
-        new AnswerChoiceModel("B", "pilihanBTO4"),
-        new AnswerChoiceModel("C", "pilihanCTO4"),
-        new AnswerChoiceModel("D", "pilihanDTO4"),
-        new AnswerChoiceModel("E", "pilihanETO4"),
-      ]),
-      new QuestionModel("2", "twk", "pertanyaan2TO4 ?", [
-        new AnswerChoiceModel("A", "pilihanA"),
-        new AnswerChoiceModel("B", "pilihanB"),
-        new AnswerChoiceModel("C", "pilihanC"),
-        new AnswerChoiceModel("D", "pilihanD"),
-        new AnswerChoiceModel("E", "pilihanE"),
-      ]),
+      new QuestionModel(
+        "1",
+        "twk",
+        "Sesuai dengan prinsip otonomi dan tugas pembantuan, pemerintah daerah provinsi, kabupaten, dan kota melaksanakan tugas pemerintahan untuk mengurus persoalan pemerintahan sendiri. Pernyataan tersebut tertuang dalam ...",
+        [
+          new AnswerChoiceModel("A", "A. UU No. 13 Tahun 2004 tentang Otonomi Daerah"),
+          new AnswerChoiceModel("B", "B. UUD 1945 Pasal 18 Ayat 1"),
+          new AnswerChoiceModel("C", "C. UUD 1945 Pasal 18 Ayat 2"),
+          new AnswerChoiceModel("D", "D. Permen No. 11 Tahun 2004"),
+          new AnswerChoiceModel("E", "E. Tap MPR No. 44 Tahun 2004"),
+        ]
+      ),
+      new QuestionModel(
+        "2",
+        "twk",
+        "Dalam rangka membina rasa nasionalis di kalangan masyarakat Indonesia hendaknya dilakukan dengan menghindari hal-hal dibawah ini , kecuali...",
+        [
+          new AnswerChoiceModel("A", "A. Patriotisme"),
+          new AnswerChoiceModel("B", "B. Sukuisme"),
+          new AnswerChoiceModel("C", "C. Chauvinisme"),
+          new AnswerChoiceModel("D", "D. Ekstrimisme"),
+          new AnswerChoiceModel("E", "E. Fanatik golongan"),
+        ]
+      ),
       new QuestionModel("3", "twk", "pertanyaan3TO4 ?", [
         new AnswerChoiceModel("A", "pilihanA"),
         new AnswerChoiceModel("B", "pilihanB"),

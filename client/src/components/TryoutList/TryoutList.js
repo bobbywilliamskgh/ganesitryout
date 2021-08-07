@@ -7,7 +7,7 @@ class TryoutList extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      isCountDown: true,
+      isCountDown: false,
     };
   }
 
@@ -28,7 +28,7 @@ class TryoutList extends Component {
           <li className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
             <img className="w2 h2 w3-ns h3-ns br-100" src={exam} alt="exam-icon" />
             <div className="pl3 flex-auto">
-              <span className="f6 db black-70">Tryout 4</span>
+              <span className="f6 db black-70 b">Tryout 4</span>
               {/* <span class="f6 db black-70">Countdown</span> */}
               {/* <Link
                 to={{
@@ -48,21 +48,17 @@ class TryoutList extends Component {
                     pathname: "/instruksi",
                     state: { userId: userId },
                   }}
+                  className="no-underline"
                 >
-                  <div className="f4 fw6 green button center" style={{ width: "fit-content" }}>
+                  <div className="f5 fw6 dark-green button center" style={{ width: "fit-content" }}>
                     Instruksi
                   </div>
                 </Link>
               )}
 
-              {/* <Link
-                to={"leaderboard/4"}
-                className="f4 fw6 green button center"
-                href="tryout"
-                style={{ width: "fit-content" }}
-              >
+              <Link to={"leaderboard/4"} className="f5 fw6 button dark-green center no-underline" href="tryout" style={{ width: "fit-content" }}>
                 Peringkat
-              </Link> */}
+              </Link>
             </div>
           </li>
         </ul>
@@ -71,7 +67,7 @@ class TryoutList extends Component {
           <li className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
             <img className="w2 h2 w3-ns h3-ns br-100" src={exam} alt="exam-icon" />
             <div className="pl3 flex-auto">
-              <span className="f6 db black-70">Tryout 1</span>
+              <span className="b f6 db black-70">Tryout 1</span>
               <span className="f6 db black-70">01/01/2021</span>
             </div>
             <div>
@@ -83,7 +79,7 @@ class TryoutList extends Component {
           <li className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
             <img className="w2 h2 w3-ns h3-ns br-100" src={exam} alt="exam-icon" />
             <div className="pl3 flex-auto">
-              <span className="f6 db black-70">Tryout 2</span>
+              <span className="b f6 db black-70">Tryout 2</span>
               <span className="f6 db black-70">01/01/2021</span>
             </div>
             <div>
@@ -95,7 +91,7 @@ class TryoutList extends Component {
           <li className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
             <img className="w2 h2 w3-ns h3-ns br-100" src={exam} alt="exam-icon" />
             <div className="pl3 flex-auto">
-              <span className="f6 db black-70">Tryout 3</span>
+              <span className="b f6 db black-70">Tryout 3</span>
               <span className="f6 db black-70">01/01/2021</span>
             </div>
             <div>
