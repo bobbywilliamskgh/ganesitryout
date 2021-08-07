@@ -7,7 +7,7 @@ class TryoutList extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      isCountDown: false,
+      isCountDown: true,
     };
   }
 
@@ -55,18 +55,14 @@ class TryoutList extends Component {
                 </Link>
               )}
 
-              <Link
-                // onClick={() => {
-                //   setTryoutId("4");
-                //   onRouteChange("leaderboard");
-                // }}
+              {/* <Link
                 to={"leaderboard/4"}
                 className="f4 fw6 green button center"
                 href="tryout"
                 style={{ width: "fit-content" }}
               >
                 Peringkat
-              </Link>
+              </Link> */}
             </div>
           </li>
         </ul>

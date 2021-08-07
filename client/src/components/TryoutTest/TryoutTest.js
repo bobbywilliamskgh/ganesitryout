@@ -1163,6 +1163,7 @@ class TryoutTest extends Component {
         questId: "",
         answerChosen: "",
       },
+      isNavBlock: true,
     };
   }
 
@@ -1178,10 +1179,10 @@ class TryoutTest extends Component {
     window.addEventListener("beforeunload", this.onUnload);
   }
 
-  // componentWillUnmount() {
-  //   console.log("willunmount");
-  //   window.removeEventListener("beforeunload", this.onUnload);
-  // }
+  componentWillUnmount() {
+    console.log("willunmount");
+    window.removeEventListener("beforeunload", this.onUnload);
+  }
 
   changeQuestionNumber = (num) => {
     // console.log("num", num);
@@ -1395,7 +1396,6 @@ class TryoutTest extends Component {
     const myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
     myHeaders.append("Authorization", `Bearer ${localStorage.getItem("authToken")}`);
-
     fetch(`${baseURL}/private/results`, {
       method: "post",
       headers: myHeaders,
@@ -1417,6 +1417,7 @@ class TryoutTest extends Component {
   };
 
   onSubmitTest = () => {
+    this.setState({ isNavBlock: false });
     console.log("onSubmitTest...");
     const tryoutId = this.props.match.params.tryoutId;
     console.log("tryoutId", tryoutId);
@@ -1430,7 +1431,7 @@ class TryoutTest extends Component {
 
   render() {
     console.log("render TryoutTest");
-    const { totalAnswered, questionNumber, numbers, userAnswers, currentChoice } = this.state;
+    const { totalAnswered, questionNumber, numbers, userAnswers, currentChoice, isNavBlock } = this.state;
     // const { tryoutId, onRouteChange, countScore, onSubmitResult } = this.props;
     const tryoutId = this.props.match.params.tryoutId;
     console.log("tryoutId in TryoutTest", tryoutId);
@@ -2831,7 +2832,7 @@ class TryoutTest extends Component {
     ]);
     return (
       <div>
-        <Prompt when={true} message="Anggap ini ujian asli! Jangan meninggalkan halaman sebelum selesai ujian!" />
+        <Prompt when={isNavBlock} message="Anggap ini ujian asli! Jangan meninggalkan halaman sebelum selesai ujian!" />
         <TestInformation totalAnswered={totalAnswered} onSubmitTest={this.onSubmitTest} />
         <CountDownTimer onSubmitTest={this.onSubmitTest} />
         <TestContent

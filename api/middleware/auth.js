@@ -26,7 +26,7 @@ exports.protect = async (req, res, next) => {
     // if (!user) {
     //   return next(new ErrorResponse("No user found with this id", 404));
     // }
-    req.userId = decoded?.id;
+    req.userId = decoded.id;
 
     // req.user = user;
 
