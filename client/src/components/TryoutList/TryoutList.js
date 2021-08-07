@@ -28,7 +28,7 @@ class TryoutList extends Component {
           <li className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
             <img className="w2 h2 w3-ns h3-ns br-100" src={exam} alt="exam-icon" />
             <div className="pl3 flex-auto">
-              <span className="f6 db black-70">Tryout 4</span>
+              <span className="b f6 db black-70">Tryout 4</span>
               {/* <span class="f6 db black-70">Countdown</span> */}
               {/* <Link
                 to={{
@@ -47,10 +47,10 @@ class TryoutList extends Component {
                   to={{
                     pathname: "/instruksi",
                     state: { userId: userId },
-                    className="no-underline"
                   }}
+                  className="no-underline"
                 >
-                   <div className="f5 fw6 dark-green button center" style={{ width: "fit-content" }}>
+                  <div className="f5 fw6 dark-green button center" style={{ width: "fit-content" }}>
                     Instruksi
                   </div>
                 </Link>
@@ -72,7 +72,7 @@ class TryoutList extends Component {
           <li className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
             <img className="w2 h2 w3-ns h3-ns br-100" src={exam} alt="exam-icon" />
             <div className="pl3 flex-auto">
-              <span className="f6 db black-70">Tryout 1</span>
+              <span className="b f6 db black-70">Tryout 1</span>
               <span className="f6 db black-70">08/05/2021</span>
             </div>
             <div>
@@ -84,7 +84,7 @@ class TryoutList extends Component {
           <li className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
             <img className="w2 h2 w3-ns h3-ns br-100" src={exam} alt="exam-icon" />
             <div className="pl3 flex-auto">
-              <span className="f6 db black-70">Tryout 2</span>
+              <span className="b f6 db black-70">Tryout 2</span>
               <span className="f6 db black-70">22/05/2021</span>
             </div>
             <div>
@@ -96,7 +96,7 @@ class TryoutList extends Component {
           <li className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
             <img className="w2 h2 w3-ns h3-ns br-100" src={exam} alt="exam-icon" />
             <div className="pl3 flex-auto">
-              <span className="f6 db black-70">Tryout 3</span>
+              <span className="b f6 db black-70">Tryout 3</span>
               <span className="f6 db black-70">18/06/2021</span>
             </div>
             <div>

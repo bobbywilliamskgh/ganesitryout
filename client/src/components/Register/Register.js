@@ -120,7 +120,7 @@ const Signup = ({ history }) => {
         <main className="pa4 black-80">
           <div className="measure">
             <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
-              <legend className="f1 fw6 ph0 mh0">Register</legend>
+              <legend className="f1 fw6 ph0 mh0">Registerdong</legend>
               <div className="mt3">
                 <label className="db fw6 lh-copy f6" htmlFor="nama-lengkap">
                   Nama Lengkap
