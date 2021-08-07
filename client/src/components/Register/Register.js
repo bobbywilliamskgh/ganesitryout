@@ -80,7 +80,7 @@ const Signup = ({ history }) => {
       },
     };
 
-    console.log("submit register");
+    console.log("submit register euy");
     const isValid = validation();
 
     if (!isValid) {
