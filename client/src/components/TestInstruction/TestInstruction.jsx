@@ -104,10 +104,39 @@ class TestInstruction extends Component {
     const { userStatus, isStartButtonClicked, isInstructionClicked } = this.state;
     return (
       <div>
-        <h2>Kata-kata peringatan</h2>
-        <h4>Sistem Penilaian</h4>
-        <h4>Jumlah soal dan Passing grade</h4>
-        <div onClick={this.startTryout} className="f4 fw6 green button center" style={{ width: "fit-content" }}>
+        <h1 className="tryout-title">Tryout 4</h1>
+
+        <p className="f4 attention ma6 mt0 lh-copy">
+          <strong>{"Penting! "}</strong>
+          Selama tryout berlangsung, Anda dilarang keluar dari laman ujian atau Anda dinyatakan <strong>tidak lulus. </strong>
+          Layaknya ujian asli nanti, kamu dilarang mencari jawaban di internet atau membuka buku.
+          <strong> Kerjakan sejujurnya dan sebaik-baiknya.</strong>
+        </p>
+
+        <div className="total-time mb2">
+          <strong>Waktu pengerjaan : </strong>100 menit
+        </div>
+        <div className="total-question mb3">
+          <strong>Jumlah Soal : </strong>110 soal
+        </div>
+        <div className="categories flex justify-center mb4">
+          <div className="ba category twk mr2 pa2">
+            <div>TWK</div>
+            <div>Total Soal : 30</div>
+            <div>Passing Grade : 65</div>
+          </div>
+          <div className="ba category tiu mr2 pa2">
+            <div>TIU</div>
+            <div>Total Soal : 35</div>
+            <div>Passing Grade : 80</div>
+          </div>
+          <div className="ba category tkp mr2 pa2">
+            <div>TKP</div>
+            <div>Total Soal : 45</div>
+            <div>Passing Grade : 166</div>
+          </div>
+        </div>
+        <div onClick={this.startTryout} className="f4 fw6 dark-green button center" style={{ width: "fit-content" }}>
           Mulai
         </div>
         {isStartButtonClicked ? (

@@ -47,9 +47,10 @@ class TryoutList extends Component {
                   to={{
                     pathname: "/instruksi",
                     state: { userId: userId },
+                    className="no-underline"
                   }}
                 >
-                  <div className="f4 fw6 green button center" style={{ width: "fit-content" }}>
+                   <div className="f5 fw6 dark-green button center" style={{ width: "fit-content" }}>
                     Instruksi
                   </div>
                 </Link>
@@ -57,7 +58,7 @@ class TryoutList extends Component {
 
               {/* <Link
                 to={"leaderboard/4"}
-                className="f4 fw6 green button center"
+                className="f5 fw6 button dark-green center no-underline"
                 href="tryout"
                 style={{ width: "fit-content" }}
               >
