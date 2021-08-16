@@ -48,7 +48,7 @@ const TestResult = (props) => {
       <p className="b">{`Total Skor : ${result.total}`}</p>
       {result.twk >= 65 ? <p className="green b">{`TWK : ${result.twk}`}</p> : <p className="red b">{`TWK : ${result.twk}`}</p>}
       {result.tiu >= 80 ? <p className="green b">{`TIU : ${result.tiu}`}</p> : <p className="red b">{`TIU : ${result.tiu}`}</p>}
-      {result.tkp >= 156 ? <p className="green b">{`TKP : ${result.tkp}`}</p> : <p className="red b">{`TKP : ${result.tkp}`}</p>}
+      {result.tkp >= 166 ? <p className="green b">{`TKP : ${result.tkp}`}</p> : <p className="red b">{`TKP : ${result.tkp}`}</p>}
     </div>
   );
 };
