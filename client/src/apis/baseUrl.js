@@ -1,3 +1,3 @@
-const baseURL = process.env.NODE_ENV === "production" ? process.env.REACT_APP_API_URL : "http://localhost:8800/api";
+const baseURL = process.env.REACT_APP_API_URL;
 
 export default baseURL;

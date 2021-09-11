@@ -90,6 +90,7 @@ const Signup = ({ history }) => {
     }
     console.log("register valid");
     try {
+      console.log("try register");
       const { data } = await axios.post(
         `${baseURL}/auth/register`,
         {
@@ -100,9 +101,10 @@ const Signup = ({ history }) => {
         },
         config
       );
-
+      console.log("data", data);
+      console.log("data token", data.token);
       localStorage.setItem("authToken", data.token);
-
+      console.log("has done setItem");
       history.push("/");
     } catch (error) {
       console.log("error euy register");
