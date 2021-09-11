@@ -4,7 +4,7 @@ const { db } = require("../config/db");
 
 const sendToken = (user, statusCode, res) => {
   const token = jwt.sign({ id: user.user_id }, process.env.SECRET_KEY, {
-    expiresIn: "1h",
+    expiresIn: "10h",
   });
   res.status(statusCode).json({ success: true, token });
 };

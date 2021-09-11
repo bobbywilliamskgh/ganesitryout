@@ -2,9 +2,9 @@ import React from "react";
 
 const CountDownTimer = ({ onSubmitTest }) => {
   const hoursMinSecs = {
-    hours: 1,
-    minutes: 40,
-    seconds: 0,
+    hours: 0,
+    minutes: 0,
+    seconds: 20,
   };
   const { hours = 0, minutes = 0, seconds = 60 } = hoursMinSecs;
   const [[hrs, mins, secs], setTime] = React.useState([hours, minutes, seconds]);
@@ -27,13 +27,14 @@ const CountDownTimer = ({ onSubmitTest }) => {
     if (hrs === 0 && mins === 0 && secs === 0) {
       clearInterval(timerId);
       onSubmitTest();
+      console.log("hei");
     }
     return () => clearInterval(timerId);
-  });
+  }, [secs]);
 
   return (
     <div className="ba center mt4 pa2 f3" style={{ width: "fit-content" }}>
-      {mins < 5 ? (
+      {hours === 0 && mins < 5 ? (
         <p className="ma0 red">{`${hrs.toString().padStart(2, "0")}:${mins.toString().padStart(2, "0")}:${secs.toString().padStart(2, "0")}`}</p>
       ) : (
         <p className="ma0">{`${hrs.toString().padStart(2, "0")}:${mins.toString().padStart(2, "0")}:${secs.toString().padStart(2, "0")}`}</p>

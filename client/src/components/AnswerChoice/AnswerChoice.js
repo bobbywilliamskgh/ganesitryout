@@ -25,6 +25,7 @@ const AnswerChoice = ({ choiceId, choiceText, questId, onUserAnswerChange, answe
         />
       )}
       <label htmlFor={choiceId} className="lh-copy">
+        {`${choiceId} choiceText`}
         {choiceText}
       </label>
     </div>

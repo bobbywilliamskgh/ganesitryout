@@ -91,7 +91,7 @@ class TestInstruction extends Component {
     // console.log("userId in TestInstruction", userId);
     // const userId = this.props.userId;
     console.log("startTryout...");
-    if (isParticipant && !isFinishTryout && userId === 18) {
+    if (isParticipant && !isFinishTryout) {
       // history.push("/tryout/4", { userId: userId });
       history.replace("tryout/4", { userId: userId });
       // setTryoutId("4");

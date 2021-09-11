@@ -167,20 +167,30 @@ const QuestionAnswer = ({ questionNumber, tryoutId, onUserAnswerChange, userAnsw
           new AnswerChoiceModel("E", "apa, di mana, bagaimana "),
         ]
       ),
-      new QuestionModel("4", "twk", "pertanyaan4TO4 ?", [
-        new AnswerChoiceModel("A", "apa, di mana, bagaimana"),
-        new AnswerChoiceModel("B", "Asimilasi budaya "),
-        new AnswerChoiceModel("C", "ntegrasi bangsa"),
-        new AnswerChoiceModel("D", "Internalisasi sosial budaya"),
-        new AnswerChoiceModel("E", "Konsensus budaya"),
-      ]),
-      new QuestionModel("5", "twk", "pertanyaan5TO4 ?", [
-        new AnswerChoiceModel("A", "Otonomi"),
-        new AnswerChoiceModel("B", "Otonomi Daerah "),
-        new AnswerChoiceModel("C", "Pembagian Otonomi Daerah "),
-        new AnswerChoiceModel("D", "Otonom"),
-        new AnswerChoiceModel("E", "Daerah Otonom"),
-      ]),
+      new QuestionModel(
+        "4",
+        "twk",
+        "Proses pembauran beragam aspek sosial budaya ke dalam satuan wilayah dan pembentukan identitas nasional  wajib dapat memberi jaminan akan terciptanya keselarasan, keserasian dan keseimbangan dalam mencapai tujuan bersama sebagai suatu bangsa merupakan definisi dari ...",
+        [
+          new AnswerChoiceModel("A", "Akulturasi sosial"),
+          new AnswerChoiceModel("B", "Asimilasi budaya "),
+          new AnswerChoiceModel("C", "ntegrasi bangsa"),
+          new AnswerChoiceModel("D", "Internalisasi sosial budaya"),
+          new AnswerChoiceModel("E", "Konsensus budaya"),
+        ]
+      ),
+      new QuestionModel(
+        "5",
+        "twk",
+        "Kesatuan masyarakat hukum yang memiliki batasan wilayah yang berwenang dalam mengatur dan mengelola kegiatan pemerintahan dan kepentingan rakyat setempat, menurut gagasan yang berdasar pada aspirasi rakyat dalam sistem Negara Kesatuan Republik Indonesia dikenal dengan istilah ...",
+        [
+          new AnswerChoiceModel("A", "Otonomi"),
+          new AnswerChoiceModel("B", "Otonomi Daerah "),
+          new AnswerChoiceModel("C", "Pembagian Otonomi Daerah "),
+          new AnswerChoiceModel("D", "Otonom"),
+          new AnswerChoiceModel("E", "Daerah Otonom"),
+        ]
+      ),
       new QuestionModel(
         "6",
         "twk",
@@ -211,7 +221,7 @@ const QuestionAnswer = ({ questionNumber, tryoutId, onUserAnswerChange, userAnsw
         "Dalam rangka membina rasa nasionalis di kalangan masyarakat Indonesia hendaknya dilakukan dengan menghindari hal-hal di bawah ini , kecuali",
         [
           new AnswerChoiceModel("A", "Patriotisme"),
-          new AnswerChoiceModel("B", "pilihanBSukuisme"),
+          new AnswerChoiceModel("B", "Sukuisme"),
           new AnswerChoiceModel("C", "Chauvinisme"),
           new AnswerChoiceModel("D", "Ekstrimisme "),
           new AnswerChoiceModel("E", "Fanatik golongan"),
@@ -358,7 +368,7 @@ const QuestionAnswer = ({ questionNumber, tryoutId, onUserAnswerChange, userAnsw
         "twk",
         "Indonesia terdiri atas beraneka ragam suku bangsa yang memiliki kebudayaan dan adat-istiadat yang bermacam-macam. Hal ini menyebabkan ...",
         [
-          new AnswerChoiceModel("A", "pilihanAIndonesia sulit bersatu karena pemikiran tiap suku bangsa yang berbeda-beda"),
+          new AnswerChoiceModel("A", "Indonesia sulit bersatu karena pemikiran tiap suku bangsa yang berbeda-beda"),
           new AnswerChoiceModel("B", "Menguatnya paham primordialisme"),
           new AnswerChoiceModel("C", "Kebudayaan tidak dapat dipadukan karena memiliki nilai budayanya sendiri"),
           new AnswerChoiceModel("D", "Setiap nilai-nilai kebudayaan saling bertentangan satu dengan yang lainnya"),
@@ -423,13 +433,21 @@ const QuestionAnswer = ({ questionNumber, tryoutId, onUserAnswerChange, userAnsw
           new AnswerChoiceModel("E", "Masalah sosial "),
         ]
       ),
-      new QuestionModel("27", "twk", "-", [
-        new AnswerChoiceModel("A", "-"),
-        new AnswerChoiceModel("B", "-"),
-        new AnswerChoiceModel("C", "-"),
-        new AnswerChoiceModel("D", "-"),
-        new AnswerChoiceModel("E", "-"),
-      ]),
+      new QuestionModel(
+        "27",
+        "twk",
+        "Laporan Pengamatan Daerah Pemukiman Transmigrasi Transabangdep, singkatan dari Transmigrasi Swakarsa Pengembangan Desa Potensial, merupakan upaya penataan dan pengembangan desa di daerah transmigrasi yang masih memiliki sumber daya alam untuk dikembangkan. Lokasi pemukiman Transabangdep yang dikembangkan tahun 1992/1993 adalah Desa Sumber Baru dan Sumber Harapan, Provinsi Kalimantan Selatan dengan rencana penempatan 250 KK. Desa Sumber Baru dan Sumber Harapan merupakan desa berdampingan yang pertumbuhannya relatif lambat akibat kurangnya penduduk yang memiliki keterampilan untuk mengolah dan mengembangkan potensi sumber daya alam yang tersedia. Untuk memenuhi penduduk sesuai dengan keterampilan dan jenis usaha yang dibutuhkan bagi pembangunan desa-desa tersebut masyarakat mengharapkan dikembangkannya Program Transmigrasi Swakarsa. Lokasi Desa Sumber Baru dan Sumber Harapan dapat dicapai dengan kendaraan angkutan umum serta ojek. Fasilitas yang tersedia di desa ini adalah 2 unit SD Negeri, 1 unit Puskesmas Pembantu, 2 unit masjid, dan 3 surau.       Tanggapan yang tepat terhadap penggalan laporan di atas adalah .... ",
+        [
+          new AnswerChoiceModel(
+            "A",
+            "Transmigrasi Swakarsa Pengembangan Desa Potensial perlu dikembangkan untuk kemajuan Desa Sumber Baru dan Sumber Harapan."
+          ),
+          new AnswerChoiceModel("B", "Fasilitas umum yang telah tersedia di Desa Sumber Baru dan Sumber Harapan sudah lengkap dan sempurna."),
+          new AnswerChoiceModel("C", "Pertumbuhan dan kemajuan Desa Sumber Baru dan Sumber Harapan relatif lambat karena kurangnya penduduk."),
+          new AnswerChoiceModel("D", "Dengan fasilitas yang disediakan pasti akan menjamin keberhasilan pengembangan Desa Sumber Baru dan Sumber Harapan. "),
+          new AnswerChoiceModel("E", "Penggalan laporan tersebut sudah mencerminkan kesempurnaan sebuah laporan. "),
+        ]
+      ),
       new QuestionModel(
         "28",
         "twk",
@@ -554,11 +572,11 @@ const QuestionAnswer = ({ questionNumber, tryoutId, onUserAnswerChange, userAnsw
         new AnswerChoiceModel("E", "71/214"),
       ]),
       new QuestionModel("41", "tiu", "Jika perbandingan 2x – y terhadap x + y adalah 3/4 , maka perbandingan x terhadap y adalah…", [
-        new AnswerChoiceModel("7:5", "pilihanA"),
-        new AnswerChoiceModel("5:7", "pilihanB"),
-        new AnswerChoiceModel("4:5", "pilihanC"),
-        new AnswerChoiceModel("5:4", "pilihanD"),
-        new AnswerChoiceModel("3:4", "pilihanE"),
+        new AnswerChoiceModel("A", "7:5"),
+        new AnswerChoiceModel("B", "5:7"),
+        new AnswerChoiceModel("C", "4:5"),
+        new AnswerChoiceModel("D", "5:4"),
+        new AnswerChoiceModel("E", "3:4"),
       ]),
       new QuestionModel(
         "42",
