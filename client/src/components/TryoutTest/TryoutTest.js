@@ -1349,7 +1349,7 @@ class TryoutTest extends Component {
     const totalScore = this.countTotalScore(twkScore, tiuScore, tkpScore);
     // Passed or Failed
     let isPassed = false;
-    if (twkScore >= 65 && tiuScore >= 80 && tkpScore >= 156) {
+    if (twkScore >= 65 && tiuScore >= 80 && tkpScore >= 166) {
       isPassed = true;
     }
     // score object
@@ -1442,7 +1442,7 @@ class TryoutTest extends Component {
     answerKeys[3].setTwkAnswers([
       {
         questId: "1",
-        answer: "A",
+        answer: "B",
       },
       {
         questId: "2",
@@ -1450,11 +1450,11 @@ class TryoutTest extends Component {
       },
       {
         questId: "3",
-        answer: "C",
+        answer: "E",
       },
       {
         questId: "4",
-        answer: "D",
+        answer: "C",
       },
       {
         questId: "5",
@@ -1462,7 +1462,7 @@ class TryoutTest extends Component {
       },
       {
         questId: "6",
-        answer: "B",
+        answer: "E",
       },
       {
         questId: "7",
@@ -1470,15 +1470,15 @@ class TryoutTest extends Component {
       },
       {
         questId: "8",
-        answer: "B",
+        answer: "A",
       },
       {
         questId: "9",
-        answer: "B",
+        answer: "A",
       },
       {
         questId: "10",
-        answer: "B",
+        answer: "A",
       },
       {
         questId: "11",
@@ -1486,7 +1486,7 @@ class TryoutTest extends Component {
       },
       {
         questId: "12",
-        answer: "B",
+        answer: "E",
       },
       {
         questId: "13",
@@ -1494,15 +1494,15 @@ class TryoutTest extends Component {
       },
       {
         questId: "14",
-        answer: "D",
+        answer: "A",
       },
       {
         questId: "15",
-        answer: "E",
+        answer: "D",
       },
       {
         questId: "16",
-        answer: "A",
+        answer: "E",
       },
       {
         questId: "17",
@@ -1510,7 +1510,7 @@ class TryoutTest extends Component {
       },
       {
         questId: "18",
-        answer: "A",
+        answer: "C",
       },
       {
         questId: "19",
@@ -1518,7 +1518,7 @@ class TryoutTest extends Component {
       },
       {
         questId: "20",
-        answer: "A",
+        answer: "D",
       },
       {
         questId: "21",
@@ -1526,53 +1526,53 @@ class TryoutTest extends Component {
       },
       {
         questId: "22",
-        answer: "D",
+        answer: "E",
       },
       {
         questId: "23",
-        answer: "D",
-      },
-      {
-        questId: "24",
-        answer: "D",
-      },
-      {
-        questId: "25",
-        answer: "D",
-      },
-      {
-        questId: "26",
-        answer: "A",
-      },
-      {
-        questId: "27",
         answer: "B",
       },
       {
-        questId: "28",
-        answer: "C",
+        questId: "24",
+        answer: "B",
       },
       {
-        questId: "29",
+        questId: "25",
+        answer: "E",
+      },
+      {
+        questId: "26",
+        answer: "E",
+      },
+      {
+        questId: "27",
+        answer: "A",
+      },
+      {
+        questId: "28",
         answer: "D",
       },
       {
+        questId: "29",
+        answer: "C",
+      },
+      {
         questId: "30",
-        answer: "E",
+        answer: "D",
       },
     ]);
     answerKeys[3].setTiuAnswers([
       {
         questId: "31",
-        answer: "A",
+        answer: "C",
       },
       {
         questId: "32",
-        answer: "A",
+        answer: "D",
       },
       {
         questId: "33",
-        answer: "A",
+        answer: "C",
       },
       {
         questId: "34",
@@ -1580,27 +1580,27 @@ class TryoutTest extends Component {
       },
       {
         questId: "35",
-        answer: "A",
+        answer: "B",
       },
       {
         questId: "36",
-        answer: "D",
+        answer: "E",
       },
       {
         questId: "37",
-        answer: "D",
+        answer: "A",
       },
       {
         questId: "38",
-        answer: "D",
+        answer: "E",
       },
       {
         questId: "39",
-        answer: "D",
+        answer: "B",
       },
       {
         questId: "40",
-        answer: "D",
+        answer: "B",
       },
       {
         questId: "41",
@@ -1608,7 +1608,7 @@ class TryoutTest extends Component {
       },
       {
         questId: "42",
-        answer: "A",
+        answer: "C",
       },
       {
         questId: "43",
@@ -1616,27 +1616,27 @@ class TryoutTest extends Component {
       },
       {
         questId: "44",
-        answer: "A",
+        answer: "B",
       },
       {
         questId: "45",
-        answer: "A",
+        answer: "B",
       },
       {
         questId: "46",
-        answer: "B",
+        answer: "C",
       },
       {
         questId: "47",
-        answer: "B",
+        answer: "C",
       },
       {
         questId: "48",
-        answer: "B",
+        answer: "E",
       },
       {
         questId: "49",
-        answer: "B",
+        answer: "A",
       },
       {
         questId: "50",
@@ -1648,11 +1648,11 @@ class TryoutTest extends Component {
       },
       {
         questId: "52",
-        answer: "C",
+        answer: "A",
       },
       {
         questId: "53",
-        answer: "C",
+        answer: "D",
       },
       {
         questId: "54",
@@ -1660,7 +1660,7 @@ class TryoutTest extends Component {
       },
       {
         questId: "55",
-        answer: "C",
+        answer: "A",
       },
       {
         questId: "56",
@@ -1668,19 +1668,19 @@ class TryoutTest extends Component {
       },
       {
         questId: "57",
-        answer: "D",
+        answer: "E",
       },
       {
         questId: "58",
-        answer: "D",
+        answer: "C",
       },
       {
         questId: "59",
-        answer: "D",
+        answer: "C",
       },
       {
         questId: "60",
-        answer: "D",
+        answer: "E",
       },
       {
         questId: "61",
@@ -1688,7 +1688,7 @@ class TryoutTest extends Component {
       },
       {
         questId: "62",
-        answer: "A",
+        answer: "D",
       },
       {
         questId: "63",
@@ -1696,11 +1696,11 @@ class TryoutTest extends Component {
       },
       {
         questId: "64",
-        answer: "B",
+        answer: "A",
       },
       {
         questId: "65",
-        answer: "C",
+        answer: "E",
       },
     ]);
     answerKeys[3].setTkpAnswers([
@@ -1709,23 +1709,23 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 1,
-          },
-          {
-            choiceId: "B",
             value: 2,
           },
           {
-            choiceId: "C",
+            choiceId: "B",
             value: 3,
           },
           {
-            choiceId: "D",
+            choiceId: "C",
             value: 4,
           },
           {
-            choiceId: "E",
+            choiceId: "D",
             value: 5,
+          },
+          {
+            choiceId: "E",
+            value: 1,
           },
         ],
       },
@@ -1734,15 +1734,15 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 2,
-          },
-          {
-            choiceId: "B",
             value: 1,
           },
           {
+            choiceId: "B",
+            value: 5,
+          },
+          {
             choiceId: "C",
-            value: 3,
+            value: 2,
           },
           {
             choiceId: "D",
@@ -1750,7 +1750,7 @@ class TryoutTest extends Component {
           },
           {
             choiceId: "E",
-            value: 5,
+            value: 3,
           },
         ],
       },
@@ -1763,15 +1763,15 @@ class TryoutTest extends Component {
           },
           {
             choiceId: "B",
-            value: 2,
+            value: 5,
           },
           {
             choiceId: "C",
-            value: 1,
+            value: 2,
           },
           {
             choiceId: "D",
-            value: 5,
+            value: 1,
           },
           {
             choiceId: "E",
@@ -1788,7 +1788,7 @@ class TryoutTest extends Component {
           },
           {
             choiceId: "B",
-            value: 3,
+            value: 2,
           },
           {
             choiceId: "C",
@@ -1796,7 +1796,7 @@ class TryoutTest extends Component {
           },
           {
             choiceId: "D",
-            value: 2,
+            value: 3,
           },
           {
             choiceId: "E",
@@ -1809,23 +1809,23 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 2,
-          },
-          {
-            choiceId: "B",
-            value: 3,
-          },
-          {
-            choiceId: "C",
             value: 4,
           },
           {
-            choiceId: "D",
+            choiceId: "B",
             value: 5,
           },
           {
-            choiceId: "E",
+            choiceId: "C",
             value: 1,
+          },
+          {
+            choiceId: "D",
+            value: 2,
+          },
+          {
+            choiceId: "E",
+            value: 3,
           },
         ],
       },
@@ -1834,15 +1834,15 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 1,
-          },
-          {
-            choiceId: "B",
             value: 4,
           },
           {
+            choiceId: "B",
+            value: 1,
+          },
+          {
             choiceId: "C",
-            value: 5,
+            value: 3,
           },
           {
             choiceId: "D",
@@ -1850,7 +1850,7 @@ class TryoutTest extends Component {
           },
           {
             choiceId: "E",
-            value: 3,
+            value: 5,
           },
         ],
       },
@@ -1859,23 +1859,23 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 4,
-          },
-          {
-            choiceId: "B",
             value: 3,
           },
           {
-            choiceId: "C",
-            value: 2,
+            choiceId: "B",
+            value: 1,
           },
           {
-            choiceId: "D",
+            choiceId: "C",
             value: 5,
           },
           {
+            choiceId: "D",
+            value: 4,
+          },
+          {
             choiceId: "E",
-            value: 1,
+            value: 2,
           },
         ],
       },
@@ -1884,15 +1884,15 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 1,
+            value: 2,
           },
           {
             choiceId: "B",
-            value: 3,
+            value: 1,
           },
           {
             choiceId: "C",
-            value: 2,
+            value: 5,
           },
           {
             choiceId: "D",
@@ -1900,7 +1900,7 @@ class TryoutTest extends Component {
           },
           {
             choiceId: "E",
-            value: 5,
+            value: 3,
           },
         ],
       },
@@ -1913,11 +1913,11 @@ class TryoutTest extends Component {
           },
           {
             choiceId: "B",
-            value: 4,
+            value: 3,
           },
           {
             choiceId: "C",
-            value: 3,
+            value: 1,
           },
           {
             choiceId: "D",
@@ -1925,7 +1925,7 @@ class TryoutTest extends Component {
           },
           {
             choiceId: "E",
-            value: 1,
+            value: 4,
           },
         ],
       },
@@ -1934,23 +1934,23 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 3,
-          },
-          {
-            choiceId: "B",
-            value: 4,
-          },
-          {
-            choiceId: "C",
-            value: 2,
-          },
-          {
-            choiceId: "D",
             value: 1,
           },
           {
-            choiceId: "E",
+            choiceId: "B",
+            value: 2,
+          },
+          {
+            choiceId: "C",
+            value: 3,
+          },
+          {
+            choiceId: "D",
             value: 5,
+          },
+          {
+            choiceId: "E",
+            value: 4,
           },
         ],
       },
@@ -1959,23 +1959,23 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 4,
+            value: 5,
           },
           {
             choiceId: "B",
-            value: 3,
-          },
-          {
-            choiceId: "C",
-            value: 1,
-          },
-          {
-            choiceId: "D",
             value: 2,
           },
           {
+            choiceId: "C",
+            value: 3,
+          },
+          {
+            choiceId: "D",
+            value: 4,
+          },
+          {
             choiceId: "E",
-            value: 5,
+            value: 1,
           },
         ],
       },
@@ -1984,23 +1984,23 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 2,
-          },
-          {
-            choiceId: "B",
             value: 3,
           },
           {
-            choiceId: "C",
+            choiceId: "B",
             value: 4,
           },
           {
+            choiceId: "C",
+            value: 5,
+          },
+          {
             choiceId: "D",
-            value: 1,
+            value: 2,
           },
           {
             choiceId: "E",
-            value: 5,
+            value: 1,
           },
         ],
       },
@@ -2009,7 +2009,7 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 5,
+            value: 3,
           },
           {
             choiceId: "B",
@@ -2017,7 +2017,7 @@ class TryoutTest extends Component {
           },
           {
             choiceId: "C",
-            value: 1,
+            value: 5,
           },
           {
             choiceId: "D",
@@ -2025,7 +2025,7 @@ class TryoutTest extends Component {
           },
           {
             choiceId: "E",
-            value: 3,
+            value: 1,
           },
         ],
       },
@@ -2034,23 +2034,23 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 1,
-          },
-          {
-            choiceId: "B",
             value: 2,
           },
           {
-            choiceId: "C",
-            value: 3,
-          },
-          {
-            choiceId: "D",
+            choiceId: "B",
             value: 5,
           },
           {
-            choiceId: "E",
+            choiceId: "C",
             value: 4,
+          },
+          {
+            choiceId: "D",
+            value: 1,
+          },
+          {
+            choiceId: "E",
+            value: 3,
           },
         ],
       },
@@ -2063,11 +2063,11 @@ class TryoutTest extends Component {
           },
           {
             choiceId: "B",
-            value: 2,
+            value: 3,
           },
           {
             choiceId: "C",
-            value: 3,
+            value: 5,
           },
           {
             choiceId: "D",
@@ -2075,7 +2075,7 @@ class TryoutTest extends Component {
           },
           {
             choiceId: "E",
-            value: 5,
+            value: 2,
           },
         ],
       },
@@ -2084,23 +2084,23 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 3,
+            value: 5,
           },
           {
             choiceId: "B",
-            value: 4,
+            value: 3,
           },
           {
             choiceId: "C",
-            value: 1,
-          },
-          {
-            choiceId: "D",
             value: 2,
           },
           {
+            choiceId: "D",
+            value: 1,
+          },
+          {
             choiceId: "E",
-            value: 5,
+            value: 4,
           },
         ],
       },
@@ -2109,23 +2109,23 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 4,
-          },
-          {
-            choiceId: "B",
-            value: 3,
-          },
-          {
-            choiceId: "C",
             value: 1,
           },
           {
+            choiceId: "B",
+            value: 4,
+          },
+          {
+            choiceId: "C",
+            value: 3,
+          },
+          {
             choiceId: "D",
-            value: 5,
+            value: 2,
           },
           {
             choiceId: "E",
-            value: 2,
+            value: 5,
           },
         ],
       },
@@ -2159,23 +2159,23 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 1,
-          },
-          {
-            choiceId: "B",
-            value: 2,
-          },
-          {
-            choiceId: "C",
-            value: 4,
-          },
-          {
-            choiceId: "D",
             value: 5,
           },
           {
-            choiceId: "E",
+            choiceId: "B",
+            value: 1,
+          },
+          {
+            choiceId: "C",
             value: 3,
+          },
+          {
+            choiceId: "D",
+            value: 4,
+          },
+          {
+            choiceId: "E",
+            value: 2,
           },
         ],
       },
@@ -2184,23 +2184,23 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 4,
+            value: 5,
           },
           {
             choiceId: "B",
-            value: 3,
+            value: 4,
           },
           {
             choiceId: "C",
-            value: 2,
+            value: 3,
           },
           {
             choiceId: "D",
-            value: 1,
+            value: 2,
           },
           {
             choiceId: "E",
-            value: 5,
+            value: 1,
           },
         ],
       },
@@ -2213,19 +2213,19 @@ class TryoutTest extends Component {
           },
           {
             choiceId: "B",
-            value: 2,
-          },
-          {
-            choiceId: "C",
-            value: 3,
-          },
-          {
-            choiceId: "D",
             value: 5,
           },
           {
-            choiceId: "E",
+            choiceId: "C",
             value: 1,
+          },
+          {
+            choiceId: "D",
+            value: 2,
+          },
+          {
+            choiceId: "E",
+            value: 3,
           },
         ],
       },
@@ -2234,23 +2234,23 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 1,
-          },
-          {
-            choiceId: "B",
-            value: 2,
-          },
-          {
-            choiceId: "C",
-            value: 5,
-          },
-          {
-            choiceId: "D",
             value: 4,
           },
           {
-            choiceId: "E",
+            choiceId: "B",
             value: 3,
+          },
+          {
+            choiceId: "C",
+            value: 2,
+          },
+          {
+            choiceId: "D",
+            value: 1,
+          },
+          {
+            choiceId: "E",
+            value: 5,
           },
         ],
       },
@@ -2259,7 +2259,7 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 2,
+            value: 5,
           },
           {
             choiceId: "B",
@@ -2267,11 +2267,11 @@ class TryoutTest extends Component {
           },
           {
             choiceId: "C",
-            value: 5,
+            value: 4,
           },
           {
             choiceId: "D",
-            value: 4,
+            value: 2,
           },
           {
             choiceId: "E",
@@ -2284,19 +2284,19 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 5,
-          },
-          {
-            choiceId: "B",
             value: 2,
           },
           {
+            choiceId: "B",
+            value: 4,
+          },
+          {
             choiceId: "C",
-            value: 3,
+            value: 5,
           },
           {
             choiceId: "D",
-            value: 4,
+            value: 3,
           },
           {
             choiceId: "E",
@@ -2309,23 +2309,23 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 3,
-          },
-          {
-            choiceId: "B",
             value: 4,
           },
           {
-            choiceId: "C",
-            value: 2,
+            choiceId: "B",
+            value: 5,
           },
           {
-            choiceId: "D",
+            choiceId: "C",
             value: 1,
           },
           {
+            choiceId: "D",
+            value: 2,
+          },
+          {
             choiceId: "E",
-            value: 5,
+            value: 3,
           },
         ],
       },
@@ -2334,23 +2334,23 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 4,
+            value: 5,
           },
           {
             choiceId: "B",
-            value: 3,
+            value: 4,
           },
           {
             choiceId: "C",
-            value: 1,
-          },
-          {
-            choiceId: "D",
             value: 2,
           },
           {
+            choiceId: "D",
+            value: 1,
+          },
+          {
             choiceId: "E",
-            value: 5,
+            value: 3,
           },
         ],
       },
@@ -2359,23 +2359,23 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 5,
-          },
-          {
-            choiceId: "B",
-            value: 1,
-          },
-          {
-            choiceId: "C",
-            value: 2,
-          },
-          {
-            choiceId: "D",
             value: 3,
           },
           {
-            choiceId: "E",
+            choiceId: "B",
+            value: 5,
+          },
+          {
+            choiceId: "C",
             value: 4,
+          },
+          {
+            choiceId: "D",
+            value: 2,
+          },
+          {
+            choiceId: "E",
+            value: 1,
           },
         ],
       },
@@ -2384,23 +2384,23 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 3,
+            value: 5,
           },
           {
             choiceId: "B",
-            value: 4,
+            value: 3,
           },
           {
             choiceId: "C",
-            value: 1,
-          },
-          {
-            choiceId: "D",
             value: 2,
           },
           {
+            choiceId: "D",
+            value: 1,
+          },
+          {
             choiceId: "E",
-            value: 5,
+            value: 4,
           },
         ],
       },
@@ -2409,23 +2409,23 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 1,
-          },
-          {
-            choiceId: "B",
-            value: 2,
-          },
-          {
-            choiceId: "C",
             value: 3,
           },
           {
+            choiceId: "B",
+            value: 1,
+          },
+          {
+            choiceId: "C",
+            value: 5,
+          },
+          {
             choiceId: "D",
-            value: 4,
+            value: 2,
           },
           {
             choiceId: "E",
-            value: 5,
+            value: 4,
           },
         ],
       },
@@ -2434,15 +2434,15 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 5,
+            value: 1,
           },
           {
             choiceId: "B",
-            value: 4,
+            value: 3,
           },
           {
             choiceId: "C",
-            value: 3,
+            value: 4,
           },
           {
             choiceId: "D",
@@ -2450,7 +2450,7 @@ class TryoutTest extends Component {
           },
           {
             choiceId: "E",
-            value: 1,
+            value: 5,
           },
         ],
       },
@@ -2459,23 +2459,23 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 3,
-          },
-          {
-            choiceId: "B",
             value: 4,
           },
           {
-            choiceId: "C",
-            value: 2,
+            choiceId: "B",
+            value: 5,
           },
           {
-            choiceId: "D",
+            choiceId: "C",
             value: 1,
           },
           {
+            choiceId: "D",
+            value: 3,
+          },
+          {
             choiceId: "E",
-            value: 5,
+            value: 2,
           },
         ],
       },
@@ -2488,7 +2488,7 @@ class TryoutTest extends Component {
           },
           {
             choiceId: "B",
-            value: 4,
+            value: 5,
           },
           {
             choiceId: "C",
@@ -2496,11 +2496,11 @@ class TryoutTest extends Component {
           },
           {
             choiceId: "D",
-            value: 2,
+            value: 4,
           },
           {
             choiceId: "E",
-            value: 5,
+            value: 2,
           },
         ],
       },
@@ -2509,23 +2509,23 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 5,
-          },
-          {
-            choiceId: "B",
-            value: 2,
-          },
-          {
-            choiceId: "C",
-            value: 3,
-          },
-          {
-            choiceId: "D",
             value: 4,
           },
           {
-            choiceId: "E",
+            choiceId: "B",
+            value: 3,
+          },
+          {
+            choiceId: "C",
+            value: 2,
+          },
+          {
+            choiceId: "D",
             value: 1,
+          },
+          {
+            choiceId: "E",
+            value: 5,
           },
         ],
       },
@@ -2534,15 +2534,15 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 5,
+            value: 1,
           },
           {
             choiceId: "B",
-            value: 3,
+            value: 4,
           },
           {
             choiceId: "C",
-            value: 1,
+            value: 3,
           },
           {
             choiceId: "D",
@@ -2550,7 +2550,7 @@ class TryoutTest extends Component {
           },
           {
             choiceId: "E",
-            value: 4,
+            value: 5,
           },
         ],
       },
@@ -2571,11 +2571,11 @@ class TryoutTest extends Component {
           },
           {
             choiceId: "D",
-            value: 3,
+            value: 4,
           },
           {
             choiceId: "E",
-            value: 4,
+            value: 3,
           },
         ],
       },
@@ -2584,11 +2584,11 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 3,
+            value: 1,
           },
           {
             choiceId: "B",
-            value: 4,
+            value: 5,
           },
           {
             choiceId: "C",
@@ -2596,11 +2596,11 @@ class TryoutTest extends Component {
           },
           {
             choiceId: "D",
-            value: 1,
+            value: 3,
           },
           {
             choiceId: "E",
-            value: 5,
+            value: 4,
           },
         ],
       },
@@ -2609,23 +2609,23 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 5,
+            value: 4,
           },
           {
             choiceId: "B",
-            value: 3,
+            value: 5,
           },
           {
             choiceId: "C",
-            value: 2,
+            value: 3,
           },
           {
             choiceId: "D",
-            value: 1,
+            value: 2,
           },
           {
             choiceId: "E",
-            value: 4,
+            value: 1,
           },
         ],
       },
@@ -2634,7 +2634,7 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 2,
+            value: 4,
           },
           {
             choiceId: "B",
@@ -2642,15 +2642,15 @@ class TryoutTest extends Component {
           },
           {
             choiceId: "C",
-            value: 4,
+            value: 1,
           },
           {
             choiceId: "D",
-            value: 5,
+            value: 2,
           },
           {
             choiceId: "E",
-            value: 1,
+            value: 5,
           },
         ],
       },
@@ -2659,19 +2659,19 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 3,
-          },
-          {
-            choiceId: "B",
             value: 2,
           },
           {
+            choiceId: "B",
+            value: 3,
+          },
+          {
             choiceId: "C",
-            value: 1,
+            value: 4,
           },
           {
             choiceId: "D",
-            value: 4,
+            value: 1,
           },
           {
             choiceId: "E",
@@ -2684,23 +2684,23 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 5,
-          },
-          {
-            choiceId: "B",
-            value: 2,
-          },
-          {
-            choiceId: "C",
             value: 3,
           },
           {
+            choiceId: "B",
+            value: 5,
+          },
+          {
+            choiceId: "C",
+            value: 2,
+          },
+          {
             choiceId: "D",
-            value: 4,
+            value: 1,
           },
           {
             choiceId: "E",
-            value: 1,
+            value: 4,
           },
         ],
       },
@@ -2717,7 +2717,7 @@ class TryoutTest extends Component {
           },
           {
             choiceId: "C",
-            value: 4,
+            value: 3,
           },
           {
             choiceId: "D",
@@ -2725,7 +2725,7 @@ class TryoutTest extends Component {
           },
           {
             choiceId: "E",
-            value: 3,
+            value: 4,
           },
         ],
       },
@@ -2734,11 +2734,11 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 4,
+            value: 5,
           },
           {
             choiceId: "B",
-            value: 5,
+            value: 1,
           },
           {
             choiceId: "C",
@@ -2746,7 +2746,7 @@ class TryoutTest extends Component {
           },
           {
             choiceId: "D",
-            value: 1,
+            value: 4,
           },
           {
             choiceId: "E",
@@ -2759,23 +2759,23 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 2,
-          },
-          {
-            choiceId: "B",
-            value: 3,
-          },
-          {
-            choiceId: "C",
-            value: 4,
-          },
-          {
-            choiceId: "D",
             value: 5,
           },
           {
-            choiceId: "E",
+            choiceId: "B",
             value: 1,
+          },
+          {
+            choiceId: "C",
+            value: 2,
+          },
+          {
+            choiceId: "D",
+            value: 3,
+          },
+          {
+            choiceId: "E",
+            value: 4,
           },
         ],
       },
@@ -2784,23 +2784,23 @@ class TryoutTest extends Component {
         answer: [
           {
             choiceId: "A",
-            value: 3,
-          },
-          {
-            choiceId: "B",
-            value: 4,
-          },
-          {
-            choiceId: "C",
             value: 5,
           },
           {
-            choiceId: "D",
+            choiceId: "B",
+            value: 1,
+          },
+          {
+            choiceId: "C",
             value: 2,
           },
           {
+            choiceId: "D",
+            value: 3,
+          },
+          {
             choiceId: "E",
-            value: 1,
+            value: 4,
           },
         ],
       },
@@ -2821,11 +2821,11 @@ class TryoutTest extends Component {
           },
           {
             choiceId: "D",
-            value: 5,
+            value: 4,
           },
           {
             choiceId: "E",
-            value: 4,
+            value: 5,
           },
         ],
       },

@@ -18,8 +18,8 @@ class TryoutList extends Component {
 
   render() {
     // const { setTryoutId, userId } = this.props;
-    const { isCountDown } = this.state;
-    const { userId } = this.props;
+    // const { isCountDown } = this.state;
+    // const { userId } = this.props;
     // const { userStatus, isStartButtonClicked } = this.state;
     return (
       <article className="br3 ba b--black-10 mv4 w-100 w-100-m w-100-l mw9 shadow-5">
@@ -28,42 +28,13 @@ class TryoutList extends Component {
           <li className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
             <img className="w2 h2 w3-ns h3-ns br-100" src={exam} alt="exam-icon" />
             <div className="pl3 flex-auto">
-              <span className="b f6 db black-70">Tryout 4</span>
-              {/* <span class="f6 db black-70">Countdown</span> */}
-              {/* <Link
-                to={{
-                  pathname: "/instruksi",
-                  state: { userId: userId },
-                }}
-              > */}
-              {/* <div className="f4 fw6 green button center" style={{ width: "fit-content" }}>
-                  Instruksi
-                </div> */}
-              {/* </Link> */}
-              {isCountDown ? (
-                <CountDownTryoutDay stopCountDown={this.stopCountDown} />
-              ) : (
-                <Link
-                  to={{
-                    pathname: "/instruksi",
-                    state: { userId: userId },
-                  }}
-                  className="no-underline"
-                >
-                  <div className="f5 fw6 dark-green button center" style={{ width: "fit-content" }}>
-                    Instruksi
-                  </div>
-                </Link>
-              )}
-
-              {/* <Link
-                to={"leaderboard/4"}
-                className="f5 fw6 button dark-green center no-underline"
-                href="tryout"
-                style={{ width: "fit-content" }}
-              >
-                Peringkat
-              </Link> */}
+              <span className="b f6 db black-70">Tryout 5</span>
+              {/* <span className="f6 db black-70">08/05/2021</span> */}
+            </div>
+            <div>
+              <a href="tel:" className="f6 link blue hover-dark-gray">
+                {/* Lihat */}
+              </a>
             </div>
           </li>
         </ul>
@@ -102,6 +73,52 @@ class TryoutList extends Component {
             <div>
               <a href="tel:" className="f6 link blue hover-dark-gray">
                 {/* Lihat */}
+              </a>
+            </div>
+          </li>
+          <li className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
+            <img className="w2 h2 w3-ns h3-ns br-100" src={exam} alt="exam-icon" />
+            <div className="pl3 flex-auto">
+              <span className="b f6 db black-70">Tryout 4</span>
+              {/* <span class="f6 db black-70">Countdown</span> */}
+              {/* <Link
+                to={{
+                  pathname: "/instruksi",
+                  state: { userId: userId },
+                }}
+              > */}
+              {/* <div className="f4 fw6 green button center" style={{ width: "fit-content" }}>
+                  Instruksi
+                </div> */}
+              {/* </Link> */}
+              {/* {isCountDown ? (
+                <CountDownTryoutDay stopCountDown={this.stopCountDown} />
+              ) : (
+                <Link
+                  to={{
+                    pathname: "/instruksi",
+                    state: { userId: userId },
+                  }}
+                  className="no-underline"
+                >
+                  <div className="f5 fw6 dark-green button center" style={{ width: "fit-content" }}>
+                    Instruksi
+                  </div>
+                </Link>
+              )} */}
+
+              <Link to={"leaderboard/4"} className="f5 fw6 button dark-green center no-underline" style={{ width: "fit-content" }}>
+                Peringkat
+              </Link>
+              <br />
+              <a
+                href="https://drive.google.com/file/d/1mbLXuBf30jOXegHd3WJgo_6mRCOsWRUQ/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+                className="f5 fw6 button dark-green center no-underline"
+                style={{ width: "fit-content" }}
+              >
+                Kunci Jawaban
               </a>
             </div>
           </li>

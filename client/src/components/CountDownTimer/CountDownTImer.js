@@ -29,11 +29,11 @@ const CountDownTimer = ({ onSubmitTest }) => {
       onSubmitTest();
     }
     return () => clearInterval(timerId);
-  });
+  }, [secs]);
 
   return (
     <div className="ba center mt4 pa2 f3" style={{ width: "fit-content" }}>
-      {mins < 5 ? (
+      {hours === 0 && mins < 5 ? (
         <p className="ma0 red">{`${hrs.toString().padStart(2, "0")}:${mins.toString().padStart(2, "0")}:${secs.toString().padStart(2, "0")}`}</p>
       ) : (
         <p className="ma0">{`${hrs.toString().padStart(2, "0")}:${mins.toString().padStart(2, "0")}:${secs.toString().padStart(2, "0")}`}</p>

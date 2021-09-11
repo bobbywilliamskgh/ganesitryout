@@ -8,7 +8,7 @@ const CountDownTryoutDay = (props) => {
   const [seconds, setSeconds] = useState(0);
 
   useEffect(() => {
-    var countDownDate = new Date("Aug 13, 2021 08:00:00").getTime();
+    var countDownDate = new Date("Aug 16, 2021 16:00:00").getTime();
     var x = setInterval(function () {
       // Get today's date and time
       var now = new Date().getTime();
