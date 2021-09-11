@@ -4,11 +4,7 @@ const { db } = require("../config/db");
 
 const sendToken = (user, statusCode, res) => {
   const token = jwt.sign({ id: user.user_id }, process.env.SECRET_KEY, {
-<<<<<<< HEAD
     expiresIn: "10h",
-=======
-    expiresIn: "8h",
->>>>>>> 3912a1bdc13b8d683a813eefcbe8f743a95225d5
   });
   res.status(statusCode).json({ success: true, token });
 };
@@ -28,7 +24,7 @@ exports.register = (req, res, next) => {
       .into("login")
       .returning("email")
       .then((loginEmail) => {
-	console.log("loginEmail", loginEmail);
+        console.log("loginEmail", loginEmail);
         return trx("users")
           .returning("*")
           .insert({
