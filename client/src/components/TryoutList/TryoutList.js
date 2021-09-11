@@ -134,10 +134,10 @@ class TryoutList extends Component {
                 </Link>
               )} */}
 
-              <Link to={"leaderboard/4"} className="f5 fw6 button dark-green center no-underline" style={{ width: "fit-content" }}>
+              {/* <Link to={"leaderboard/4"} className="f5 fw6 button dark-green center no-underline" style={{ width: "fit-content" }}>
                 Peringkat
               </Link>
-              <br />
+              <br /> */}
               <a
                 href="https://drive.google.com/file/d/1mbLXuBf30jOXegHd3WJgo_6mRCOsWRUQ/view?usp=sharing"
                 target="_blank"
