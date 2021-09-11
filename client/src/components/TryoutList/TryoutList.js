@@ -18,8 +18,8 @@ class TryoutList extends Component {
 
   render() {
     // const { setTryoutId, userId } = this.props;
-    // const { isCountDown } = this.state;
-    // const { userId } = this.props;
+    const { isCountDown } = this.state;
+    const { userId } = this.props;
     // const { userStatus, isStartButtonClicked } = this.state;
     return (
       <article className="br3 ba b--black-10 mv4 w-100 w-100-m w-100-l mw9 shadow-5">
@@ -28,8 +28,35 @@ class TryoutList extends Component {
           <li className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
             <img className="w2 h2 w3-ns h3-ns br-100" src={exam} alt="exam-icon" />
             <div className="pl3 flex-auto">
-              <span className="b f6 db black-70">Tryout 5</span>
+              <span className="b f6 db black-70">Tryout Premium 1.0</span>
               {/* <span className="f6 db black-70">08/05/2021</span> */}
+              {isCountDown ? (
+                <div>
+                  <CountDownTryoutDay stopCountDown={this.stopCountDown} />
+                </div>
+              ) : (
+                <Link
+                  to={{
+                    pathname: "/instruksi",
+                    state: { userId: userId },
+                  }}
+                  className="no-underline"
+                >
+                  <div className="f5 fw6 dark-green button center" style={{ width: "fit-content" }}>
+                    Instruksi
+                  </div>
+                </Link>
+              )}
+              {/* Pendaftaran ditutup hari sabtu jam 23.59 */}
+              <a
+                href="https://forms.gle/7oAahMowStD7z9C77"
+                target="_blank"
+                rel="noreferrer"
+                className="f5 fw6 button dark-green center no-underline"
+                style={{ width: "fit-content" }}
+              >
+                Daftar
+              </a>
             </div>
             <div>
               <a href="tel:" className="f6 link blue hover-dark-gray">
@@ -43,7 +70,7 @@ class TryoutList extends Component {
           <li className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
             <img className="w2 h2 w3-ns h3-ns br-100" src={exam} alt="exam-icon" />
             <div className="pl3 flex-auto">
-              <span className="b f6 db black-70">Tryout 1</span>
+              <span className="b f6 db black-70">Tryout 1 Free</span>
               <span className="f6 db black-70">08/05/2021</span>
             </div>
             <div>
@@ -55,7 +82,7 @@ class TryoutList extends Component {
           <li className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
             <img className="w2 h2 w3-ns h3-ns br-100" src={exam} alt="exam-icon" />
             <div className="pl3 flex-auto">
-              <span className="b f6 db black-70">Tryout 2</span>
+              <span className="b f6 db black-70">Tryout 2 Free</span>
               <span className="f6 db black-70">22/05/2021</span>
             </div>
             <div>
@@ -67,7 +94,7 @@ class TryoutList extends Component {
           <li className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
             <img className="w2 h2 w3-ns h3-ns br-100" src={exam} alt="exam-icon" />
             <div className="pl3 flex-auto">
-              <span className="b f6 db black-70">Tryout 3</span>
+              <span className="b f6 db black-70">Tryout 3 Free</span>
               <span className="f6 db black-70">18/06/2021</span>
             </div>
             <div>
@@ -79,7 +106,7 @@ class TryoutList extends Component {
           <li className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
             <img className="w2 h2 w3-ns h3-ns br-100" src={exam} alt="exam-icon" />
             <div className="pl3 flex-auto">
-              <span className="b f6 db black-70">Tryout 4</span>
+              <span className="b f6 db black-70">Tryout 4 Free</span>
               {/* <span class="f6 db black-70">Countdown</span> */}
               {/* <Link
                 to={{
