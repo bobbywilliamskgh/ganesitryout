@@ -37,11 +37,11 @@ exports.getUserInfoRoute = (req, res, next) => {
 };
 
 exports.getParticipant = async (req, res, next) => {
+  console.log("get participant...");
   const { id } = req.params;
   try {
     // console.log("email", email);
     console.log("userId", id);
-    console.log("get participants...");
     const users = await db.select("*").from("users").where("user_id", id);
     const user = users[0];
     console.log("user", user);
@@ -50,7 +50,7 @@ exports.getParticipant = async (req, res, next) => {
       return;
     }
     const email = user.email;
-    const participants = await db.select("email").from("participants").where("email", email);
+    const participants = await db.select("*").from("participants").where("participant_email", email);
     const participant = participants[0];
     console.log("participant", participant);
     if (!participant) {

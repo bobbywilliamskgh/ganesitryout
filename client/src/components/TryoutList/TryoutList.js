@@ -7,7 +7,7 @@ class TryoutList extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      isCountDown: true,
+      isCountDown: false,
     };
   }
 

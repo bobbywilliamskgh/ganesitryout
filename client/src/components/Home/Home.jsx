@@ -5,6 +5,19 @@ import Navigation from "../Navigation/Navigation";
 import Logo from "../Logo/Logo";
 import UserInformation from "../UserInformation/UserInformation";
 import TryoutList from "../TryoutList/TryoutList";
+import Particles from "react-particles-js";
+
+const particlesOptions = {
+  particles: {
+    number: {
+      value: 30,
+      density: {
+        enable: true,
+        value_area: 800,
+      },
+    },
+  },
+};
 
 const Home = ({ history }) => {
   // const [error, setError] = useState("");
@@ -45,6 +58,7 @@ const Home = ({ history }) => {
 
   return (
     <div>
+      <Particles params={particlesOptions} className="particles" />
       <Navigation isSignedin={true} logoutHandler={logoutHandler} />
       {/* <div>{privateData} </div> */}
       {/* <button onClick={logoutHandler}>Logout</button> */}

@@ -34,6 +34,7 @@ class TestInstruction extends Component {
     }
     // console.log("data from tryoutList", data);
     const userId = data.userId;
+    console.log("user id", userId);
     fetch(`${baseURL}/private/participants/${userId}`, {
       method: "GET",
       headers: myHeaders,
@@ -41,12 +42,12 @@ class TestInstruction extends Component {
       .then((response) => response.json())
       .then(
         (data) => {
-          // console.log("data", data);
+          console.log("data participant", data);
           if (data.success) {
-            // console.log("user is participant", data.participant);
+            console.log("user is participant", data.participant);
             userStatus.isParticipant = true;
           } else {
-            // console.log("user is not participant", data.participant);
+            console.log("user is not participant", data.participant);
             userStatus.isParticipant = false;
           }
           fetch(`${baseURL}/private/results/${userId}`, {
@@ -93,7 +94,7 @@ class TestInstruction extends Component {
     console.log("startTryout...");
     if (isParticipant && !isFinishTryout) {
       // history.push("/tryout/4", { userId: userId });
-      history.replace("tryout/4", { userId: userId });
+      history.replace("tryout/5", { userId: userId });
       // setTryoutId("4");
       // onRouteChange("tryout");
     } else {
@@ -104,7 +105,7 @@ class TestInstruction extends Component {
     const { userStatus, isStartButtonClicked, isInstructionClicked } = this.state;
     return (
       <div>
-        <h1 className="tryout-title">Tryout 4</h1>
+        <h1 className="tryout-title">Tryout 5</h1>
 
         <p className="f4 attention ma6 mt0 lh-copy">
           <strong>{"Penting! "}</strong>

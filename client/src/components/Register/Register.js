@@ -3,6 +3,19 @@ import axios from "axios";
 import baseURL from "../../apis/baseUrl";
 import Navigation from "../Navigation/Navigation";
 // import "./RegisterScreen.css";
+import Particles from "react-particles-js";
+
+const particlesOptions = {
+  particles: {
+    number: {
+      value: 30,
+      density: {
+        enable: true,
+        value_area: 800,
+      },
+    },
+  },
+};
 
 const Signup = ({ history }) => {
   const [name, setName] = useState("");
@@ -117,6 +130,7 @@ const Signup = ({ history }) => {
 
   return (
     <div>
+      <Particles params={particlesOptions} className="particles" />
       <Navigation isSignedin={false} />
       <article className="br3 ba b--black-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center">
         <main className="pa4 black-80">
