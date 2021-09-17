@@ -34,7 +34,7 @@ class TestInstruction extends Component {
     }
     // console.log("data from tryoutList", data);
     const userId = data.userId;
-    console.log("user id", userId);
+    //console.log("user id", userId);
     fetch(`${baseURL}/private/participants/${userId}`, {
       method: "GET",
       headers: myHeaders,
