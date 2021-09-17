@@ -25,17 +25,17 @@ class TestInstruction extends Component {
     myHeaders.append("Content-Type", "application/json");
     myHeaders.append("Authorization", `Bearer ${localStorage.getItem("authToken")}`);
 
-   // const data = this.props.location.state;
-   // if (!data) {
-      // console.log("data", data);
+    const data = this.props.location.state;
+    if (!data) {
+       console.log("data", data);
 
-     // this.setState({ isInstructionClicked: true });
-     // return;
-   // }
+       this.setState({ isInstructionClicked: true });
+       return;
+      }
     // console.log("data from tryoutList", data);
-    // const userId = data.userId;
-    const userId = 18;
-    console.log("user id", userId);
+
+    const userId = data.userId;
+    //console.log("user id", userId);
     fetch(`${baseURL}/private/participants/${userId}`, {
       method: "GET",
       headers: myHeaders,
@@ -89,8 +89,7 @@ class TestInstruction extends Component {
     const { isParticipant, isFinishTryout } = this.state.userStatus;
     const { history } = this.props;
     const data = this.props.location.state;
-    const userId = 18;
-   // const userId = data.userId;
+    const userId = data.userId;
     // console.log("userId in TestInstruction", userId);
     // const userId = this.props.userId;
     console.log("startTryout...");
