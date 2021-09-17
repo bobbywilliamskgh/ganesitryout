@@ -4227,7 +4227,7 @@ class TryoutTest extends Component {
     ]);
     return (
       <div>
-        <Prompt when={isNavBlock} message="Anggap ini ujian asli! Jangan meninggalkan halaman sebelum selesai ujian!" />
+        <Prompt when={isNavBlock} message="Anggap ini ujian asli, apakah Anda yakin ingin meninggalkan halaman ujian ?" />
         <TestInformation totalAnswered={totalAnswered} onSubmitTest={this.onSubmitTest} />
         <CountDownTimer onSubmitTest={this.onSubmitTest} />
         <TestContent
