@@ -35,7 +35,8 @@ class Leaderboard extends Component {
     return (
       <div>
         <h2>{`Peringkat Tryout ${tryoutId}`}</h2>
-        {users.length === 0 ? (
+        <p>Peringkat belum tersedia</p>
+        {/* {users.length === 0 ? (
           <p>Peringkat belum tersedia</p>
         ) : (
           <div className="pa4">
@@ -70,7 +71,7 @@ class Leaderboard extends Component {
               </table>
             </div>
           </div>
-        )}
+        )} */}
       </div>
     );
   }
