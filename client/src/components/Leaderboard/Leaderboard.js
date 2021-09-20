@@ -32,11 +32,15 @@ class Leaderboard extends Component {
     const { users } = this.state;
     // const { tryoutId } = this.props;
     const tryoutId = this.props.match.params.tryoutId;
+    const firstChar = tryoutId.charAt(0);
+    const tryoutIdCapitalized =
+      firstChar === "p"
+        ? firstChar.toUpperCase() + tryoutId.slice(1, 7) + " " + tryoutId.slice(7)
+        : firstChar.toUpperCase() + tryoutId.slice(1, 8) + " " + tryoutId.slice(8);
     return (
       <div>
-        <h2>{`Peringkat Tryout ${tryoutId}`}</h2>
-        <p>Peringkat belum tersedia</p>
-        {/* {users.length === 0 ? (
+        <h2>{`Peringkat Tryout ${tryoutIdCapitalized}`}</h2>
+        {users.length === 0 ? (
           <p>Peringkat belum tersedia</p>
         ) : (
           <div className="pa4">
@@ -71,7 +75,7 @@ class Leaderboard extends Component {
               </table>
             </div>
           </div>
-        )} */}
+        )}
       </div>
     );
   }
