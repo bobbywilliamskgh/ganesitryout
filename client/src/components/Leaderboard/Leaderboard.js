@@ -14,7 +14,7 @@ class Leaderboard extends Component {
     myHeaders.append("Content-Type", "application/json");
     myHeaders.append("Authorization", `Bearer ${localStorage.getItem("authToken")}`);
     const tryoutId = this.props.match.params.tryoutId;
-    // console.log("tryoutId", tryoutId);
+    console.log("tryoutId", tryoutId);
     fetch(`${baseURL}/private/leaderboard/${tryoutId}`, {
       method: "GET",
       headers: myHeaders,
@@ -22,7 +22,7 @@ class Leaderboard extends Component {
       .then((response) => response.json())
       .then(
         (users) => {
-          console.log(users);
+          console.log("users", users);
           this.setState({ users: users });
         },
         (error) => console.log(error)

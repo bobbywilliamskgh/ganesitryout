@@ -98,7 +98,7 @@ exports.getResult = async (req, res, next) => {
 
 exports.getLeaderboard = (req, res, next) => {
   const { tryoutId } = req.params;
-  console.log(tryoutId);
+  console.log("tryoutId,", tryoutId);
   let passedUsers = [];
   let failedUsers = [];
   db.transaction((trx) => {
@@ -116,7 +116,7 @@ exports.getLeaderboard = (req, res, next) => {
       .from("users")
       .join("results", "users.user_id", "=", "results.user_id")
       .orderBy("results.total_score", "desc")
-      .where("is_passed", false)
+      .where({ is_passed: false, tryout_id: tryoutId })
       .then((data) => {
         failedUsers = data;
         return trx
@@ -133,7 +133,7 @@ exports.getLeaderboard = (req, res, next) => {
           .from("users")
           .join("results", "users.user_id", "=", "results.user_id")
           .orderBy("results.total_score", "desc")
-          .where("is_passed", true)
+          .where({ is_passed: true, tryout_id: tryoutId })
           .then((data) => {
             passedUsers = data;
             const users = passedUsers.concat(failedUsers);

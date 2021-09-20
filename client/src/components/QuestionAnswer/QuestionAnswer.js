@@ -61,7 +61,7 @@ class AnswerChoiceModel {
 
 const QuestionAnswer = ({ questionNumber, tryoutId, onUserAnswerChange, userAnswers, currentAnswer }) => {
   const tryoutList = [
-    new TryoutModel("1", [
+    new TryoutModel("freemium1", [
       new QuestionModel("1", "pertanyaan1TO1 ?", [
         new AnswerChoiceModel("A", "pilihanA"),
         new AnswerChoiceModel("B", "pilihanB"),
@@ -84,7 +84,7 @@ const QuestionAnswer = ({ questionNumber, tryoutId, onUserAnswerChange, userAnsw
         new AnswerChoiceModel("E", "pilihanE"),
       ]),
     ]),
-    new TryoutModel("2", [
+    new TryoutModel("freemium2", [
       new QuestionModel("1", "pertanyaan1TO2 ?", [
         new AnswerChoiceModel("A", "pilihanA"),
         new AnswerChoiceModel("B", "pilihanB"),
@@ -107,7 +107,7 @@ const QuestionAnswer = ({ questionNumber, tryoutId, onUserAnswerChange, userAnsw
         new AnswerChoiceModel("E", "pilihanE"),
       ]),
     ]),
-    new TryoutModel("3", [
+    new TryoutModel("freemium3", [
       new QuestionModel("1", "pertanyaan1TO3 ?", [
         new AnswerChoiceModel("A", "pilihanA"),
         new AnswerChoiceModel("B", "pilihanB"),
@@ -130,7 +130,7 @@ const QuestionAnswer = ({ questionNumber, tryoutId, onUserAnswerChange, userAnsw
         new AnswerChoiceModel("E", "pilihanE"),
       ]),
     ]),
-    new TryoutModel("4", [
+    new TryoutModel("freemium4", [
       new QuestionModel(
         "1",
         "twk",
@@ -1311,7 +1311,7 @@ const QuestionAnswer = ({ questionNumber, tryoutId, onUserAnswerChange, userAnsw
         ]
       ),
     ]),
-    new TryoutModel("5", [
+    new TryoutModel("premium1", [
       new QuestionModel(
         "1",
         "twk",

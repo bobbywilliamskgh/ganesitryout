@@ -27,11 +27,11 @@ class TestInstruction extends Component {
 
     const data = this.props.location.state;
     if (!data) {
-       console.log("data", data);
+      console.log("data", data);
 
-       this.setState({ isInstructionClicked: true });
-       return;
-      }
+      this.setState({ isInstructionClicked: true });
+      return;
+    }
     // console.log("data from tryoutList", data);
 
     const userId = data.userId;
@@ -95,7 +95,7 @@ class TestInstruction extends Component {
     console.log("startTryout...");
     if (isParticipant && !isFinishTryout) {
       // history.push("/tryout/4", { userId: userId });
-      history.replace("tryout/5", { userId: userId });
+      history.replace("tryout/freemium5", { userId: userId });
       // setTryoutId("4");
       // onRouteChange("tryout");
     } else {
@@ -106,7 +106,7 @@ class TestInstruction extends Component {
     const { userStatus, isStartButtonClicked, isInstructionClicked } = this.state;
     return (
       <div>
-        <h1 className="tryout-title">Tryout 5</h1>
+        <h1 className="tryout-title">Tryout 5 </h1>
 
         <p className="f4 attention ma6 mt0 lh-copy">
           <strong>{"Penting! "}</strong>
