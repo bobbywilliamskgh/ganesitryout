@@ -23,7 +23,8 @@ class TryoutList extends Component {
     // const { userStatus, isStartButtonClicked } = this.state;
     return (
       <article className="br3 ba b--black-10 mv4 w-100 w-100-m w-100-l mw9 shadow-5">
-        <p className="pl4 tl">Akan Berlangsung</p>
+        {isCountDown ? <p className="pl4 tl">Akan berlangsung</p> : <p className="pl4 tl">Sedang Berlangsung</p>}
+
         <ul className="list pl4 mt0 measure">
           <li className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
             <img className="w2 h2 w3-ns h3-ns br-100" src={exam} alt="exam-icon" />
@@ -32,17 +33,22 @@ class TryoutList extends Component {
               {isCountDown ? (
                 <CountDownTryoutDay stopCountDown={this.stopCountDown} />
               ) : (
-                <Link
-                  to={{
-                    pathname: "/instruksi",
-                    state: { userId: userId },
-                  }}
-                  className="no-underline"
-                >
-                  <div className="f5 fw6 dark-green button center" style={{ width: "fit-content" }}>
-                    Instruksi
-                  </div>
-                </Link>
+                <div>
+                  <Link
+                    to={{
+                      pathname: "/instruksi",
+                      state: { userId: userId },
+                    }}
+                    className="no-underline"
+                  >
+                    <div className="f5 fw6 dark-green button center" style={{ width: "fit-content" }}>
+                      Instruksi
+                    </div>
+                  </Link>
+                  <Link to={"leaderboard/freemium5"} className="f5 fw6 button dark-green center no-underline" style={{ width: "fit-content" }}>
+                    Peringkat
+                  </Link>
+                </div>
               )}
 
               {/* <Link to={"leaderboard/4"} className="f5 fw6 button dark-green center no-underline" style={{ width: "fit-content" }}>

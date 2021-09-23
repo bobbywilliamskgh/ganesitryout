@@ -25,7 +25,7 @@ const AnswerChoice = ({ choiceId, choiceText, questId, onUserAnswerChange, answe
         />
       )}
       <label htmlFor={choiceId} className="lh-copy">
-        {choiceText.substring(0, 5) === "https" ? <img src={choiceText} /> : <p>{`${choiceId}. ${choiceText}`}</p>}
+        {choiceText.substring(0, 5) === "https" ? <img alt="" src={choiceText} /> : <p>{`${choiceId}. ${choiceText}`}</p>}
       </label>
     </div>
   );

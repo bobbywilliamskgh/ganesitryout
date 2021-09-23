@@ -2,9 +2,9 @@ import React from "react";
 
 const CountDownTimer = ({ onSubmitTest }) => {
   const hoursMinSecs = {
-    hours: 1,
-    minutes: 40,
-    seconds: 0,
+    hours: 0,
+    minutes: 0,
+    seconds: 30,
   };
   const { hours = 0, minutes = 0, seconds = 60 } = hoursMinSecs;
   const [[hrs, mins, secs], setTime] = React.useState([hours, minutes, seconds]);

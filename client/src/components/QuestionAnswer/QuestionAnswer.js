@@ -2782,9 +2782,2959 @@ const QuestionAnswer = ({ questionNumber, tryoutId, onUserAnswerChange, userAnsw
         ]
       ),
     ]),
+    new TryoutModel("freemium5", [
+      new QuestionModel(
+        "1",
+        "twk",
+        [
+          "Semboyan Bhineka Tunggal Ika adalah dasar untuk membangun persatuan dan kesatuan. Berbagai hal dalam kehidupan sehari-hari dan kehidupan bermasyarakat dapat menjadi wujud dari Semboyan ini. Berikut yang merupakan bentuk penerapan dari Bhineka Tunggal Ika adalah ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Hidup saling menghargai tanpa memandang suku, agama, ras dan bahasa"),
+          new AnswerChoiceModel("B", "Gotong royong dalam kegiatan-kegiatan bermasyarakat"),
+          new AnswerChoiceModel("C", "Menjaga keamanan dan ketertiban bangsa"),
+          new AnswerChoiceModel("D", "Membantu sesama ketika mengalami kesusahan"),
+          new AnswerChoiceModel("E", "Bertindak anarkis terhadap pelaku tindak kejahatan"),
+        ]
+      ),
+      new QuestionModel(
+        "2",
+        "twk",
+        [
+          "Radikalisme agama berakar pada faham keagamaan yang dinamis. Dinamis antara kutub tektualis dan liberalisme. Munculnya radikalisme agama telah menjadi ancaman tersendiri dalam menerapkan nilai- nilai pada ideologi pancasila. Untuk itu, upaya yang bisa dilakukan untuk mencegah radikalisme agama sekaligus sebagai bentuk penting dari pelestarian pancasila adalah ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Memperkuat implementasi pancasila dalam kehidupan keagamaan"),
+          new AnswerChoiceModel("B", "Memberikan pengetahuan yang cukup tentang ideologi pancasila"),
+          new AnswerChoiceModel("C", "Mengembangkan taman pendidikan Al-Qur'an di masjid-masjid"),
+          new AnswerChoiceModel("D", "Memperkuat pembelajaraan agama di pondok pesantren"),
+          new AnswerChoiceModel("E", "Mengajarkan agama di sekolah-sekolah"),
+        ]
+      ),
+      new QuestionModel(
+        "3",
+        "twk",
+        [
+          "Sejak Maklumat Pemerintah diberlakukan pada 14 November 1945, meskipun masih menggunakan UUD 1945 yang berunsurkan presidensial, pelaksanaannya berganti menjadi sistem pemerintahan parlementer, sehingga di masa ini terjadi penyimpangan konstitusional berikut ini",
+        ],
+        [
+          new AnswerChoiceModel("A", "KNIP berubah fungsi dari pembantu Presiden menjadi badan legislatif yang turut serta menetapkan GBHN"),
+          new AnswerChoiceModel("B", "Presiden ialah penyelenggara pemerintahan negara tertinggi di bawah MPR"),
+          new AnswerChoiceModel("C", "Presiden tidak bertanggung jawab kepada DPR  "),
+          new AnswerChoiceModel("D", "Indonesia adalah negara yang berdasarkan hukum dan tidak berdasarkan kekuasaan belaka "),
+          new AnswerChoiceModel("E", "Pemerintahan berdasarkan atas sistem konstitusi, tidak bersifat absolutisme "),
+        ]
+      ),
+      new QuestionModel(
+        "4",
+        "twk",
+        [
+          "Setiap negara berada pada daerah tertentu di muka bumi dan memiliki perbatasannya masing-masing. Kekuasaan negara meliputi semua wilayah, tidak hanya tanah, tetapi juga laut di sekitarnya serta angkasa di atasnya. Hal ini termasuk dalam salah satu unsur berdirinya negara, yaitu ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "daratan"),
+          new AnswerChoiceModel("B", "tempat"),
+          new AnswerChoiceModel("C", "wilayah"),
+          new AnswerChoiceModel("D", "samudera"),
+          new AnswerChoiceModel("E", "rumah"),
+        ]
+      ),
+      new QuestionModel(
+        "5",
+        "twk",
+        [
+          "Bahasa Indonesia memperlihatkan nilai-nilai sosial budaya luhur yang dimiliki bangsa Indonesia. Melalui keluhuran nilai yang ditunjukkan bangsa Indonesia, sepatutnya kita bangga, menjunjung dan mempertahankannya. Hal tersebut mendeskripsikan bahwa bangsa Indonesia merupakan lambang dari ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Kebanggaan nasional"),
+          new AnswerChoiceModel("B", "Identitas nasional"),
+          new AnswerChoiceModel("C", "Alat pemersatu bangsa"),
+          new AnswerChoiceModel("D", "Alat penghubung"),
+          new AnswerChoiceModel("E", "Alat komunikasi luhur"),
+        ]
+      ),
+      new QuestionModel(
+        "6",
+        "twk",
+        [
+          "Dalam hal rancangan undang-undang yang telah disetujui bersama DPR tidak disahkan oleh Presiden dalam waktu ... hari semenjak rancangan undang- undang tersebut disetujui, rancangan undang-undang tersebut sah menjadi undang- undang dan wajib diundangkan.",
+        ],
+        [
+          new AnswerChoiceModel("A", "7"),
+          new AnswerChoiceModel("B", "14"),
+          new AnswerChoiceModel("C", "30"),
+          new AnswerChoiceModel("D", "60"),
+          new AnswerChoiceModel("E", "90"),
+        ]
+      ),
+      new QuestionModel(
+        "7",
+        "twk",
+        ["Tipe desentralisasi yang bertujuan memberikan kesempatan kepada daerah untuk menggali secara maksimal potensi sumber dana daerah adalah ..."],
+        [
+          new AnswerChoiceModel("A", "Desentralisasi fiskal"),
+          new AnswerChoiceModel("B", "Desentralisasi ekonomi"),
+          new AnswerChoiceModel("C", "Desentralisasi pendanaan"),
+          new AnswerChoiceModel("D", "Desentralisasi administrasi"),
+          new AnswerChoiceModel("E", "Desentralisasi perdagangan"),
+        ]
+      ),
+      new QuestionModel(
+        "8",
+        "twk",
+        ["Paham yang mengutamakan kebebasan individu sebagai pangkal kebahagiaan hidup adalah ..."],
+        [
+          new AnswerChoiceModel("A", "Liberalisme"),
+          new AnswerChoiceModel("B", "Sosialisme"),
+          new AnswerChoiceModel("C", "Kapitalisme"),
+          new AnswerChoiceModel("D", "Fasisme"),
+          new AnswerChoiceModel("E", "Anarkisme"),
+        ]
+      ),
+      new QuestionModel(
+        "9",
+        "twk",
+        [
+          "Pengambilan keputusan merupakan perwujudan proses yang terjadi dalam keluarga dan merupakan hasil interaksi antara peran anggota keluarga untuk saling mempengaruhi. Berikut yang merupakan contoh dalam pengambilan keputusan di keluarga yang sesuai dengan demokrasi pancasila, yaitu ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Mengutamakan pendapat orangtua"),
+          new AnswerChoiceModel("B", "Memperhatikan suara terbanyak"),
+          new AnswerChoiceModel("C", "Mendahulukan anggota yang muda  "),
+          new AnswerChoiceModel("D", "Mengusahakan mufakat"),
+          new AnswerChoiceModel("E", "Mewujudkan keputusan rasional"),
+        ]
+      ),
+      new QuestionModel(
+        "10",
+        "twk",
+        [
+          "Badan yang bersifat berdikari yang mempunyai kewenangan untuk memberi usul atas pengangkatan hakim agung serta memiliki wewenang lain demi menjaga dan menegakkan kehormatan, keluhuran martabat, serta perilaku hakim adalah ......",
+        ],
+        [
+          new AnswerChoiceModel("A", "MA"),
+          new AnswerChoiceModel("B", "MK"),
+          new AnswerChoiceModel("C", "KY"),
+          new AnswerChoiceModel("D", "Kekuasaan Kehakiman"),
+          new AnswerChoiceModel("E", "MA, MK, dan KY"),
+        ]
+      ),
+      new QuestionModel(
+        "11",
+        "twk",
+        [
+          "Gerakan Non-blok adalah organisasi internasional yang terdiri lebih dari 100 negara yang menganggap dirinya tidak terikat dengan kekuatan besar apapun. Indonesia merupakan salah satu dari 100 anggota Negara-Negara non-blok lantaran Indonesia ingin bersifat netral pada percaturan 2 Negara adikuasa, Amerika Serikat dan Rusia. Setelah Perang Dunia II, kedua Negara itu terlibat pada ....",
+        ],
+        [
+          new AnswerChoiceModel("A", "perang ideologi"),
+          new AnswerChoiceModel("B", "perlombaan persenjataan"),
+          new AnswerChoiceModel("C", "persaingan ekonomi global"),
+          new AnswerChoiceModel("D", "ofensif politik"),
+          new AnswerChoiceModel("E", "adanya perang antara Amerika Serikat dengan Rusia"),
+        ]
+      ),
+      new QuestionModel(
+        "12",
+        "twk",
+        ["Hukum yang mengatur hak dan kewajiban lembaga - lembaga negara dalam menjalankan tugasnya disebut ..."],
+        [
+          new AnswerChoiceModel("A", "Hukum Nasional"),
+          new AnswerChoiceModel("B", "Hukum Tata Negara "),
+          new AnswerChoiceModel("C", "Hukum Administrasi Negara"),
+          new AnswerChoiceModel("D", "Hukum Abdi Negara"),
+          new AnswerChoiceModel("E", "Hukum Kelembagaan"),
+        ]
+      ),
+      new QuestionModel(
+        "13",
+        "twk",
+        [
+          "Salah satu perjuangan yang dilakukan Indonesia pada masa kependudukan Jepang adalah dengan memanfaatkan gerakan PUTERA (pusat tenaga rakyat) demi menumbuhkan semangat nasionalisme dan cinta tanah air. Berikut tokoh-tokoh yang memimpin organisasi ini, kecuali...",
+        ],
+        [
+          new AnswerChoiceModel("A", "K.H. Agus salim"),
+          new AnswerChoiceModel("B", "Ir. Soekarno"),
+          new AnswerChoiceModel("C", "Mohammad Hatta "),
+          new AnswerChoiceModel("D", "K.H. Mas Mansyur"),
+          new AnswerChoiceModel("E", "Ki hajar dewantara "),
+        ]
+      ),
+      new QuestionModel(
+        "14",
+        "twk",
+        ["Hak warga negara untuk melaksanakan perkawinan dan membentuk keluarga diatur dalam UUD 1945 Pasal ..."],
+        [
+          new AnswerChoiceModel("A", "Pasal 25"),
+          new AnswerChoiceModel("B", "Pasal 26 Ayat 2"),
+          new AnswerChoiceModel("C", "Pasal 27 Ayat 2"),
+          new AnswerChoiceModel("D", "Pasal 28B Ayat 1"),
+          new AnswerChoiceModel("E", "Pasal 29 Ayat 1 "),
+        ]
+      ),
+      new QuestionModel(
+        "15",
+        "twk",
+        [
+          `Salah satu lagu milik koes plus yang berlirik "Orang bilang tanah kita tanah surge, tongkat kayu dan batu jadi tanaman" telah mendeskripsikan betapa suburnya negeri Indonesia. Oleh sebab itu masyarakat Indonesia dapat menunjukkan rasa syukur mereka atas nikmat tersebut dengan cara.....`,
+        ],
+        [
+          new AnswerChoiceModel("A", "Melakukan ekploitasi besar-besaran terhadap sumber daya yang ada  "),
+          new AnswerChoiceModel("B", "Menjualnya untuk mendapatkan keuntungan yang besar  "),
+          new AnswerChoiceModel("C", "Menyimpannya untuk cadangan kekayaan Negara  "),
+          new AnswerChoiceModel("D", "Memanfaatkan kekayaan alam dengan tepat guna "),
+          new AnswerChoiceModel("E", "Melakukan penggundulan hutan untuk pemukiman "),
+        ]
+      ),
+      new QuestionModel(
+        "16",
+        "twk",
+        ["Pada tanggal 17 Juli 1944, Jenderal Hideki Tojo meletakkan jabatan sebagai perdana menteri, penggantinya adalah ..."],
+        [
+          new AnswerChoiceModel("A", "Letnan Jenderal Kumakichi Harada  "),
+          new AnswerChoiceModel("B", "Jenderal Itagaki"),
+          new AnswerChoiceModel("C", "Mayor Jenderal Yamamoto  "),
+          new AnswerChoiceModel("D", "Jenderal Kuniaki Koiso"),
+          new AnswerChoiceModel("E", "Letnan Jenderal Nagano "),
+        ]
+      ),
+      new QuestionModel(
+        "17",
+        "twk",
+        [
+          "Kebijakan Desentralisasi kepada daerah otonom, meningkatkan kewenangan Pemerintah Daerah untuk mengatur hal - hal yang berkaitan dengan daerahnya, kecuali ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Agama"),
+          new AnswerChoiceModel("B", "Pengaturan Pendapatan Daerah  "),
+          new AnswerChoiceModel("C", "Kebijakan Pembangunan  "),
+          new AnswerChoiceModel("D", "Budaya"),
+          new AnswerChoiceModel("E", "Sosial"),
+        ]
+      ),
+      new QuestionModel(
+        "18",
+        "twk",
+        [
+          "Pancasila menjadi petunjuk atau pedoman diberbagai kegiatan kehidupan untuk mengatur kehidupan bernegara dan berbangsa Indonesia merupakan pengertian dari Pancasila sebagai ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Pandangan hidup"),
+          new AnswerChoiceModel("B", "Dasar negara"),
+          new AnswerChoiceModel("C", "Ideologi"),
+          new AnswerChoiceModel("D", "Norma "),
+          new AnswerChoiceModel("E", "Aturan dasar"),
+        ]
+      ),
+      new QuestionModel(
+        "19",
+        "twk",
+        [
+          "Negara Indonesia aktif dalam upaya membangun perdamaian dunia, hal tersebut sesuai dengan amanat yang tercantum dalam pembukaan Undang-Undang Dasar 1945. Adapun penerapan politik luar negeri Indonesia yang berpegangan pada pembukaan Undang-Undang Dasar 1945 adalah ......",
+        ],
+        [
+          new AnswerChoiceModel("A", "Indonesia berusaha membantu perjuangan kemerdekaan bangsa-bangsa yang masih terjajah  "),
+          new AnswerChoiceModel(
+            "B",
+            "Menjalin hubungan persahabatan dengan bangsa lain atas dasar saling menghargai dengan tidak ikut campur urusan dalam negeri  "
+          ),
+          new AnswerChoiceModel("C", "Indonesia membantu pelaksanaan keadilan sosial internasional yang berpedoman pada piagam PBB"),
+          new AnswerChoiceModel("D", "Memperkuat sendi-sendi hukum internasional dan organisasi internasional untuk perdamaian yang kekal"),
+          new AnswerChoiceModel("E", "Ikut serta melaksanakan ketertiban dunia yang berdasarkan kemerdekaan dan perdamaian yang kekal"),
+        ]
+      ),
+      new QuestionModel(
+        "20",
+        "twk",
+        [
+          "Anda dapat mengukur kemampuan berbicara formal Anda menggunakan bermacam-macam tahapan, salah satunya adalah melalui tahap persiapan. Tahap persiapan meliputi hal berikut, kecuali ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Penentuan topik  "),
+          new AnswerChoiceModel("B", "Penentuan tujuan  "),
+          new AnswerChoiceModel("C", "Pengumpulan referensi  "),
+          new AnswerChoiceModel("D", "Penyusunan kerangka "),
+          new AnswerChoiceModel("E", "Pengkajian pokok "),
+        ]
+      ),
+      new QuestionModel(
+        "21",
+        "twk",
+        [
+          "Mengakui kesetaraan derajat, kesetaraan hak dan kewajiban asasi setiap manusia, tanpa memandang suku, keturunan, agama, kepercayaan, jenis kelamin, kedudukan sosial, warna kulit dan lainnya adalah pengamalan sila ke ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "1"),
+          new AnswerChoiceModel("B", "2"),
+          new AnswerChoiceModel("C", "3"),
+          new AnswerChoiceModel("D", "4"),
+          new AnswerChoiceModel("E", "5"),
+        ]
+      ),
+      new QuestionModel(
+        "22",
+        "twk",
+        [
+          "BPUPKI mengadakan sidang pertamanya di gedung Chuo Sangi In di Jalan Pejambon 6 Jakarta yang kini dikenal dengan sebutan Gedung Pancasila. Pada zaman Belanda, gedung tersebut merupakan gedung Volksraad, yang artinya ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Gedung Pancasila  "),
+          new AnswerChoiceModel("B", "Gedung Kemerdekaan  "),
+          new AnswerChoiceModel("C", "Gedung Rapat  "),
+          new AnswerChoiceModel("D", "Gedung Perwakilan Rakyat "),
+          new AnswerChoiceModel("E", "Gedung Pemerintahan "),
+        ]
+      ),
+      new QuestionModel(
+        "23",
+        "twk",
+        [
+          "Perhatikan rumusan dasar negara berikut:",
+          "1) Peri Ketuhanan",
+          "2) Peri Kerakyatan",
+          "3) Kesejahteraan Rakyat",
+          "4) Musyawarah",
+          "5) Keadilan Rakyat",
+          "6) Internasionalisme",
+          "Rumusan dasar negara yang merupakan usulan yang dikemukakan oleh Prof. Dr. Soepomo ditunjukkan pada nomor?",
+        ],
+        [
+          new AnswerChoiceModel("A", "1) dan 2)  "),
+          new AnswerChoiceModel("B", "4) dan 5)  "),
+          new AnswerChoiceModel("C", "2) dan 3)  "),
+          new AnswerChoiceModel("D", "3) dan 4) "),
+          new AnswerChoiceModel("E", "1) dan 6) "),
+        ]
+      ),
+      new QuestionModel(
+        "24",
+        "twk",
+        ["Untuk mengatasi, menanggulangi, dan memberantas korupsi di Indonesia, pemerintah membentuk Komisi Pemberantasan Korupsi pada tahun ..."],
+        [
+          new AnswerChoiceModel("A", "2001"),
+          new AnswerChoiceModel("B", "2002"),
+          new AnswerChoiceModel("C", "2003"),
+          new AnswerChoiceModel("D", "2004"),
+          new AnswerChoiceModel("E", "2005"),
+        ]
+      ),
+      new QuestionModel(
+        "25",
+        "twk",
+        ["Hukum yang lebih tinggi derajatnya mengesampingkan hukum / peraturan yang derajatnya di bawahnya. Pernyataan tersebut merupakan asas ..."],
+        [
+          new AnswerChoiceModel("A", "Legalitas"),
+          new AnswerChoiceModel("B", "Lex superior derogat legi inferior  "),
+          new AnswerChoiceModel("C", "Azas non retroaktif  "),
+          new AnswerChoiceModel("D", "Lex spesialis derogat lex generalis "),
+          new AnswerChoiceModel("E", "Lex posteriori derogat legi priori "),
+        ]
+      ),
+      new QuestionModel(
+        "26",
+        "twk",
+        ["Sila kelima Pancasila, Keadilan sosial bagi seluruh rakyat Indonesia, dilambangkan dengan ..."],
+        [
+          new AnswerChoiceModel("A", "Padi berwarna hijau dan kapas berwarna merah - putih  "),
+          new AnswerChoiceModel("B", "Padi berwarna kuning emas dan kapas berwarna hijau - putih  "),
+          new AnswerChoiceModel("C", "Padi berwarna kuning emas dan kapas berwarna merah - putih  "),
+          new AnswerChoiceModel("D", "Padi berwarna kuning emas dan kapas berwarna hitam - putih "),
+          new AnswerChoiceModel("E", "Padi berwarna merah dan kapas berwarna tua - hijau muda"),
+        ]
+      ),
+      new QuestionModel(
+        "27",
+        "twk",
+        [
+          "Pembahasan karya tulis ini penulis awali dengan mengetengahkan masalah yang berkaitan dengan peranan pelajar dalam menciptakan kamtibmas. Secara umum, pelajar merupakan bagian dari masyarakat. Oleh karena itu, pelajar tidak mungkin terlepas dari tanggung jawab dalam kamtibmas, baik secara langsung maupun tidak langsung. Mengingat luasnya jangkauan pembahasan maka pembahasan tersebut akan dibatasi ruang lingkupnya. ",
+          "Pertanyaan yang sesuai dengan pendahuluan di atas adalah .... ",
+        ],
+        [
+          new AnswerChoiceModel("A", "Apakah remaja mempunyai sikap acuh tak acuh terhadap kamtibmas?   "),
+          new AnswerChoiceModel("B", "Benarkah remaja merupakan bagian dari masyarakat?   "),
+          new AnswerChoiceModel("C", "Kapankah remaja harus berperan langsung dalam menciptakan kamtibmas?   "),
+          new AnswerChoiceModel("D", "Umur berapakah seseorang dikelompokkan sebagai remaja?  "),
+          new AnswerChoiceModel("E", "Bagaimanakah hubungan antara remaja dan orangtua dalam menciptakan kamtibmas? "),
+        ]
+      ),
+      new QuestionModel(
+        "28",
+        "twk",
+        [
+          "Orang-orang muda berkecenderungan untuk tidak mau terikat pada apa yang disebut oleh Francis Bacon idola tribus, berhala masyarakat lingkungan. Ikatan, cara berpikir, adat, cara hidup yang biasanya demikian kuat mengikat kebebasan suatu masyarakat, bagi orang muda dipandang sebagai sesuatu yang mengikat kebebasan (dinamisitas, kreativitas) mereka. Kecenderungan inilah yang membuat orang-orang muda lebih dapat berperan dalam dinamika perubahan rasial.",
+          "Kata serapan yang tidak terdapat dalam bagian laporan seminar di atas adalah .... ",
+        ],
+        [
+          new AnswerChoiceModel("A", `aktivitas   `),
+          new AnswerChoiceModel("B", "rasial   "),
+          new AnswerChoiceModel("C", "dinamika   "),
+          new AnswerChoiceModel("D", "kreativitas"),
+          new AnswerChoiceModel("E", "dinamisitas"),
+        ]
+      ),
+      new QuestionModel(
+        "29",
+        "twk",
+        [
+          "Bendungan di Desa Jatirogo ini tidak ada duanya di Indonesia. Tubuh bendungan tersebut dari bantalan karet berisi air. Karena terbuat dari karet, tinggi permukaannya bisa diatur secara fleksibel. Bila terjadi banjir, bantalan karet itu dikempiskan. Dan air bah lancar mengalir ke laut. Sebaliknya bila volume air sungai mengecil, tubuh bendungan diisi penuh, sehingga tingginya mencapai 3 m. Sungai terbendung dan airnya dimanfaatkan sebagai air minum dan irigasi. Pada saat yang sama, air pasang dari laut akan terhambat dan tak mencemari sungai yang menjadi sumber utama air tawar masyarakat di sekitar sungai. ",
+          "Makna kata fleksibel dalam paragraf di atas adalah .... ",
+        ],
+        [
+          new AnswerChoiceModel("A", "mudah"),
+          new AnswerChoiceModel("B", "leluasa   "),
+          new AnswerChoiceModel("C", "longgar"),
+          new AnswerChoiceModel("D", "cepat"),
+          new AnswerChoiceModel("E", "luwes"),
+        ]
+      ),
+      new QuestionModel(
+        "30",
+        "twk",
+        [
+          "Pemakaian batubara di negara kita hingga saat ini masih terbatas hanya pada PLTU dan pabrik semen. Teknologi pengolahan dan kualitas batubara yang dimiliki bisa dikatakan masih rendah. Selain itu, dana juga sangat terbatas. Di negara-negara maju batubara sudah bisa diolah menjadi sumber energi. Di samping itu, dengan teknologi tinggi batubara sudah bisa menghasilkan bahan baku industri kimia berupa gas sintesa. ",
+          "Berikut ini yang bukan merupakan rincian isi dari gagasan yang dikemukakan pada wacana di atas adalah .... ",
+        ],
+        [
+          new AnswerChoiceModel("A", "Teknologi pengolahan masih rendah.   "),
+          new AnswerChoiceModel("B", "Kualitas batubara masih rendah.   "),
+          new AnswerChoiceModel("C", "Batubara menjadi sumber energi.   "),
+          new AnswerChoiceModel("D", "Batubara bahan baku industri kimia.  "),
+          new AnswerChoiceModel("E", "Pemakaian batubara masih terbatas. "),
+        ]
+      ),
+      new QuestionModel(
+        "31",
+        "tiu",
+        ["UANG : BANK = PADI : ..."],
+        [
+          new AnswerChoiceModel("A", "Sawah"),
+          new AnswerChoiceModel("B", "Lumbung"),
+          new AnswerChoiceModel("C", "Jambangan"),
+          new AnswerChoiceModel("D", "Kapas"),
+          new AnswerChoiceModel("E", "Tempayan"),
+        ]
+      ),
+      new QuestionModel(
+        "32",
+        "tiu",
+        ["DELMAN : KUDA = HELIKOPTER : ..."],
+        [
+          new AnswerChoiceModel("A", "Tiket"),
+          new AnswerChoiceModel("B", "Ban"),
+          new AnswerChoiceModel("C", "Baling - baling"),
+          new AnswerChoiceModel("D", "Landasan"),
+          new AnswerChoiceModel("E", "Penumpang"),
+        ]
+      ),
+      new QuestionModel(
+        "33",
+        "tiu",
+        ["BASKET : RING = ... : ..."],
+        [
+          new AnswerChoiceModel("A", "Badminton : Kok"),
+          new AnswerChoiceModel("B", "Sepak bola : Gawang"),
+          new AnswerChoiceModel("C", "Renang : Kolam"),
+          new AnswerChoiceModel("D", "Sepak bola : Lapangan"),
+          new AnswerChoiceModel("E", "Tinju : Sarung tangan"),
+        ]
+      ),
+      new QuestionModel(
+        "34",
+        "tiu",
+        ["SENIN : RABU = ... : ..."],
+        [
+          new AnswerChoiceModel("A", "Satu : Tiga"),
+          new AnswerChoiceModel("B", "Mawar : Melati"),
+          new AnswerChoiceModel("C", "Detik : Menit"),
+          new AnswerChoiceModel("D", "Padi : Beras"),
+          new AnswerChoiceModel("E", "April : Februari"),
+        ]
+      ),
+      new QuestionModel(
+        "35",
+        "tiu",
+        ["K, M, N, O, Q, Q, ...., ...."],
+        [
+          new AnswerChoiceModel("A", "R, T"),
+          new AnswerChoiceModel("B", "T, S"),
+          new AnswerChoiceModel("C", "U, Q"),
+          new AnswerChoiceModel("D", "V, J"),
+          new AnswerChoiceModel("E", "S, V"),
+        ]
+      ),
+      new QuestionModel(
+        "36",
+        "tiu",
+        ["F, B , F, F, F, J, ...."],
+        [
+          new AnswerChoiceModel("A", "B"),
+          new AnswerChoiceModel("B", "F"),
+          new AnswerChoiceModel("C", "K"),
+          new AnswerChoiceModel("D", "N"),
+          new AnswerChoiceModel("E", "M"),
+        ]
+      ),
+      new QuestionModel(
+        "37",
+        "tiu",
+        ["Y, H, U, J, Q, L, ..."],
+        [
+          new AnswerChoiceModel("A", "M"),
+          new AnswerChoiceModel("B", "N"),
+          new AnswerChoiceModel("C", "O"),
+          new AnswerChoiceModel("D", "P"),
+          new AnswerChoiceModel("E", "Q"),
+        ]
+      ),
+      new QuestionModel(
+        "38",
+        "tiu",
+        ["D, F, E, G, F, H, ...."],
+        [
+          new AnswerChoiceModel("A", "G, I"),
+          new AnswerChoiceModel("B", "H, J"),
+          new AnswerChoiceModel("C", "J, L"),
+          new AnswerChoiceModel("D", "K, L"),
+          new AnswerChoiceModel("E", "L, M"),
+        ]
+      ),
+      new QuestionModel(
+        "39",
+        "tiu",
+        ["W, R, T, P, Q, N, ...."],
+        [
+          new AnswerChoiceModel("A", "P, O"),
+          new AnswerChoiceModel("B", "Q, P"),
+          new AnswerChoiceModel("C", "L, N"),
+          new AnswerChoiceModel("D", "N, L"),
+          new AnswerChoiceModel("E", "M, O"),
+        ]
+      ),
+      new QuestionModel(
+        "40",
+        "tiu",
+        ["A, B, C, F, E, D, G, H, ..."],
+        [
+          new AnswerChoiceModel("A", "K, J"),
+          new AnswerChoiceModel("B", "I, J"),
+          new AnswerChoiceModel("C", "I, L"),
+          new AnswerChoiceModel("D", "I, N"),
+          new AnswerChoiceModel("E", "K, N"),
+        ]
+      ),
+      new QuestionModel(
+        "41",
+        "tiu",
+        [
+          "Sebuah mobil menempuh perjalanan 15 km dengan 1 liter bensin ketika mobil dipacu dengan kecepatan 50 km per jam. Jika mobil tersebut berkecepatan 60 km per jam, maka jarak yang dapat ditempuh hanya 80%-nya. Berapakah bensin yang diperlukan untuk menempuh jarak 120 km dengan kecepatan 60 km per jam?",
+        ],
+        [
+          new AnswerChoiceModel("A", "6,4 liter"),
+          new AnswerChoiceModel("B", "8 liter"),
+          new AnswerChoiceModel("C", "9,6 liter"),
+          new AnswerChoiceModel("D", "10 liter"),
+          new AnswerChoiceModel("E", "7,6 liter"),
+        ]
+      ),
+      new QuestionModel(
+        "42",
+        "tiu",
+        ["Seperti ayam bertelur di atas padi.", " Makna peribahasa di atas adalah ..."],
+        [
+          new AnswerChoiceModel("A", "Bagai orang kaya yang tak pernah habis hartanya"),
+          new AnswerChoiceModel("B", "Orang yang senang hidupnya karena tinggal pada orang kaya yang pemurah"),
+          new AnswerChoiceModel("C", "Kelimpahan harta kekayaan yang tak disangka - sangka"),
+          new AnswerChoiceModel("D", "Selalu menonjolkan kekayaan "),
+          new AnswerChoiceModel("E", "Orang yang kaya sehingga segalanya diukur dengan harta benda"),
+        ]
+      ),
+      new QuestionModel(
+        "43",
+        "tiu",
+        [
+          "Murid sebuah TK adalah sejumlah A anak. Dari jumlah tersebut, sejumlah B anak suka melukis, sejumlah C anak suka menari, dan sejumlah D anak suka melukis dan menari. Berapa porsi jumlah anak yang tidak menyukai melukis atau menari?",
+        ],
+        [
+          new AnswerChoiceModel("A", "( A - B - C ) : A "),
+          new AnswerChoiceModel("B", "( D + C + B ) : A"),
+          new AnswerChoiceModel("C", "( A - D - C - B ) : A"),
+          new AnswerChoiceModel("D", "( A + D - C - B ) : A "),
+          new AnswerChoiceModel("E", "( A - C + B + D ) : A "),
+        ]
+      ),
+      new QuestionModel(
+        "44",
+        "tiu",
+        ["Wilson menempuh perjalanan 70 km dalam 2 1/2 jam. Agar bisa sampai di tujuan 1/2 jam lebih cepat, berapa seharusnya kecepatan Wilson?"],
+        [
+          new AnswerChoiceModel("A", "12 km/jam"),
+          new AnswerChoiceModel("B", "35 km/jam"),
+          new AnswerChoiceModel("C", "27 km/jam"),
+          new AnswerChoiceModel("D", "28 km/jam"),
+          new AnswerChoiceModel("E", "29 km/jam"),
+        ]
+      ),
+      new QuestionModel(
+        "45",
+        "tiu",
+        [
+          "Nilai rata - rata ulangan matematika dari 30 siswa adalah 45. Jika nilai dari Jose digabungkan dengan kelompok itu, maka nilai rata - rata ulangan matematika menjadi 46. Berapakah nilai Jose?",
+        ],
+        [
+          new AnswerChoiceModel("A", "50"),
+          new AnswerChoiceModel("B", "66"),
+          new AnswerChoiceModel("C", "76"),
+          new AnswerChoiceModel("D", "80"),
+          new AnswerChoiceModel("E", "85"),
+        ]
+      ),
+      new QuestionModel(
+        "46",
+        "tiu",
+        [
+          "Keluarga Pak Anwar akan berfoto bersama di sebuah studio foto. Pak Anwar mempunyai 2 orang anak. Mereka semua akan berfoto secara berdampingan. Peluang foto pak Anwar dan istri berdampingan adalah ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "1/3"),
+          new AnswerChoiceModel("B", "1/4"),
+          new AnswerChoiceModel("C", "2/3"),
+          new AnswerChoiceModel("D", "1/2"),
+          new AnswerChoiceModel("E", "1/5"),
+        ]
+      ),
+      new QuestionModel(
+        "47",
+        "tiu",
+        ["Harga laptop dinaikkan dua puluh lima persen dari harga sebelumnya. Persentase penurunan harga agar laptop kembali seperti harga semula adalah ..."],
+        [
+          new AnswerChoiceModel("A", "0.2"),
+          new AnswerChoiceModel("B", "0.25"),
+          new AnswerChoiceModel("C", "0.49"),
+          new AnswerChoiceModel("D", "0.5"),
+          new AnswerChoiceModel("E", "0.55"),
+        ]
+      ),
+      new QuestionModel(
+        "48",
+        "tiu",
+        [
+          "Kenny, pemain bulutangkis Klub Jaya, dapat melakukan service forehand dengan baik.",
+          "Setiap pemain yang bisa melakukan service forehand dengan baik dapat melakukan dropshot akurat.",
+          "Kesimpulan yang benar adalah ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Beberapa pemain bulutangkis Klub Jaya dapat melakukan dropshot dengan baik."),
+          new AnswerChoiceModel("B", "Semua pemain bulutangkis Klub Jaya dapat melakukan service forehand dengan baik dan dropshot yang akurat."),
+          new AnswerChoiceModel("C", "Beberapa pemain bulutangkis Klub Jaya dapat melakukan service forehand dengan baik dan dropshot yang akurat."),
+          new AnswerChoiceModel(
+            "D",
+            "Beberapa pemain bulutangkis Klub Jaya tidak dapat melakukan service forehand dengan baik tetapi dapat melakukan dropshot yang akurat."
+          ),
+          new AnswerChoiceModel("E", "Semua pemain bulutangkis dapat melakukan service forehand dengan baik dan dropshot yang akurat."),
+        ]
+      ),
+      new QuestionModel(
+        "49",
+        "tiu",
+        [
+          "Sebuah bus tampak dipenuhi penumpang hingga 10 orang penumpang terpaksa harus berdiri. Pada halte berikutnya 17 penumpang turun dan naik 8 orang. 5 penumpang kemudian turun di pemberhentian berikutnya tanpa ada seorangpun yang naik. Di halte berikutnya 4 orang naik tanpa seorangpun penumpang di dalam bus yang turun.",
+          "Berapa kursi kosong di dalam bus setelah bus meninggalkan halte tersebut?",
+        ],
+        [
+          new AnswerChoiceModel("A", "Tidak ada kursi kosong"),
+          new AnswerChoiceModel("B", "1 kursi kosong"),
+          new AnswerChoiceModel("C", "2 kursi kosong"),
+          new AnswerChoiceModel("D", "3 kursi kosong"),
+          new AnswerChoiceModel("E", "4 kursi kosong"),
+        ]
+      ),
+      new QuestionModel(
+        "50",
+        "tiu",
+        ["Della membeli gaun pesta seharga Rp 156.000. Ia mendapat diskon sebesar 5%. Berapa rupiah yang harus dibayar Della?"],
+        [
+          new AnswerChoiceModel("A", "Rp150.000"),
+          new AnswerChoiceModel("B", "Rp146.700"),
+          new AnswerChoiceModel("C", "Rp148.200"),
+          new AnswerChoiceModel("D", "Rp148.400"),
+          new AnswerChoiceModel("E", "Rp148.600"),
+        ]
+      ),
+      new QuestionModel(
+        "51",
+        "tiu",
+        ["Semua tenda beratap dan tinggi.", " Andi berada di tempat yang tidak beratap dan tidak tinggi.", "Kesimpulan yang tepat adalah ..."],
+        [
+          new AnswerChoiceModel("A", "Andi berada di tenda beratap."),
+          new AnswerChoiceModel("B", "Andi berada di tenda tinggi."),
+          new AnswerChoiceModel("C", "Andi berada di bukan tenda."),
+          new AnswerChoiceModel("D", "Andi berada di tenda bukan beratap."),
+          new AnswerChoiceModel("E", "Andi berada di tenda bukan beratap dan bukan tinggi."),
+        ]
+      ),
+      new QuestionModel(
+        "52",
+        "tiu",
+        [
+          "Sebuah survei yang dilakukan pada 50 orang di sebuah toko kaset menghasilkan:",
+          "25 orang suka musik pop",
+          "27 orang suka musik rock",
+          "4 orang tidak suka musik pop atau rock",
+          "Berapa orang yang hanya suka satu jenis musik?",
+        ],
+        [
+          new AnswerChoiceModel("A", "6"),
+          new AnswerChoiceModel("B", "52"),
+          new AnswerChoiceModel("C", "40"),
+          new AnswerChoiceModel("D", "46"),
+          new AnswerChoiceModel("E", "12"),
+        ]
+      ),
+      new QuestionModel(
+        "53",
+        "tiu",
+        [
+          "Berapa lama waktu yang diperlukan untuk mengisi penuh air ke dalam sebuah tangki berkapasitas 3.750 sentimeter kubik jika air tersebut dipompakan ke dalam tangki dengan kecepatan 300 sentimeter kubik per menit?",
+        ],
+        [
+          new AnswerChoiceModel("A", "12 menit 30 detik"),
+          new AnswerChoiceModel("B", "12 menit"),
+          new AnswerChoiceModel("C", "10 menit 30 detik"),
+          new AnswerChoiceModel("D", "11 menit"),
+          new AnswerChoiceModel("E", "11 menit 25 detik"),
+        ]
+      ),
+      new QuestionModel(
+        "54",
+        "tiu",
+        [
+          "Enam orang mahasiswa masing - masing memiliki sejumlah uang. Jika uang yang dimiliki oleh setiap dua orang dari mereka dijumlahkan, besarnya adalah (dalam ribuan) 215, 197, 264, 236, 208, 229, 252, 244, 218, 241, 226, 249, 258, 256, 247. Jumlah uang keenam mahasiswa tersebut adalah ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "590"),
+          new AnswerChoiceModel("B", "688"),
+          new AnswerChoiceModel("C", "708"),
+          new AnswerChoiceModel("D", "780"),
+          new AnswerChoiceModel("E", "760"),
+        ]
+      ),
+      new QuestionModel(
+        "55",
+        "tiu",
+        [
+          "A, B, dan C mengumpulkan uang untuk membuka usaha, berturut - turut Rp 140.000, Rp 180.000, dan Rp 220.000. Pembagian keuntungan sebanding dengan jumlah modal yang disetorkan. Jika usaha mereka mendapat untung sebanyak Rp 150.000 berapa keuntungan yang diterima B?",
+        ],
+        [
+          new AnswerChoiceModel("A", "Rp50.000"),
+          new AnswerChoiceModel("B", "Rp75.000"),
+          new AnswerChoiceModel("C", "Rp70.000"),
+          new AnswerChoiceModel("D", "Rp62.000"),
+          new AnswerChoiceModel("E", "Rp65.000"),
+        ]
+      ),
+      new QuestionModel(
+        "56",
+        "tiu",
+        ["Nan lurah jua dituruti air.", "Makna peribahasa di atas adalah ..."],
+        [
+          new AnswerChoiceModel("A", "Orang angkuh selalu tidak peduli kata orang lain "),
+          new AnswerChoiceModel("B", "Orang kaya juga yang senantiasa bertambah kekayaanya, orang miskin tetap miskin"),
+          new AnswerChoiceModel("C", "Kehidupan sebaiknya seperti air mengalir"),
+          new AnswerChoiceModel("D", "Keadaan yang sangat sulit"),
+          new AnswerChoiceModel("E", "Kondisi yang biasa - biasa saja"),
+        ]
+      ),
+      new QuestionModel(
+        "57",
+        "tiu",
+        [
+          "Ada suatu apartemen yang terdiri dari beberapa lantai yang jaraknya sama. Apartemen tersebut diurutkan sesuai dengan syarat di bawah ini :",
+          "- Lantai U terletak persis di atas lantai X",
+          "- Lantai W terletak persis di atas lantai Y",
+          "- Lantai Z terletak empat lantai di bawah X",
+          "- Lantai W terletak dua lantai di atas lantai Z",
+          "- S dan V terpisah dua lantai",
+          "Urutan lantai dari bawah ke atas adalah....",
+        ],
+        [
+          new AnswerChoiceModel("A", "U W Y Z X"),
+          new AnswerChoiceModel("B", "Z Y W X U"),
+          new AnswerChoiceModel("C", "U X Z W Y"),
+          new AnswerChoiceModel("D", "W Y Z U X"),
+          new AnswerChoiceModel("E", "Tidak ada kesimpulan yang benar"),
+        ]
+      ),
+      new QuestionModel(
+        "58",
+        "tiu",
+        [
+          "Ada suatu apartemen yang terdiri dari beberapa lantai yang jaraknya sama. Apartemen tersebut diurutkan sesuai dengan syarat di bawah ini :",
+          "- Lantai U terletak persis di atas lantai X",
+          "- Lantai W terletak persis di atas lantai Y",
+          "- Lantai Z terletak empat lantai di bawah X",
+          "- Lantai W terletak dua lantai di atas lantai Z",
+          "- S dan V terpisah dua lantai",
+          "Posisi S maupun V tidak berimpit dengan U, W, X, Y maupun Z. Mana yang tidak mungkin benar?",
+        ],
+        [
+          new AnswerChoiceModel("A", "V terletak satu lantai di bawah U"),
+          new AnswerChoiceModel("B", "S terletak satu lantai di atas U"),
+          new AnswerChoiceModel("C", "S terletak empat lantai di bawah U"),
+          new AnswerChoiceModel("D", "V terletak di bawah S tetapi di atas Z"),
+          new AnswerChoiceModel("E", "Tidak ada kesimpulan yang benar"),
+        ]
+      ),
+      new QuestionModel(
+        "59",
+        "tiu",
+        [
+          "Karena adanya pandemi covid 19, sebuah hotel di tempat wisata untuk hari tertentu mengurangi jumlah pengunjung sebesar 25% menjadi 150 tamu sehari. Maka jumlah pengunjung setiap harinya sebelum adanya pengurangan adalah....",
+        ],
+        [
+          new AnswerChoiceModel("A", "320"),
+          new AnswerChoiceModel("B", "510"),
+          new AnswerChoiceModel("C", "80"),
+          new AnswerChoiceModel("D", "200"),
+          new AnswerChoiceModel("E", "195"),
+        ]
+      ),
+      new QuestionModel(
+        "60",
+        "tiu",
+        [
+          "Seorang dosen akan melakukan pembimbingan skripsi dengan mahasiswanya. Adapun urutannya adalah P akan bimbingan setelah S. Q  bimbingan sebelum R dan bersamaan dengan P. Maka urutan bimbingan yang benar adalah....",
+        ],
+        [
+          new AnswerChoiceModel("A", "Setelah R adalah P, Q, S"),
+          new AnswerChoiceModel("B", "Sebelum Q adalah R"),
+          new AnswerChoiceModel("C", "Sebelum S adalah Q"),
+          new AnswerChoiceModel("D", "Setelah P adalah Q, S"),
+          new AnswerChoiceModel("E", "Setelah S adalah P, Q, R"),
+        ]
+      ),
+      new QuestionModel(
+        "61",
+        "tiu",
+        [
+          "Suatu kegiatan organisasi akan dibentuk dengan pembagian tim yang terdiri dari masing-masing tiga orang. Reza harus berada satu tim dengan Nita. Zea tidak boleh satu tim dengan Yoel atau Wilda. Wilda tidak boleh terpisah dengan Nita. Sedangkan Firman hanya mau satu tim dengan Alisa. Panji akan satu tim dengan Zea dan Cho selalu menerima bergabung dengan tim siapa saja. Maka anggota yang tidak mungkin berada pada satu tim adalah....",
+        ],
+        [
+          new AnswerChoiceModel("A", "Reza dan Nita"),
+          new AnswerChoiceModel("B", "Panji dan Cho"),
+          new AnswerChoiceModel("C", "Reza dan Zea"),
+          new AnswerChoiceModel("D", "Firman dan Alisa"),
+          new AnswerChoiceModel("E", "Wilda dan Reza"),
+        ]
+      ),
+      new QuestionModel("62", "tiu", "https://i.ibb.co/v1JvznF/14.png", [
+        new AnswerChoiceModel("A", "https://i.ibb.co/BKCmChF/14a.png"),
+        new AnswerChoiceModel("B", "https://i.ibb.co/C1Mf5QP/14b.png"),
+        new AnswerChoiceModel("C", "https://i.ibb.co/P6p6PTm/14c.png"),
+        new AnswerChoiceModel("D", "https://i.ibb.co/QKHb92p/14d.png"),
+        new AnswerChoiceModel("E", "-"),
+      ]),
+      new QuestionModel("63", "tiu", "https://i.ibb.co/R0qdjSr/15.png", [
+        new AnswerChoiceModel("A", "https://i.ibb.co/DM0s4Qx/15a.png"),
+        new AnswerChoiceModel("B", "https://i.ibb.co/NnwHQQ1/15b.png"),
+        new AnswerChoiceModel("C", "https://i.ibb.co/fSMhwxP/15c.png"),
+        new AnswerChoiceModel("D", "https://i.ibb.co/wNMrPxY/15d.png"),
+        new AnswerChoiceModel("E", "-"),
+      ]),
+      new QuestionModel("64", "tiu", "https://i.ibb.co/hysZrDY/16.png", [
+        new AnswerChoiceModel("A", "https://i.ibb.co/d2D8nBr/16a.png"),
+        new AnswerChoiceModel("B", "https://i.ibb.co/KDntcyb/16b.png"),
+        new AnswerChoiceModel("C", "https://i.ibb.co/ZdGRVDB/16c.png"),
+        new AnswerChoiceModel("D", "https://i.ibb.co/5xS5Bwd/16d.png"),
+        new AnswerChoiceModel("E", "-"),
+      ]),
+      new QuestionModel("65", "tiu", "https://i.ibb.co/PGZkcKP/17.png", [
+        new AnswerChoiceModel("A", "https://i.ibb.co/RNdfsFP/17a.png"),
+        new AnswerChoiceModel("B", "https://i.ibb.co/BPLCm1Y/17b.png"),
+        new AnswerChoiceModel("C", "https://i.ibb.co/w0RM7xz/17c.png"),
+        new AnswerChoiceModel("D", "https://i.ibb.co/Jn8s9Dc/17d.png"),
+        new AnswerChoiceModel("E", "-"),
+      ]),
+      new QuestionModel(
+        "66",
+        "tkp",
+        ["Kakak Anda dimarahi orang tua karena uang SPP hilang. Maka yang anda lakukan adalah ..."],
+        [
+          new AnswerChoiceModel("A", "Membiarkannya untuk mengingat dimana uang tersebut"),
+          new AnswerChoiceModel("B", "Menenangkannya karena dimarahai oleh orang tua "),
+          new AnswerChoiceModel("C", "Membantu mencari uang yang hilang"),
+          new AnswerChoiceModel("D", "Ikut menyalahkannya"),
+          new AnswerChoiceModel("E", "Pura - pura tidak tahu"),
+        ]
+      ),
+      new QuestionModel(
+        "67",
+        "tkp",
+        ["Atasan anda melakukan rekayasa laporan keuangan kantor, maka anda ..."],
+        [
+          new AnswerChoiceModel("A", "Dalam hati tidak menyetujui hal tersebut"),
+          new AnswerChoiceModel("B", "Hal tersebut sering terjadi di kantor manapun"),
+          new AnswerChoiceModel("C", "Mengingatkan dan melaporkan kepada yang berwenang"),
+          new AnswerChoiceModel("D", "Tidak ingin terlibat dalam proses rekayasa tersebut"),
+          new AnswerChoiceModel("E", "Hal semacam itu memang sudah menjadi tradisi yang tidak baik di Indonesia"),
+        ]
+      ),
+      new QuestionModel(
+        "68",
+        "tkp",
+        [
+          "Saya dipercayakan mengatur suatu kegiatan yang belum dipublikasikan dan masih harus dijaga kerahasiaannya. Ketika saya berada di antara teman-teman dekat di kantor, saya .... ",
+        ],
+        [
+          new AnswerChoiceModel("A", "Akan mengalihkan ke pembicaraan lain bila mereka sudah mulai menyinggung mengenai tugas baru saya."),
+          new AnswerChoiceModel("B", "Akan merasa gelisah dan kurang senang bila mereka mulai membicarakan tugas baru saya"),
+          new AnswerChoiceModel("C", "Membatasi pembicaraan agar tidak menyangkut ke hal-hal tugas baru saya"),
+          new AnswerChoiceModel("D", "Membicarakan hal-hal lain yang tidak ada kaitannya dengan tugas baru saya"),
+          new AnswerChoiceModel("E", "Suka menerima masukan demi masukan dalam rangka pengembangan tugas baru saya dan tetap menjaga amanah"),
+        ]
+      ),
+      new QuestionModel(
+        "69",
+        "tkp",
+        [
+          "Hampir semua rekan kerja di departemen kamu berkeliaran selama jam kerja dan dengan sadar memperlambat waktu istirahat. Sedangkan kamu yang masih menjadi pegawai baru, mendapat banyak sekali tugas yang tidak sebanding dengan rekan-rekan senior kamu. Menyikapi hal ini, yang kamu lakukan adalah ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Mencoba memperbincangkan hal ini kepada atasan"),
+          new AnswerChoiceModel("B", "Melaporkan hal ini kepada unit kepatuhan internal di bagian saya"),
+          new AnswerChoiceModel("C", "Tetap melaksanakan pekerjaan"),
+          new AnswerChoiceModel("D", "Mengusahakan untuk tetap memberikan yang terbaik akan tugas dan mengerjakannya dengan sepenuh hati"),
+          new AnswerChoiceModel(
+            "E",
+            "Tidak perduli akan hal itu karena saya memegang kedisipinan dan sikap mawas diri dengan mengerjakan apa yang menjadi bagian saya dan tidak memperdulikan apa yang bukan menjadi wewenang saya"
+          ),
+        ]
+      ),
+      new QuestionModel(
+        "70",
+        "tkp",
+        [
+          "Anda adalah bagian dari suatu unit pada organisasi tertentu. Suatu saat Ada penyelewengan yang terjadi dalam unit Anda berupa pemalsuan data yang dilakukan oleh rekan unit Anda. Sikap Anda adalah ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Marah"),
+          new AnswerChoiceModel("B", "Menyampaikan dalam rapat unit tentang penyelewengan tersebut"),
+          new AnswerChoiceModel("C", "Pura - pura tidak tahu"),
+          new AnswerChoiceModel("D", "Menyampaikan bahwa apa yang dilakukan adalah kesalahan dan mencoba memperbaikinya"),
+          new AnswerChoiceModel("E", "Merasa malu, karena itu bagian dari kerja unit Anda"),
+        ]
+      ),
+      new QuestionModel(
+        "71",
+        "tkp",
+        [
+          "Suatu waktu anda diminta oleh kepala divisi secara mendadak untuk melaporkan hasil perkembangan pekerjaan yang dibebankan kepada anda, maka anda akan ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Panik"),
+          new AnswerChoiceModel("B", "Mencari alasan"),
+          new AnswerChoiceModel("C", "Semakin termotifasi"),
+          new AnswerChoiceModel("D", "Biasa saja"),
+          new AnswerChoiceModel("E", "Melaporkan perkembangan seadanya"),
+        ]
+      ),
+      new QuestionModel(
+        "72",
+        "tkp",
+        ["Salah seorang klien anda merupakan orang yang suka terlambat. Maka anda ..."],
+        [
+          new AnswerChoiceModel("A", "Tidak akan mencontohnya"),
+          new AnswerChoiceModel("B", "Tidak suka dengan sikapnya"),
+          new AnswerChoiceModel("C", "Memberikan nasihat kepadanya"),
+          new AnswerChoiceModel("D", "Mengingatkan dia agar tidak terlambat lagi"),
+          new AnswerChoiceModel("E", "Melaporkannya kepada atasan anda"),
+        ]
+      ),
+      new QuestionModel(
+        "73",
+        "tkp",
+        [
+          "Hampir semua pegawai di kantor instansi saya meminta uang tanda terima kasih atas pengurusan surat izin tertentu. Namun menurut peraturan kantor, hal itu tidaklah diperbolehkan, maka saya ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Ikut melakukannya karena bagaimana pun juga kawan - kawan kantor juga melakukannya"),
+          new AnswerChoiceModel("B", "Melakukannya hanya jika terpaksa membutuhkan uang tambahan untuk keperluan keluarga, sebab gaji kantor memang kecil"),
+          new AnswerChoiceModel("C", "Terkadang saja melakukan hal tersebut"),
+          new AnswerChoiceModel("D", "Berusaha semampunya untuk tidak melakukannya"),
+          new AnswerChoiceModel("E", "Tidak ingin melakukannya sama sekali"),
+        ]
+      ),
+      new QuestionModel(
+        "74",
+        "tkp",
+        ["Tim bola voli unit kami diperkirakan akan kalah melawan tim bola voli unit lain dalam instansi kami. Sikap saya dalam pertandingan adalah ..."],
+        [
+          new AnswerChoiceModel("A", "Lebih baik diam karena sadar akan kekuatan tim kami"),
+          new AnswerChoiceModel("B", "Berusaha bersembunyi agar tidak diketahui bahwa saya adalah pendukung tim lemah"),
+          new AnswerChoiceModel("C", "Tetap memberikan dukungan dengan penuh semangat"),
+          new AnswerChoiceModel("D", "Jika tim kami kalah tidaklah mengapa, toh sudah diperkirakan demikian"),
+          new AnswerChoiceModel("E", "Memberikan dukungan karena malu dianggap tidak setia kawan"),
+        ]
+      ),
+      new QuestionModel(
+        "75",
+        "tkp",
+        ["Keadaan yang sering terjadi saat ada masalah dalam sebuah tim kerja yang baru adalah ..."],
+        [
+          new AnswerChoiceModel("A", "Semua teman saya terlibat aktif untuk menyelesaikannya"),
+          new AnswerChoiceModel("B", "Tidak semua orang mau mengerjakan pekerjaan yang terkait dengan masalah tersebut"),
+          new AnswerChoiceModel("C", "Akhirnya saya juga yang harus membereskannya"),
+          new AnswerChoiceModel("D", "Saling mengharapkan ada yang menyelesaikan pekerjaan tersebut"),
+          new AnswerChoiceModel("E", "Pekerjaan akan selesai hanya jika ada yang memulai bekerja"),
+        ]
+      ),
+      new QuestionModel(
+        "76",
+        "tkp",
+        ["Saya mendapat kesempatan menjadi pengawal pribadi pejabat negara dalam pertemuan penting dengan para investor asing. Sikap saya ..."],
+        [
+          new AnswerChoiceModel("A", "Berusaha menghindari media masa yang membujuk untuk mengetahui hasil pertemuan tersebut"),
+          new AnswerChoiceModel("B", "Dengan bangga saya akan menceritakan kepada rekan media tentang pertemuan tersebut"),
+          new AnswerChoiceModel("C", "Memberitahu keluarga tentang hasil pertemuan"),
+          new AnswerChoiceModel("D", "Memberitahu sahabat saya di kantor tentang hasil pertemuan"),
+          new AnswerChoiceModel("E", "Tidak akan membocorkan hasil pertemuan karena bukan wewenang saya"),
+        ]
+      ),
+      new QuestionModel(
+        "77",
+        "tkp",
+        ["Terjadi pergantian pimpinan di unit kerja saya. Sikap saya adalah ..."],
+        [
+          new AnswerChoiceModel("A", "Tidak peduli"),
+          new AnswerChoiceModel("B", "Berusaha mengenal dan memahami visi dan misi pimpinan baru"),
+          new AnswerChoiceModel("C", "Tidak berusaha mendekati pimpinan baru karena takut dicap penjilat"),
+          new AnswerChoiceModel("D", "Berusaha mengenal pribadi pimpinan baru"),
+          new AnswerChoiceModel("E", "Pergantian pimpinan itu sesuatu yang biasa"),
+        ]
+      ),
+      new QuestionModel(
+        "78",
+        "tkp",
+        ["Saya sudah berusaha untuk memperbaiki kelemahan diri, tetapi belum juga menampakkan hasilnya. Sehingga saya ..."],
+        [
+          new AnswerChoiceModel("A", "menerimanya dengan terpaksa"),
+          new AnswerChoiceModel("B", "menerimanya, meski tentu saja dengan sedikit kekecewaan"),
+          new AnswerChoiceModel("C", "menerimanya dengan lapang dada"),
+          new AnswerChoiceModel("D", "membenci diri saya sendiri"),
+          new AnswerChoiceModel("E", "meratapi diri sendiri"),
+        ]
+      ),
+      new QuestionModel(
+        "79",
+        "tkp",
+        [
+          "Seorang kawan memiliki isteri yang akan melahirkan, dan karena tidak memiliki biaya Rumah Sakit, maka dia meminjam uang dari anda, padahal uang anda hanya cukup untuk kebutuhan sehari - hari.",
+        ],
+        [
+          new AnswerChoiceModel("A", "Saya meminta maaf dan mengatakan yang sebenarnya bahwa saya tidak punya uang untuk dipinjamkan"),
+          new AnswerChoiceModel("B", "Saya pinjamkan sisa uang saya yang sedikit tersebut"),
+          new AnswerChoiceModel("C", "Saya menolak meminjamkan uang saya, karena itu hanya cukup untuk kebutuhan sehari - hari"),
+          new AnswerChoiceModel("D", "Saya akan memberikan solusi dengan membantunya meminjam uang dari kawan lain"),
+          new AnswerChoiceModel("E", "Saya menyarankan agar dia meminjam dari orang lain"),
+        ]
+      ),
+      new QuestionModel(
+        "80",
+        "tkp",
+        ["Anda berada dalam satu kelompok untuk mengerjakan tugas dari Kampus dan teman - teman Anda merupakan orang - orang yang sibuk, maka anda akan ..."],
+        [
+          new AnswerChoiceModel("A", "Mencoba mengetahui jadwal masing - masing sehingga mereka semua dapat meluangkan waktunya untuk kerja kelompok"),
+          new AnswerChoiceModel("B", "Mulai mengajak mereka kerja kelompok ketika mereka tidak sibuk lagi"),
+          new AnswerChoiceModel("C", "Mulai mengajak mereka kerja kelompok ketika tenggak waktu penyelesaian sudah hampir tiba"),
+          new AnswerChoiceModel("D", "Cuek saja yang penting saya menyelesaikan apa yang menjadi tugas saya"),
+          new AnswerChoiceModel("E", "Menasehati rekan - rekan yang menurut Anda sangat sibuk sehingga tidak memiliki waktu untuk mengerjakan pekerjaan tim"),
+        ]
+      ),
+      new QuestionModel(
+        "81",
+        "tkp",
+        ["Apa yang anda lakukan bila terjadi kebakaran dikantor anda ..."],
+        [
+          new AnswerChoiceModel("A", "Segera memanggil pemadam kebakaran"),
+          new AnswerChoiceModel("B", "Melaporkan pada petugas gedung untuk menyelamatkan semua orang"),
+          new AnswerChoiceModel("C", "Meminta semua tenang"),
+          new AnswerChoiceModel("D", "Menjalankan prosedur penyelamatan diri, sehingga mengajak yang lain untuk keluar melalui pintu darurat"),
+          new AnswerChoiceModel("E", "Mematikan aliran listrik dan tidak menggunakan lift untuk meninggalkan gedung"),
+        ]
+      ),
+      new QuestionModel(
+        "82",
+        "tkp",
+        ["Banyak senior di kantor yang datang terlambat saat kerja, saya sebagai junior yang baru masuk ..."],
+        [
+          new AnswerChoiceModel("A", "Tidak ikut"),
+          new AnswerChoiceModel("B", "Memberi contoh dengan datang lebih awal"),
+          new AnswerChoiceModel("C", "Tergantung perintah pimpinan"),
+          new AnswerChoiceModel("D", "Ikut kebiasaan yang sudah ada"),
+          new AnswerChoiceModel("E", "Menegur senior"),
+        ]
+      ),
+      new QuestionModel(
+        "83",
+        "tkp",
+        [
+          "Pekerjaan Sita mendapat kritik dari orang lain, yaitu oleh warga yang pernah memiliki urusan administrasi dengannya, padahal banyak sekali warga yang menilai Sita sangat baik dalam melakukan pelayanan. Maka yang Sita lakukan adalah ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Mendiamkannya karena itu urusan dia"),
+          new AnswerChoiceModel("B", "Bertanya kepadanya terkait dengan pelayanan saya"),
+          new AnswerChoiceModel("C", "Tidak terima dan langsung marah"),
+          new AnswerChoiceModel("D", "Menanyakan kepadanya dan menunjukkan SOP "),
+          new AnswerChoiceModel("E", "Tidak peduli karena ia kurang memahami sistem"),
+        ]
+      ),
+      new QuestionModel(
+        "84",
+        "tkp",
+        [
+          "Ketika anda mengetik tugas dari atasan anda, tanpa sengaja teman anda mencabut kabel sambung dari stop kontak, secara otomatis komputer anda mati. Anda sangat panik karena data yang anda ketik belum tersimpan. Maka sikap yang akan anda tunjukan adalah ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Memarahi rekan yang melakukan hal tersebut"),
+          new AnswerChoiceModel("B", "Menerima permintaan maaf teman Anda"),
+          new AnswerChoiceModel("C", "Meminta teman anda bertanggung jawab atas perbuatannya"),
+          new AnswerChoiceModel("D", "Memaklumi ketidaksengajaan teman anda dan segera meneruskan tugas"),
+          new AnswerChoiceModel("E", "Menghela nafas panjang"),
+        ]
+      ),
+      new QuestionModel(
+        "85",
+        "tkp",
+        ["Ditengah pekerjaan besar dengan target yang tinggi saya mengalami kegagalan besar yang sangat mengancam karir saya, sebaiknya saya ..."],
+        [
+          new AnswerChoiceModel("A", "Meminta maaf atas kegagalan saya"),
+          new AnswerChoiceModel("B", "Bertanggung jawab sepenuhnya atas apa yang saya lakukan"),
+          new AnswerChoiceModel("C", "Tidak berputus asa, saya jadikan kegagalan ini sebagai penguat langkah kedepan"),
+          new AnswerChoiceModel("D", "Bertanggung jawab dengan segera mengundurkan diri dari pekerjaan"),
+          new AnswerChoiceModel("E", "Mencari - cari dalang dibalik kegagalan ini"),
+        ]
+      ),
+      new QuestionModel(
+        "86",
+        "tkp",
+        [
+          "Mugga merupakan siswa yang sering absen kehadirannya, sehingga prestasi akademiknya sangat rendah. Mugga sering absen karena ia harus mengikuti ritual acara keagamaannya. Nindy sebagai wali kelas Mugga sangat prihatin dengan situasi ini. Yang bisa dilakukan oleh Nindy adalah ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Meminta Mugga untuk lebih rajin masuk kelas dan mengikuti pelajaran"),
+          new AnswerChoiceModel("B", "Mencari informasi dari orang tua Mugga tentang ritual kepercayaan tersebut"),
+          new AnswerChoiceModel("C", "Mencari informasi kepada orang lain yang memiliki kepercayaan sama dengan Mugga "),
+          new AnswerChoiceModel("D", "Meminta sekolah mendiskusikan dispensasi ketidakhadiran karena ritual kepercayaan"),
+          new AnswerChoiceModel("E", "Bertanya kepada Mugga mengenai ritual yang wajib dilaksanakan menurut agama Mugga"),
+        ]
+      ),
+      new QuestionModel(
+        "87",
+        "tkp",
+        [
+          "Anda menerima perintah tugas ke luar kota. Kebetulan pekerjaan anda di kantor menumpuk dan harus diselesaikan. Maka tindakan yang akan anda lakukan adalah...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Meminta atasan untuk memberikan perpanjangan waktu menyelesaikan tugas tersebut"),
+          new AnswerChoiceModel("B", "Meminta atasan untuk keluar kota setelah anda menyelesaikan pekerjaan anda"),
+          new AnswerChoiceModel(
+            "C",
+            "Mengkoordinasikan tugas yang dapat dipercayakan kepada rekan kerja, selain tidak menyalahi prosedur pekerjaan dapat diselesaikan tepat waktu"
+          ),
+          new AnswerChoiceModel("D", "Membawa pekerjaan tersebut ke luar kota. Sehingga dapat diselesaikan tepat waktu"),
+          new AnswerChoiceModel("E", "Menyelesaikan semampu Anda"),
+        ]
+      ),
+      new QuestionModel(
+        "88",
+        "tkp",
+        ["Dibandingkan dengan rekan - rekan kerja saya yang lain, gaya kemarahan saya adalah ..."],
+        [
+          new AnswerChoiceModel("A", "Saya sering marah seperti lazimnya rekan lain"),
+          new AnswerChoiceModel("B", "Kemarahan saya lebih dahsyat dari rekan lain"),
+          new AnswerChoiceModel("C", "Saya tidak pernah marah"),
+          new AnswerChoiceModel("D", "Saya marah jika memang diperlukan untuk perbaikan kondisi agar lebih baik"),
+          new AnswerChoiceModel("E", "Saya cenderung lebih pemarah dari rekan lain"),
+        ]
+      ),
+      new QuestionModel(
+        "89",
+        "tkp",
+        [
+          "Anda adalah seorang artis yang sedang naik daun. Suatu hari manager Anda meminta Anda untuk syuting di luar kota, sedangkan masih banyak sekali beban pekerjaan kantor yang harus anda selesaikan, maka anda akan ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Keluar dari PNS"),
+          new AnswerChoiceModel("B", "Meminta izin atasan agar bisa melimpahkan pekerjaan ke rekan yang lain"),
+          new AnswerChoiceModel("C", "Segera menyelesaikan pekerjaan, kalau tidak terkejar, baru meminta izin atasan"),
+          new AnswerChoiceModel("D", "Mengundurkan diri dari perfilman"),
+          new AnswerChoiceModel("E", "Marah pada keadaan"),
+        ]
+      ),
+      new QuestionModel(
+        "90",
+        "tkp",
+        ["Saya mempunyai seorang saudara yang ingin sekali sekolah ditempat saya mengajar , yang saya lakukan..."],
+        [
+          new AnswerChoiceModel("A", "Memberinya alamat rumah kepala sekolah saya"),
+          new AnswerChoiceModel("B", "Memberitahukan pihak penyeleksi bahwa saudara saya akan mendaftar"),
+          new AnswerChoiceModel("C", "Memberikan trik dan celah untuk bisa lulus"),
+          new AnswerChoiceModel("D", "Menyemangatinya namun tak membantu apapun"),
+          new AnswerChoiceModel("E", "Tidak mempedulikannya"),
+        ]
+      ),
+      new QuestionModel(
+        "91",
+        "tkp",
+        ["Pimpinan ingin dibuatkan sebuah kumpulan berita - berita baru yang mudah dibaca, maka sebaiknya ..."],
+        [
+          new AnswerChoiceModel("A", "Saya buatkan kliping koran dengan jangka waktu tiap bulan"),
+          new AnswerChoiceModel("B", "Saya kumpulkan berita - berita dari internet internet dan saya bookmark tiap alamatnya"),
+          new AnswerChoiceModel("C", "Saya kumpulkan berita majalah dan koran yang berisi berita penting"),
+          new AnswerChoiceModel("D", "Saya bersama teman - teman menyimpan tiap koran dan majalah ke rak - rak khusus"),
+          new AnswerChoiceModel("E", "Saya meminta OB untuk mengkliping koran yang penting"),
+        ]
+      ),
+      new QuestionModel(
+        "92",
+        "tkp",
+        ["Saat makan siang saya mendapatkan makanan yang tidak sesuai dengan pesanan saya. Saya akan..."],
+        [
+          new AnswerChoiceModel("A", "Marah - marah dan meninggalkan tempat tersebut"),
+          new AnswerChoiceModel("B", "Meminta ganti sesuai pesanan"),
+          new AnswerChoiceModel("C", "Tetap memakannya dan membayar seperti biasa"),
+          new AnswerChoiceModel("D", "Tetap memakannya dan meminta potongan harga"),
+          new AnswerChoiceModel("E", "Menerima makanan tersebut, dan memesan lagi seperti keinginan"),
+        ]
+      ),
+      new QuestionModel(
+        "93",
+        "tkp",
+        [
+          "Sehubungan dengan pekerjaan Anda, kantor Anda memberikan jatah uang makan sebesar Rp.500.000, - untuk makan siang setiap harinya. Uang tersebut akan diganti sesuai dengan bukti pembayaran makan siang. Namun menurut Anda makan siang Anda selama ini tidak sebesar jumlah tersebut. Oleh karena itu Anda akan...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Tetap makan dengan jumlah tersebut demi mendapatkan uang reimburse"),
+          new AnswerChoiceModel("B", "Makan dengan jumlah yang secukupnya menurut Anda"),
+          new AnswerChoiceModel("C", "Makan secukupnya tapi memalsukan kwitansinya"),
+          new AnswerChoiceModel("D", "Makan secukupnya dengan kwitansi yang sebenarnya"),
+          new AnswerChoiceModel("E", "Ikut bagaimana rekan saya yang lain saja"),
+        ]
+      ),
+      new QuestionModel(
+        "94",
+        "tkp",
+        ["Musim hujan mengakibatkan dinding tempat anda bekerja bocor. Maka yang akan anda lakukan adalah ..."],
+        [
+          new AnswerChoiceModel("A", "Memindahkan benda - benda agar tidak basah"),
+          new AnswerChoiceModel("B", "Meminta cleaning service untuk membersihkan"),
+          new AnswerChoiceModel("C", "Memindahkan ruang kerja ke area yang lebih nyaman"),
+          new AnswerChoiceModel("D", "Segera memanggil tukang bangunan"),
+          new AnswerChoiceModel("E", "Memindahkan ruang kerja agar tukang bangunan dapat bekerja maksimal"),
+        ]
+      ),
+      new QuestionModel(
+        "95",
+        "tkp",
+        ["Jika salah seorang bawahan saya melakukan tugas yang saya berikan kepadanya dengan sangat baik, maka saya ..."],
+        [
+          new AnswerChoiceModel("A", "Puas, namun tak memuji karena hal itu akan membuatnya sombong"),
+          new AnswerChoiceModel("B", "Tak akan memuji"),
+          new AnswerChoiceModel("C", "Memuji setinggi langit agar dia juga senang kepada saya"),
+          new AnswerChoiceModel("D", "Memuji secara proposional"),
+          new AnswerChoiceModel("E", "Berpura-pura tidak tahu akan keberhasilannya melakukan tugas"),
+        ]
+      ),
+      new QuestionModel(
+        "96",
+        "tkp",
+        ["Bila ada rekan kerja yang salah memanggil nama saya, maka saya .."],
+        [
+          new AnswerChoiceModel("A", "Saya tersinggung, karena nama adalah kehornatan seseorang"),
+          new AnswerChoiceModel("B", "Saya tidak tersinggung"),
+          new AnswerChoiceModel("C", "Saya mengingatkan kekeliruannya dengan baik-baik"),
+          new AnswerChoiceModel("D", "Saya mengingatkannya dengan tegas agar dia jera"),
+          new AnswerChoiceModel("E", "Hal seperti itu tak menjadi masalah bagi saya"),
+        ]
+      ),
+      new QuestionModel(
+        "97",
+        "tkp",
+        ["Hal pertama yang akan saya lakukan saat saya memasuki tempat kerja yang baru adalah..."],
+        [
+          new AnswerChoiceModel("A", "Mempelajari sistem kerja di tempat tersebut dari peraturan dan data"),
+          new AnswerChoiceModel("B", "Mencari tahu apa yang harus saya kerjakan"),
+          new AnswerChoiceModel("C", "Menunggu perintah kerja dari atasan"),
+          new AnswerChoiceModel("D", "Mengamati sistem kerja pegawai di tempat kerja tersebut"),
+          new AnswerChoiceModel("E", "Menyapa rekan kerja baru dan bertanya tentang sistem kerja di tempat tersebut"),
+        ]
+      ),
+      new QuestionModel(
+        "98",
+        "tkp",
+        ["Anda baru saja mendapat teman satu tim. Maka anda dan rekan kerja anda akan ..."],
+        [
+          new AnswerChoiceModel("A", "Bersaing untuk mendapatkan simpati atasan"),
+          new AnswerChoiceModel("B", "Mengerjakan tugas masing - masing"),
+          new AnswerChoiceModel("C", "Berusaha saling menjatuhkan demi membangun simpati"),
+          new AnswerChoiceModel("D", "Mengenal rekan kerja dengan sering pergi bersama setelah pulang"),
+          new AnswerChoiceModel("E", "Berusaha saling memahami dan bahu - membahu dengan maksimal"),
+        ]
+      ),
+      new QuestionModel(
+        "99",
+        "tkp",
+        ["Anda adalah pimpinan pada suatu rapat penting kemudian anda mendapat kabar bahwa istri/ suami anda mengalami kecelakaan, maka anda akan ..."],
+        [
+          new AnswerChoiceModel("A", "Melanjutkan rapat karena harus bersikap profesional"),
+          new AnswerChoiceModel("B", "Pura - pura tidak tahu"),
+          new AnswerChoiceModel("C", "Menanyakan keadaan terlebih dahulu"),
+          new AnswerChoiceModel("D", "Menyuruh saudara untuk mengurus istri/ suami anda"),
+          new AnswerChoiceModel("E", "Panik"),
+        ]
+      ),
+      new QuestionModel(
+        "100",
+        "tkp",
+        ["Tempat saya bekerja mengalami pergantian kepala kantor. Padahal saya sangat dekat dengan kepala kantor yang lama. Saya akan ..."],
+        [
+          new AnswerChoiceModel("A", "Berusaha dekat dengan kepala kantor yang baru"),
+          new AnswerChoiceModel("B", "Tidak mau dekat dengan kepala kantor yang baru"),
+          new AnswerChoiceModel("C", "Tidak semangat dalam bekerja"),
+          new AnswerChoiceModel("D", "Segera menyesuaikan diri dengan pola kerja yang baru"),
+          new AnswerChoiceModel("E", "Tidak terpengaruh masalah pergantian kepala kantor"),
+        ]
+      ),
+      new QuestionModel(
+        "101",
+        "tkp",
+        [
+          "Rachmat menduduki jabatan penyedia di perusahaan. Belum lama ini, beberapa karyawan yang baru diterima memeluk agama yang termasuk ke dalam kelompok minoritas. Suatu kondisi yang memberikan nuasa yang berbeda dari waktu-waktu sebelumnya. Dalam hal ini, Rachmat ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Menunjukkan kepada rekan kerjanya bahwa saling menghargai keyakinan adalah hal yang mudah di lakukan"),
+          new AnswerChoiceModel("B", "Mempelajari apa yang mereka butuhkan dan membangun rasa saling menghargai"),
+          new AnswerChoiceModel("C", "Mencoba menghargai apa yang menjadi keyakinan mereka"),
+          new AnswerChoiceModel("D", "Tidak terlalu peduli dengan keadaan tersebut karena masalah agama bukan urusannya"),
+          new AnswerChoiceModel("E", "Menghargai keyakinan mereka tanpa harus merasa terganggu"),
+        ]
+      ),
+      new QuestionModel(
+        "102",
+        "tkp",
+        [
+          "Anda memutuskan untuk memberikan ponsel pada adik anda yang berusia 16 tahun hal pertama yang harus dilakukan saat pertama kali memberi ponsel pada adik anda yaitu",
+        ],
+        [
+          new AnswerChoiceModel("A", "Membiarkan adik anda bermain ponsel sendiri"),
+          new AnswerChoiceModel("B", "Mencoba untuk selektif dalam memilih pertemanan dan lingkungan adik"),
+          new AnswerChoiceModel(
+            "C",
+            "Menjelaskan bagaimana menggunakan ponsel secara bijaksana baik secara agama maupun dari sisi kebangsaan sehingga tidak salah penggunaannya"
+          ),
+          new AnswerChoiceModel("D", "Membatasi fitur pada ponsel sehingga tidak ada konten yang mengandung radikalisme"),
+          new AnswerChoiceModel("E", "Memutuskan untuk tidak memberikan ponsel hingga cukup usia"),
+        ]
+      ),
+      new QuestionModel(
+        "103",
+        "tkp",
+        [
+          "Kamu memiliki client yang telah menjadi bagian dari perusahaan selama bertahun-tahun. Suatu hari, client tersebut dilayani oleh salah satu rekan kerja kamu. Dan ia melakukan sesuatu yang tidak disukai client tersebut. Bagaimana sikap anda dalam situasi tersebut?",
+        ],
+        [
+          new AnswerChoiceModel("A", "Meminta maaf atas nama rekan kerja anda"),
+          new AnswerChoiceModel("B", "Mengucapkan terimakasih banyak kepada client tersebut dan menjadikan sebagai tolak ukur kinerja anda"),
+          new AnswerChoiceModel("C", "Mendengarkan keluhan tersebut dengan seksama dan akan ditindaklanjuti."),
+          new AnswerChoiceModel("D", "Mendengarkan keluhan tersebut dengan seksama dan langsung chatting ke rekan kerja anda yang dimaksudkan."),
+          new AnswerChoiceModel("E", "Mendengarkan keluhan tersebut dengan seksama dan akan melaporkan ke atasan/pihak yang bewenang."),
+        ]
+      ),
+      new QuestionModel(
+        "104",
+        "tkp",
+        [
+          "Pak Ahmad selaku pemuka agama di Desa Maju, telah mendapatkan bantuan 100 juta. Sebagian masyarakat menginginkan dana itu digunakan untuk renovasi masjid. Sebagian masyarakat yang lain menginginkannya untuk membeli alat kesenian. Kebetulan saat itu ada penawaran alat kesenian dengan harga special. Sikap yang sebaiknya diambil Pak Ahmad adalah",
+        ],
+        [
+          new AnswerChoiceModel("A", "membicarakan permasalahan tersebut pada rapat bulanan sambll menunggu masukan dari warga"),
+          new AnswerChoiceModel("B", "memutuskan secara pribadl peruntukan alokasi dana daripada menunggu keputusan warga yang tidak jelas waktunya"),
+          new AnswerChoiceModel("C", "mengadakan rapat dengan warga karena tidak ingin disalahkan warga"),
+          new AnswerChoiceModel("D", "tidak membuat keputusan sebelum ada warga yang menanyakan tentang alokasi dana"),
+          new AnswerChoiceModel("E", "membangun komunikasi dengan warga dan mendengarkan aspirasi sebelum mengambil keputusan"),
+        ]
+      ),
+      new QuestionModel(
+        "105",
+        "tkp",
+        [
+          "Saat pergi ke kantor, seorang karyawan sering kali menghabiskan waktu sebelum bekerja untuk diskusi dengan teman-temannya. Namun ia selalu membicarakan mengenai organisasi berbasis agama dan mengajak teman lainnya untuk bergabung. teman-teman satu divisi anda kurang nyaman, hal yang dilakukan oleh anda adalah",
+        ],
+        [
+          new AnswerChoiceModel("A", "Cukup diam karena bukan urusan anda"),
+          new AnswerChoiceModel("B", "Melaporkan kepada atasan agar ditindak dengan cepat"),
+          new AnswerChoiceModel("C", "Mencoba untuk mengingatkan agar tidak memaksa dan mengajak ke organisasi radikalisme"),
+          new AnswerChoiceModel("D", "Ikut bergabung"),
+          new AnswerChoiceModel("E", "Mengatakan kepada teman-teman untuk menolak ajakannya"),
+        ]
+      ),
+      new QuestionModel(
+        "106",
+        "tkp",
+        [
+          "Andre dan juga Kadek merupakan teman dekat sejak kecil mereka selalu bersama dan juga pergi ke sekolah. Pada suatu hari, Kadek harus izin sekolah karena orang tuanya tengah mengadakan acara besar, untuk memperingati hari raya umat Hindu lalu apa yang harus dilakukan oleh Andre?",
+        ],
+        [
+          new AnswerChoiceModel("A", "Menjaga ketenangan dan juga menyampaikan informasi bahwa kadek izin untuk bisa melakukan hari raya sesuai agamanya"),
+          new AnswerChoiceModel("B", "Menghormati hari raya ataupun acara yang diperingati oleh Kadek"),
+          new AnswerChoiceModel("C", "Membiarkan Kadek untuk bisa beribadah dengan khusyuk dan bermain dengannya keesokan harinya"),
+          new AnswerChoiceModel("D", "Menjelaskan dengan baik kepada teman kelas apa yang dilakukan oleh Kadek di rumah"),
+          new AnswerChoiceModel("E", "Diam saja karena bukan urusan andre"),
+        ]
+      ),
+      new QuestionModel(
+        "107",
+        "tkp",
+        [
+          "Anda telah memasukkan data yang salah mengenai biaya perjalanan dinas rekan-rekan kerja Anda dari yang berada di unit teknis. Kesalahan yang Anda lakukan sangat fatal, yaitu biaya perjalanan yang seharusnya sebesar Rp 40.000.000,00 dicatat sebesar Rp 4.000.000. Sehingga terdapat selisih Rp36.000.000,00 pada jumlah total. Beruntung karena dokumen itu belum diselesaikan. Sebagai staff yang jujur dan konsekuen, maka yang Anda akan lakukan adalah ?",
+        ],
+        [
+          new AnswerChoiceModel("A", "Siap menerima konsekuensi dan siap digantikan oleh siapapun yang lebih berkompeten dari saya"),
+          new AnswerChoiceModel("B", "Berdiskusi dengan atasan bagaimana tindak selanjutnya dari kesalahan yang saya lakukan"),
+          new AnswerChoiceModel(
+            "C",
+            "Meminta maaf kepada pihak yang terkait dan menyelesaikan potensi kerugian negara tersebut melalui sidang penyalahgunaan keuangan"
+          ),
+          new AnswerChoiceModel("D", "Bersedia mengganti rugi atas nominal yang diinput dan bersedia posisi saya diganti akibat kelalaian saya "),
+          new AnswerChoiceModel("E", "Bertanggung jawab atas apa yang sudah saya lakukan"),
+        ]
+      ),
+      new QuestionModel(
+        "108",
+        "tkp",
+        [
+          "Tahun ini, pelaksanaan rangkaian perayaan ulang tahun Sunny Company bertepatan dengan Bulan Puasa. Sebagian besar karyawan mengkhawatirkan waktu pelaksanaan dapat mengganggu karyawan yang sedang berpuasa. Sebagai ketua pelaksana kegiatan, hal yang dilakukan Sunny adalah ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "mendengarkan semua masukan dari rekan-rekan kerjanya"),
+          new AnswerChoiceModel("B", "melaksanakan kegiatan sesuai dengan direncanakannya"),
+          new AnswerChoiceModel("C", "melaksanakan kegiatan sesuai jadwal tahun-tahun sebelumnya"),
+          new AnswerChoiceModel("D", "mendengarkan masukan dari semua pihak dan memutuskan bersama jalan terbaiknya"),
+          new AnswerChoiceModel("E", "menerima masukan dari rekan kerja yang lain, jika tidak mengubah yang direncanakan"),
+        ]
+      ),
+      new QuestionModel(
+        "109",
+        "tkp",
+        [
+          "Pagi ini, kamu datang terburu-buru ke kantor, hal ini karena jalanan yang macet sekali sehingga kendaraan yang kamu bawa tidak bisa bergerak dan terjebak cukup lama di jalan raya, sehingga kamu hampir terlambat untuk tiba di kantor. Sedangkan semua karyawan melakukan absensi berbasis teknologi dimana jika terlambat melakukan presensi, maka akan dianggap tidak hadir. Namun, kamu melihat seorang wanita yang kebingungan mencari tempat pelayanan ketika kamu ingin bergegas ke tempat absensi. Sedangkan satpam yang biasa bertugas belum hadir, apa yang akan kamu lakukan?",
+        ],
+        [
+          new AnswerChoiceModel("A", "Memberitahu arah tempat layanan tersebut kemudian absen"),
+          new AnswerChoiceModel("B", "Menyuruh menunggu karena petugas belum hadir"),
+          new AnswerChoiceModel("C", "Menyapa ibu itu dan menanyakan keperluannya, kemudian kamu tinggal"),
+          new AnswerChoiceModel("D", "Mengajak ibu itu untuk ikut kamu absen sehingga bisa menanyakan keperluan dan mengantarkannya"),
+          new AnswerChoiceModel("E", "Mengantarkannya ke tempat yang dia tuju baru absen"),
+        ]
+      ),
+      new QuestionModel(
+        "110",
+        "tkp",
+        [
+          "Hari ini merupakan salah satu hari, dimana diumumkan akan adanya demo besar-besaran, untuk memprotes sebuah program, yang diberikan atau dilancarkan oleh pemerintah sikap anda sebagai ASN",
+        ],
+        [
+          new AnswerChoiceModel("A", "Mencoba mencari kejelasan informasi tersebut dan tetap fokus untuk bisa bekerja dengan baik"),
+          new AnswerChoiceModel("B", "Mengajak atau mencoba untuk ikut turun dan terjun demo pada hari yang sama"),
+          new AnswerChoiceModel(
+            "C",
+            "Mencoba untuk bersikap netral hingga mendapatkan informasi yang jelas mengingat protes yang dilakukan merupakan hal yang sangat wajar pada sebuah program"
+          ),
+          new AnswerChoiceModel("D", "Menyetujui adanya program tersebut karena anda adalah seorang pegawai negara"),
+          new AnswerChoiceModel("E", "Mencoba untuk mengkritisi program tersebut"),
+        ]
+      ),
+    ]),
+    new TryoutModel("freemium6", [
+      new QuestionModel(
+        "1",
+        "twk",
+        [
+          "Jika Dewan Perwakilan Rakyat tidak mengabulkan susunan anggaran pendapatan dan belanja negara yang telah diusulkan oleh Presiden, Pemerintah akan menerapkan Anggaran Pendapatan dan Belanja Negara tahun yg lalu. Pernyataan itu di bahas pada UUD 1945 mengenai ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "APBN"),
+          new AnswerChoiceModel("B", "Hal Keuangan  "),
+          new AnswerChoiceModel("C", "Otonomi  "),
+          new AnswerChoiceModel("D", "Penyusunan Keuangan "),
+          new AnswerChoiceModel("E", "RUU APBN "),
+        ]
+      ),
+      new QuestionModel(
+        "2",
+        "twk",
+        [
+          "Bangsa Indonesia berasal dari daerah bangsa Indonesia itu sendiri. Bahkan ada pula beberapa bangsa lain yang berada di kawasan Asia juga berasal dari daerah Indonesia. Prof. Moh. Yamin pernah menyampaikan pendapat tersebut. Yang menjadi dasar munculnya pendapat tersebut adalah ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Bangsa-bangsa yang berbahasa Austronesia berasal dari Indonesia, kemudian menyebar ke Indo-Cina dan Pasifik  "),
+          new AnswerChoiceModel("B", "Bangsa yang bermukim di wilayah Indonesia terdapat beberapa kesamaan dengan bangsa- bangsa Madagascar dan Formosa"),
+          new AnswerChoiceModel(
+            "C",
+            "Fosil dan artefak lebih banyak dan lebih lengkap ditemukan di wilayah Indonesia dibandingkan dengan daerah-daerah lainnya di Indonesia  "
+          ),
+          new AnswerChoiceModel("D", "Bangsa yang tinggal daerah pesisir Melayu berasal dari Sumatera yang bercampur dengan bangsa Mongol dan protomelayu "),
+          new AnswerChoiceModel(
+            "E",
+            "Bangsa indonesia berasal dari daerah Campa yang menyebar di wilayah kepulauan dengan menggunakan perahu-perahu bercadik "
+          ),
+        ]
+      ),
+      new QuestionModel(
+        "3",
+        "twk",
+        [
+          "Perguruan Taman Siswa yang dibangun oleh Ki Hajar Dewantara adalah sebuah sekolah yang pembangunannya diperuntukan pada penduduk pribumi jelata supaya mereka bisa mendapatkan pendidikan seperti para priayi dan Belanda. Pelajaran yang dapat diambil dari tokoh bangsa itu adalah ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Pendidikan merupakan hal yang sangat penting dalam membangun sebuah negara yang kuat dan berintegritas  "),
+          new AnswerChoiceModel("B", "Perlu kepedulian yang kuat terhadap kaum pribumi untuk membangun dan memajukan pendidikan nasional  "),
+          new AnswerChoiceModel("C", "Kemerdekaan dapat tercapai satu-satunya dengan meningkatkan kualitas pendidikan yang ada di Indonesia  "),
+          new AnswerChoiceModel("D", "Pendidikan lebih penting daripada kemerdekaan karena dengan pendidikan kemerdekaan akan mengikuti "),
+          new AnswerChoiceModel("E", "Kemerdekaan abadi hanya dapat diraih dengan cepat melalui pendidikan yang berkualitas dan bermutu "),
+        ]
+      ),
+      new QuestionModel(
+        "4",
+        "twk",
+        [
+          "Negara wajib untuk mewujudkan kesejahteraan umum, pelayanan kesehatan yang baik, serta pendidikan yang merata bagi semua rakyat  Indonesia. Hal ini tercantum di pembukaan UUD 1945 pada pokok pikiran ke 2 yang juga sesuai Pancasila sila ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Ketuhanan yang Maha Esa."),
+          new AnswerChoiceModel("B", "Kemanusiaan yang Adil dan Beradab."),
+          new AnswerChoiceModel("C", "Persatuan Indonesia."),
+          new AnswerChoiceModel("D", "Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan dalam Permusyawaratan atau Perwakilan."),
+          new AnswerChoiceModel("E", "Keadilan Sosial bagi Seluruh Rakyat Indonesia."),
+        ]
+      ),
+      new QuestionModel(
+        "5",
+        "twk",
+        [
+          "Pengamalan pancasila sebagai dasar negara memuat kewajiban-kewajiban serta larangan-larangan yang sepatutnya dilaksanakan oleh seluruh masyarakat  tanpa terkecuali. Norma dasar yang wajib  kita perhatikan dalam mengimplementasikan pancasila sebagai Dasar Negara yaitu ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Ketetapan MPR"),
+          new AnswerChoiceModel("B", "Pembukan UUD 1945"),
+          new AnswerChoiceModel("C", "Batang Tubuh UUD"),
+          new AnswerChoiceModel("D", "UU"),
+          new AnswerChoiceModel("E", "Ketentuan Hukum"),
+        ]
+      ),
+      new QuestionModel(
+        "6",
+        "twk",
+        [
+          "Pendapat DPR yang menyatakan bahwa presiden atau wakil presiden sudah melakukan pelanggaran terhadap hukum atau tidak lagi menepati syarat sebagai presiden ditujukan dalam rangka penerapan fungsi DPR, yaitu fungsi ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "pengawasan"),
+          new AnswerChoiceModel("B", "angket"),
+          new AnswerChoiceModel("C", "anggaran"),
+          new AnswerChoiceModel("D", "legislasi"),
+          new AnswerChoiceModel("E", "interpelas"),
+        ]
+      ),
+      new QuestionModel(
+        "7",
+        "twk",
+        ["Kata Pancasila terdapat di dalam sebuah kitab tulisan pujangga Indonesia masa lalu. Apa nama kitab tersebut dan siapakah pengarangnya?"],
+        [
+          new AnswerChoiceModel("A", "Kitab Sutasoma karangan Mpu Tantular"),
+          new AnswerChoiceModel("B", "Kitab Sutasoma karangan Mpu Kanwa"),
+          new AnswerChoiceModel("C", "Kitab Hariwangsa karangan Mpu Panuluh"),
+          new AnswerChoiceModel("D", "Kitab Bharatayuddha karangan Mpu Sedah"),
+          new AnswerChoiceModel("E", "Kitab Negarakertagama karangan Mpu Prapanca"),
+        ]
+      ),
+      new QuestionModel(
+        "8",
+        "twk",
+        [
+          "Sistem pemerintahan diartikan sebagai suatu tatanan utuh yang terdiri atas berbagai komponen pemerintahan yang bekerja saling bergantungan dan memengaruhi dalam mencapaian tujuan dan fungsi pemerintahan. Sebuah sistem pemerintahan yang lembaga eksekutif (pemerintah) dan legislatif (parlemen) nya berkedudukan sama serta saling melakukan kontrol (checks and balances) disebut sistem pemerintahan ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Monarki"),
+          new AnswerChoiceModel("B", "Aristokrasi"),
+          new AnswerChoiceModel("C", "Referendum"),
+          new AnswerChoiceModel("D", "Parlementer"),
+          new AnswerChoiceModel("E", "Presidensial"),
+        ]
+      ),
+      new QuestionModel(
+        "9",
+        "twk",
+        ["John Locke dan J.J. Rousseau berpendapat terbentuknya suatu negara berdasarkan pada teori ..."],
+        [
+          new AnswerChoiceModel("A", "Teori Kekuasaan"),
+          new AnswerChoiceModel("B", "Teori Kedaulatan  "),
+          new AnswerChoiceModel("C", "Teori Ketuhanan"),
+          new AnswerChoiceModel("D", "Teori Perjanjian Masyarakat "),
+          new AnswerChoiceModel("E", "Teori Hukum Alam"),
+        ]
+      ),
+      new QuestionModel(
+        "10",
+        "twk",
+        [
+          "Pancasila sebagai dasar Negara diambil berdasarkan nilai-nilai budaya dan agama yang dimiliki bangsa Indonesia. Dengan begitu, Pancasila telah melengkapi syarat empat kausalitas seperti yang tercantum di bawah ini, kecuali ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Prima"),
+          new AnswerChoiceModel("B", "Materialis"),
+          new AnswerChoiceModel("C", "Formalis"),
+          new AnswerChoiceModel("D", "Efisien"),
+          new AnswerChoiceModel("E", "Semua jawaban benar"),
+        ]
+      ),
+      new QuestionModel(
+        "11",
+        "twk",
+        [
+          "Gerakan Non-blok adalah organisasi internasional yang terdiri lebih dari 100 negara yang menganggap dirinya tidak terikat dengan kekuatan besar apapun. Indonesia merupakan salah satu dari 100 anggota Negara-Negara non-blok lantaran Indonesia ingin bersifat netral pada percaturan 2 Negara adikuasa, Amerika Serikat dan Rusia. Setelah Perang Dunia II, kedua Negara itu terlibat pada ....",
+        ],
+        [
+          new AnswerChoiceModel("A", "perang ideologi"),
+          new AnswerChoiceModel("B", "perlombaan persenjataan"),
+          new AnswerChoiceModel("C", "persaingan ekonomi global"),
+          new AnswerChoiceModel("D", "ofensif politik"),
+          new AnswerChoiceModel("E", "adanya perang antara Amerika Serikat dengan Rusia"),
+        ]
+      ),
+      new QuestionModel(
+        "12",
+        "twk",
+        ["Hukum yang mengatur hak dan kewajiban lembaga - lembaga negara dalam menjalankan tugasnya disebut ..."],
+        [
+          new AnswerChoiceModel("A", "Hukum Nasional"),
+          new AnswerChoiceModel("B", "Hukum Tata Negara "),
+          new AnswerChoiceModel("C", "Hukum Administrasi Negara"),
+          new AnswerChoiceModel("D", "Hukum Abdi Negara"),
+          new AnswerChoiceModel("E", "Hukum Kelembagaan"),
+        ]
+      ),
+      new QuestionModel(
+        "13",
+        "twk",
+        [
+          "Salah satu perjuangan yang dilakukan Indonesia pada masa kependudukan Jepang adalah dengan memanfaatkan gerakan PUTERA (pusat tenaga rakyat) demi menumbuhkan semangat nasionalisme dan cinta tanah air. Berikut tokoh-tokoh yang memimpin organisasi ini, kecuali...",
+        ],
+        [
+          new AnswerChoiceModel("A", "K.H. Agus salim"),
+          new AnswerChoiceModel("B", "Ir. Soekarno"),
+          new AnswerChoiceModel("C", "Mohammad Hatta "),
+          new AnswerChoiceModel("D", "K.H. Mas Mansyur"),
+          new AnswerChoiceModel("E", "Ki hajar dewantara "),
+        ]
+      ),
+      new QuestionModel(
+        "14",
+        "twk",
+        ["Hak warga negara untuk melaksanakan perkawinan dan membentuk keluarga diatur dalam UUD 1945 Pasal ..."],
+        [
+          new AnswerChoiceModel("A", "Pasal 25"),
+          new AnswerChoiceModel("B", "Pasal 26 Ayat 2"),
+          new AnswerChoiceModel("C", "Pasal 27 Ayat 2"),
+          new AnswerChoiceModel("D", "Pasal 28B Ayat 1"),
+          new AnswerChoiceModel("E", "Pasal 29 Ayat 1 "),
+        ]
+      ),
+      new QuestionModel(
+        "15",
+        "twk",
+        [
+          `Salah satu lagu milik koes plus yang berlirik "Orang bilang tanah kita tanah surge, tongkat kayu dan batu jadi tanaman" telah mendeskripsikan betapa suburnya negeri Indonesia. Oleh sebab itu masyarakat Indonesia dapat menunjukkan rasa syukur mereka atas nikmat tersebut dengan cara.....`,
+        ],
+        [
+          new AnswerChoiceModel("A", "Melakukan ekploitasi besar-besaran terhadap sumber daya yang ada  "),
+          new AnswerChoiceModel("B", "Menjualnya untuk mendapatkan keuntungan yang besar  "),
+          new AnswerChoiceModel("C", "Menyimpannya untuk cadangan kekayaan Negara  "),
+          new AnswerChoiceModel("D", "Memanfaatkan kekayaan alam dengan tepat guna "),
+          new AnswerChoiceModel("E", "Melakukan penggundulan hutan untuk pemukiman "),
+        ]
+      ),
+      new QuestionModel(
+        "16",
+        "twk",
+        ["Pada tanggal 17 Juli 1944, Jenderal Hideki Tojo meletakkan jabatan sebagai perdana menteri, penggantinya adalah ..."],
+        [
+          new AnswerChoiceModel("A", "Letnan Jenderal Kumakichi Harada  "),
+          new AnswerChoiceModel("B", "Jenderal Itagaki"),
+          new AnswerChoiceModel("C", "Mayor Jenderal Yamamoto  "),
+          new AnswerChoiceModel("D", "Jenderal Kuniaki Koiso"),
+          new AnswerChoiceModel("E", "Letnan Jenderal Nagano "),
+        ]
+      ),
+      new QuestionModel(
+        "17",
+        "twk",
+        [
+          "Kebijakan Desentralisasi kepada daerah otonom, meningkatkan kewenangan Pemerintah Daerah untuk mengatur hal - hal yang berkaitan dengan daerahnya, kecuali ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Agama"),
+          new AnswerChoiceModel("B", "Pengaturan Pendapatan Daerah  "),
+          new AnswerChoiceModel("C", "Kebijakan Pembangunan  "),
+          new AnswerChoiceModel("D", "Budaya"),
+          new AnswerChoiceModel("E", "Sosial"),
+        ]
+      ),
+      new QuestionModel(
+        "18",
+        "twk",
+        [
+          "Pancasila menjadi petunjuk atau pedoman diberbagai kegiatan kehidupan untuk mengatur kehidupan bernegara dan berbangsa Indonesia merupakan pengertian dari Pancasila sebagai ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Pandangan hidup"),
+          new AnswerChoiceModel("B", "Dasar negara"),
+          new AnswerChoiceModel("C", "Ideologi"),
+          new AnswerChoiceModel("D", "Norma "),
+          new AnswerChoiceModel("E", "Aturan dasar"),
+        ]
+      ),
+      new QuestionModel(
+        "19",
+        "twk",
+        [
+          "Negara Indonesia aktif dalam upaya membangun perdamaian dunia, hal tersebut sesuai dengan amanat yang tercantum dalam pembukaan Undang-Undang Dasar 1945. Adapun penerapan politik luar negeri Indonesia yang berpegangan pada pembukaan Undang-Undang Dasar 1945 adalah ......",
+        ],
+        [
+          new AnswerChoiceModel("A", "Indonesia berusaha membantu perjuangan kemerdekaan bangsa-bangsa yang masih terjajah  "),
+          new AnswerChoiceModel(
+            "B",
+            "Menjalin hubungan persahabatan dengan bangsa lain atas dasar saling menghargai dengan tidak ikut campur urusan dalam negeri  "
+          ),
+          new AnswerChoiceModel("C", "Indonesia membantu pelaksanaan keadilan sosial internasional yang berpedoman pada piagam PBB"),
+          new AnswerChoiceModel("D", "Memperkuat sendi-sendi hukum internasional dan organisasi internasional untuk perdamaian yang kekal"),
+          new AnswerChoiceModel("E", "Ikut serta melaksanakan ketertiban dunia yang berdasarkan kemerdekaan dan perdamaian yang kekal"),
+        ]
+      ),
+      new QuestionModel(
+        "20",
+        "twk",
+        [
+          "Anda dapat mengukur kemampuan berbicara formal Anda menggunakan bermacam-macam tahapan, salah satunya adalah melalui tahap persiapan. Tahap persiapan meliputi hal berikut, kecuali ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Penentuan topik  "),
+          new AnswerChoiceModel("B", "Penentuan tujuan  "),
+          new AnswerChoiceModel("C", "Pengumpulan referensi  "),
+          new AnswerChoiceModel("D", "Penyusunan kerangka "),
+          new AnswerChoiceModel("E", "Pengkajian pokok "),
+        ]
+      ),
+      new QuestionModel(
+        "21",
+        "twk",
+        [
+          "Mengakui kesetaraan derajat, kesetaraan hak dan kewajiban asasi setiap manusia, tanpa memandang suku, keturunan, agama, kepercayaan, jenis kelamin, kedudukan sosial, warna kulit dan lainnya adalah pengamalan sila ke ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "1"),
+          new AnswerChoiceModel("B", "2"),
+          new AnswerChoiceModel("C", "3"),
+          new AnswerChoiceModel("D", "4"),
+          new AnswerChoiceModel("E", "5"),
+        ]
+      ),
+      new QuestionModel(
+        "22",
+        "twk",
+        [
+          "BPUPKI mengadakan sidang pertamanya di gedung Chuo Sangi In di Jalan Pejambon 6 Jakarta yang kini dikenal dengan sebutan Gedung Pancasila. Pada zaman Belanda, gedung tersebut merupakan gedung Volksraad, yang artinya ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Gedung Pancasila  "),
+          new AnswerChoiceModel("B", "Gedung Kemerdekaan  "),
+          new AnswerChoiceModel("C", "Gedung Rapat  "),
+          new AnswerChoiceModel("D", "Gedung Perwakilan Rakyat "),
+          new AnswerChoiceModel("E", "Gedung Pemerintahan "),
+        ]
+      ),
+      new QuestionModel(
+        "23",
+        "twk",
+        [
+          "Perhatikan rumusan dasar negara berikut:",
+          "1) Peri Ketuhanan",
+          "2) Peri Kerakyatan",
+          "3) Kesejahteraan Rakyat",
+          "4) Musyawarah",
+          "5) Keadilan Rakyat",
+          "6) Internasionalisme",
+          "Rumusan dasar negara yang merupakan usulan yang dikemukakan oleh Prof. Dr. Soepomo ditunjukkan pada nomor?",
+        ],
+        [
+          new AnswerChoiceModel("A", "1) dan 2)  "),
+          new AnswerChoiceModel("B", "4) dan 5)  "),
+          new AnswerChoiceModel("C", "2) dan 3)  "),
+          new AnswerChoiceModel("D", "3) dan 4) "),
+          new AnswerChoiceModel("E", "1) dan 6) "),
+        ]
+      ),
+      new QuestionModel(
+        "24",
+        "twk",
+        ["Untuk mengatasi, menanggulangi, dan memberantas korupsi di Indonesia, pemerintah membentuk Komisi Pemberantasan Korupsi pada tahun ..."],
+        [
+          new AnswerChoiceModel("A", "2001"),
+          new AnswerChoiceModel("B", "2002"),
+          new AnswerChoiceModel("C", "2003"),
+          new AnswerChoiceModel("D", "2004"),
+          new AnswerChoiceModel("E", "2005"),
+        ]
+      ),
+      new QuestionModel(
+        "25",
+        "twk",
+        ["Hukum yang lebih tinggi derajatnya mengesampingkan hukum / peraturan yang derajatnya di bawahnya. Pernyataan tersebut merupakan asas ..."],
+        [
+          new AnswerChoiceModel("A", "Legalitas"),
+          new AnswerChoiceModel("B", "Lex superior derogat legi inferior  "),
+          new AnswerChoiceModel("C", "Azas non retroaktif  "),
+          new AnswerChoiceModel("D", "Lex spesialis derogat lex generalis "),
+          new AnswerChoiceModel("E", "Lex posteriori derogat legi priori "),
+        ]
+      ),
+      new QuestionModel(
+        "26",
+        "twk",
+        ["Sila kelima Pancasila, Keadilan sosial bagi seluruh rakyat Indonesia, dilambangkan dengan ..."],
+        [
+          new AnswerChoiceModel("A", "Padi berwarna hijau dan kapas berwarna merah - putih  "),
+          new AnswerChoiceModel("B", "Padi berwarna kuning emas dan kapas berwarna hijau - putih  "),
+          new AnswerChoiceModel("C", "Padi berwarna kuning emas dan kapas berwarna merah - putih  "),
+          new AnswerChoiceModel("D", "Padi berwarna kuning emas dan kapas berwarna hitam - putih "),
+          new AnswerChoiceModel("E", "Padi berwarna merah dan kapas berwarna tua - hijau muda"),
+        ]
+      ),
+      new QuestionModel(
+        "27",
+        "twk",
+        [
+          "Pembahasan karya tulis ini penulis awali dengan mengetengahkan masalah yang berkaitan dengan peranan pelajar dalam menciptakan kamtibmas. Secara umum, pelajar merupakan bagian dari masyarakat. Oleh karena itu, pelajar tidak mungkin terlepas dari tanggung jawab dalam kamtibmas, baik secara langsung maupun tidak langsung. Mengingat luasnya jangkauan pembahasan maka pembahasan tersebut akan dibatasi ruang lingkupnya. ",
+          "Pertanyaan yang sesuai dengan pendahuluan di atas adalah .... ",
+        ],
+        [
+          new AnswerChoiceModel("A", "Apakah remaja mempunyai sikap acuh tak acuh terhadap kamtibmas?   "),
+          new AnswerChoiceModel("B", "Benarkah remaja merupakan bagian dari masyarakat?   "),
+          new AnswerChoiceModel("C", "Kapankah remaja harus berperan langsung dalam menciptakan kamtibmas?   "),
+          new AnswerChoiceModel("D", "Umur berapakah seseorang dikelompokkan sebagai remaja?  "),
+          new AnswerChoiceModel("E", "Bagaimanakah hubungan antara remaja dan orangtua dalam menciptakan kamtibmas? "),
+        ]
+      ),
+      new QuestionModel(
+        "28",
+        "twk",
+        [
+          "Orang-orang muda berkecenderungan untuk tidak mau terikat pada apa yang disebut oleh Francis Bacon idola tribus, berhala masyarakat lingkungan. Ikatan, cara berpikir, adat, cara hidup yang biasanya demikian kuat mengikat kebebasan suatu masyarakat, bagi orang muda dipandang sebagai sesuatu yang mengikat kebebasan (dinamisitas, kreativitas) mereka. Kecenderungan inilah yang membuat orang-orang muda lebih dapat berperan dalam dinamika perubahan rasial.",
+          "Kata serapan yang tidak terdapat dalam bagian laporan seminar di atas adalah .... ",
+        ],
+        [
+          new AnswerChoiceModel("A", `aktivitas   `),
+          new AnswerChoiceModel("B", "rasial   "),
+          new AnswerChoiceModel("C", "dinamika   "),
+          new AnswerChoiceModel("D", "kreativitas"),
+          new AnswerChoiceModel("E", "dinamisitas"),
+        ]
+      ),
+      new QuestionModel(
+        "29",
+        "twk",
+        [
+          "Bendungan di Desa Jatirogo ini tidak ada duanya di Indonesia. Tubuh bendungan tersebut dari bantalan karet berisi air. Karena terbuat dari karet, tinggi permukaannya bisa diatur secara fleksibel. Bila terjadi banjir, bantalan karet itu dikempiskan. Dan air bah lancar mengalir ke laut. Sebaliknya bila volume air sungai mengecil, tubuh bendungan diisi penuh, sehingga tingginya mencapai 3 m. Sungai terbendung dan airnya dimanfaatkan sebagai air minum dan irigasi. Pada saat yang sama, air pasang dari laut akan terhambat dan tak mencemari sungai yang menjadi sumber utama air tawar masyarakat di sekitar sungai. ",
+          "Makna kata fleksibel dalam paragraf di atas adalah .... ",
+        ],
+        [
+          new AnswerChoiceModel("A", "mudah"),
+          new AnswerChoiceModel("B", "leluasa   "),
+          new AnswerChoiceModel("C", "longgar"),
+          new AnswerChoiceModel("D", "cepat"),
+          new AnswerChoiceModel("E", "luwes"),
+        ]
+      ),
+      new QuestionModel(
+        "30",
+        "twk",
+        [
+          "Pemakaian batubara di negara kita hingga saat ini masih terbatas hanya pada PLTU dan pabrik semen. Teknologi pengolahan dan kualitas batubara yang dimiliki bisa dikatakan masih rendah. Selain itu, dana juga sangat terbatas. Di negara-negara maju batubara sudah bisa diolah menjadi sumber energi. Di samping itu, dengan teknologi tinggi batubara sudah bisa menghasilkan bahan baku industri kimia berupa gas sintesa. ",
+          "Berikut ini yang bukan merupakan rincian isi dari gagasan yang dikemukakan pada wacana di atas adalah .... ",
+        ],
+        [
+          new AnswerChoiceModel("A", "Teknologi pengolahan masih rendah.   "),
+          new AnswerChoiceModel("B", "Kualitas batubara masih rendah.   "),
+          new AnswerChoiceModel("C", "Batubara menjadi sumber energi.   "),
+          new AnswerChoiceModel("D", "Batubara bahan baku industri kimia.  "),
+          new AnswerChoiceModel("E", "Pemakaian batubara masih terbatas. "),
+        ]
+      ),
+      new QuestionModel(
+        "31",
+        "tiu",
+        ["UANG : BANK = PADI : ..."],
+        [
+          new AnswerChoiceModel("A", "Sawah"),
+          new AnswerChoiceModel("B", "Lumbung"),
+          new AnswerChoiceModel("C", "Jambangan"),
+          new AnswerChoiceModel("D", "Kapas"),
+          new AnswerChoiceModel("E", "Tempayan"),
+        ]
+      ),
+      new QuestionModel(
+        "32",
+        "tiu",
+        ["DELMAN : KUDA = HELIKOPTER : ..."],
+        [
+          new AnswerChoiceModel("A", "Tiket"),
+          new AnswerChoiceModel("B", "Ban"),
+          new AnswerChoiceModel("C", "Baling - baling"),
+          new AnswerChoiceModel("D", "Landasan"),
+          new AnswerChoiceModel("E", "Penumpang"),
+        ]
+      ),
+      new QuestionModel(
+        "33",
+        "tiu",
+        ["BASKET : RING = ... : ..."],
+        [
+          new AnswerChoiceModel("A", "Badminton : Kok"),
+          new AnswerChoiceModel("B", "Sepak bola : Gawang"),
+          new AnswerChoiceModel("C", "Renang : Kolam"),
+          new AnswerChoiceModel("D", "Sepak bola : Lapangan"),
+          new AnswerChoiceModel("E", "Tinju : Sarung tangan"),
+        ]
+      ),
+      new QuestionModel(
+        "34",
+        "tiu",
+        ["SENIN : RABU = ... : ..."],
+        [
+          new AnswerChoiceModel("A", "Satu : Tiga"),
+          new AnswerChoiceModel("B", "Mawar : Melati"),
+          new AnswerChoiceModel("C", "Detik : Menit"),
+          new AnswerChoiceModel("D", "Padi : Beras"),
+          new AnswerChoiceModel("E", "April : Februari"),
+        ]
+      ),
+      new QuestionModel(
+        "35",
+        "tiu",
+        ["K, M, N, O, Q, Q, ...., ...."],
+        [
+          new AnswerChoiceModel("A", "R, T"),
+          new AnswerChoiceModel("B", "T, S"),
+          new AnswerChoiceModel("C", "U, Q"),
+          new AnswerChoiceModel("D", "V, J"),
+          new AnswerChoiceModel("E", "S, V"),
+        ]
+      ),
+      new QuestionModel(
+        "36",
+        "tiu",
+        ["F, B , F, F, F, J, ...."],
+        [
+          new AnswerChoiceModel("A", "B"),
+          new AnswerChoiceModel("B", "F"),
+          new AnswerChoiceModel("C", "K"),
+          new AnswerChoiceModel("D", "N"),
+          new AnswerChoiceModel("E", "M"),
+        ]
+      ),
+      new QuestionModel(
+        "37",
+        "tiu",
+        ["Y, H, U, J, Q, L, ..."],
+        [
+          new AnswerChoiceModel("A", "M"),
+          new AnswerChoiceModel("B", "N"),
+          new AnswerChoiceModel("C", "O"),
+          new AnswerChoiceModel("D", "P"),
+          new AnswerChoiceModel("E", "Q"),
+        ]
+      ),
+      new QuestionModel(
+        "38",
+        "tiu",
+        ["D, F, E, G, F, H, ...."],
+        [
+          new AnswerChoiceModel("A", "G, I"),
+          new AnswerChoiceModel("B", "H, J"),
+          new AnswerChoiceModel("C", "J, L"),
+          new AnswerChoiceModel("D", "K, L"),
+          new AnswerChoiceModel("E", "L, M"),
+        ]
+      ),
+      new QuestionModel(
+        "39",
+        "tiu",
+        ["W, R, T, P, Q, N, ...."],
+        [
+          new AnswerChoiceModel("A", "P, O"),
+          new AnswerChoiceModel("B", "Q, P"),
+          new AnswerChoiceModel("C", "L, N"),
+          new AnswerChoiceModel("D", "N, L"),
+          new AnswerChoiceModel("E", "M, O"),
+        ]
+      ),
+      new QuestionModel(
+        "40",
+        "tiu",
+        ["A, B, C, F, E, D, G, H, ..."],
+        [
+          new AnswerChoiceModel("A", "K, J"),
+          new AnswerChoiceModel("B", "I, J"),
+          new AnswerChoiceModel("C", "I, L"),
+          new AnswerChoiceModel("D", "I, N"),
+          new AnswerChoiceModel("E", "K, N"),
+        ]
+      ),
+      new QuestionModel(
+        "41",
+        "tiu",
+        [
+          "Sebuah mobil menempuh perjalanan 15 km dengan 1 liter bensin ketika mobil dipacu dengan kecepatan 50 km per jam. Jika mobil tersebut berkecepatan 60 km per jam, maka jarak yang dapat ditempuh hanya 80%-nya. Berapakah bensin yang diperlukan untuk menempuh jarak 120 km dengan kecepatan 60 km per jam?",
+        ],
+        [
+          new AnswerChoiceModel("A", "6,4 liter"),
+          new AnswerChoiceModel("B", "8 liter"),
+          new AnswerChoiceModel("C", "9,6 liter"),
+          new AnswerChoiceModel("D", "10 liter"),
+          new AnswerChoiceModel("E", "7,6 liter"),
+        ]
+      ),
+      new QuestionModel(
+        "42",
+        "tiu",
+        ["Seperti ayam bertelur di atas padi.", " Makna peribahasa di atas adalah ..."],
+        [
+          new AnswerChoiceModel("A", "Bagai orang kaya yang tak pernah habis hartanya"),
+          new AnswerChoiceModel("B", "Orang yang senang hidupnya karena tinggal pada orang kaya yang pemurah"),
+          new AnswerChoiceModel("C", "Kelimpahan harta kekayaan yang tak disangka - sangka"),
+          new AnswerChoiceModel("D", "Selalu menonjolkan kekayaan "),
+          new AnswerChoiceModel("E", "Orang yang kaya sehingga segalanya diukur dengan harta benda"),
+        ]
+      ),
+      new QuestionModel(
+        "43",
+        "tiu",
+        [
+          "Murid sebuah TK adalah sejumlah A anak. Dari jumlah tersebut, sejumlah B anak suka melukis, sejumlah C anak suka menari, dan sejumlah D anak suka melukis dan menari. Berapa porsi jumlah anak yang tidak menyukai melukis atau menari?",
+        ],
+        [
+          new AnswerChoiceModel("A", "( A - B - C ) : A "),
+          new AnswerChoiceModel("B", "( D + C + B ) : A"),
+          new AnswerChoiceModel("C", "( A - D - C - B ) : A"),
+          new AnswerChoiceModel("D", "( A + D - C - B ) : A "),
+          new AnswerChoiceModel("E", "( A - C + B + D ) : A "),
+        ]
+      ),
+      new QuestionModel(
+        "44",
+        "tiu",
+        ["Wilson menempuh perjalanan 70 km dalam 2 1/2 jam. Agar bisa sampai di tujuan 1/2 jam lebih cepat, berapa seharusnya kecepatan Wilson?"],
+        [
+          new AnswerChoiceModel("A", "12 km/jam"),
+          new AnswerChoiceModel("B", "35 km/jam"),
+          new AnswerChoiceModel("C", "27 km/jam"),
+          new AnswerChoiceModel("D", "28 km/jam"),
+          new AnswerChoiceModel("E", "29 km/jam"),
+        ]
+      ),
+      new QuestionModel(
+        "45",
+        "tiu",
+        [
+          "Nilai rata - rata ulangan matematika dari 30 siswa adalah 45. Jika nilai dari Jose digabungkan dengan kelompok itu, maka nilai rata - rata ulangan matematika menjadi 46. Berapakah nilai Jose?",
+        ],
+        [
+          new AnswerChoiceModel("A", "50"),
+          new AnswerChoiceModel("B", "66"),
+          new AnswerChoiceModel("C", "76"),
+          new AnswerChoiceModel("D", "80"),
+          new AnswerChoiceModel("E", "85"),
+        ]
+      ),
+      new QuestionModel(
+        "46",
+        "tiu",
+        [
+          "Keluarga Pak Anwar akan berfoto bersama di sebuah studio foto. Pak Anwar mempunyai 2 orang anak. Mereka semua akan berfoto secara berdampingan. Peluang foto pak Anwar dan istri berdampingan adalah ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "1/3"),
+          new AnswerChoiceModel("B", "1/4"),
+          new AnswerChoiceModel("C", "2/3"),
+          new AnswerChoiceModel("D", "1/2"),
+          new AnswerChoiceModel("E", "1/5"),
+        ]
+      ),
+      new QuestionModel(
+        "47",
+        "tiu",
+        ["Harga laptop dinaikkan dua puluh lima persen dari harga sebelumnya. Persentase penurunan harga agar laptop kembali seperti harga semula adalah ..."],
+        [
+          new AnswerChoiceModel("A", "0.2"),
+          new AnswerChoiceModel("B", "0.25"),
+          new AnswerChoiceModel("C", "0.49"),
+          new AnswerChoiceModel("D", "0.5"),
+          new AnswerChoiceModel("E", "0.55"),
+        ]
+      ),
+      new QuestionModel(
+        "48",
+        "tiu",
+        [
+          "Kenny, pemain bulutangkis Klub Jaya, dapat melakukan service forehand dengan baik.",
+          "Setiap pemain yang bisa melakukan service forehand dengan baik dapat melakukan dropshot akurat.",
+          "Kesimpulan yang benar adalah ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Beberapa pemain bulutangkis Klub Jaya dapat melakukan dropshot dengan baik."),
+          new AnswerChoiceModel("B", "Semua pemain bulutangkis Klub Jaya dapat melakukan service forehand dengan baik dan dropshot yang akurat."),
+          new AnswerChoiceModel("C", "Beberapa pemain bulutangkis Klub Jaya dapat melakukan service forehand dengan baik dan dropshot yang akurat."),
+          new AnswerChoiceModel(
+            "D",
+            "Beberapa pemain bulutangkis Klub Jaya tidak dapat melakukan service forehand dengan baik tetapi dapat melakukan dropshot yang akurat."
+          ),
+          new AnswerChoiceModel("E", "Semua pemain bulutangkis dapat melakukan service forehand dengan baik dan dropshot yang akurat."),
+        ]
+      ),
+      new QuestionModel(
+        "49",
+        "tiu",
+        [
+          "Sebuah bus tampak dipenuhi penumpang hingga 10 orang penumpang terpaksa harus berdiri. Pada halte berikutnya 17 penumpang turun dan naik 8 orang. 5 penumpang kemudian turun di pemberhentian berikutnya tanpa ada seorangpun yang naik. Di halte berikutnya 4 orang naik tanpa seorangpun penumpang di dalam bus yang turun.",
+          "Berapa kursi kosong di dalam bus setelah bus meninggalkan halte tersebut?",
+        ],
+        [
+          new AnswerChoiceModel("A", "Tidak ada kursi kosong"),
+          new AnswerChoiceModel("B", "1 kursi kosong"),
+          new AnswerChoiceModel("C", "2 kursi kosong"),
+          new AnswerChoiceModel("D", "3 kursi kosong"),
+          new AnswerChoiceModel("E", "4 kursi kosong"),
+        ]
+      ),
+      new QuestionModel(
+        "50",
+        "tiu",
+        ["Della membeli gaun pesta seharga Rp 156.000. Ia mendapat diskon sebesar 5%. Berapa rupiah yang harus dibayar Della?"],
+        [
+          new AnswerChoiceModel("A", "Rp150.000"),
+          new AnswerChoiceModel("B", "Rp146.700"),
+          new AnswerChoiceModel("C", "Rp148.200"),
+          new AnswerChoiceModel("D", "Rp148.400"),
+          new AnswerChoiceModel("E", "Rp148.600"),
+        ]
+      ),
+      new QuestionModel(
+        "51",
+        "tiu",
+        ["Semua tenda beratap dan tinggi.", " Andi berada di tempat yang tidak beratap dan tidak tinggi.", "Kesimpulan yang tepat adalah ..."],
+        [
+          new AnswerChoiceModel("A", "Andi berada di tenda beratap."),
+          new AnswerChoiceModel("B", "Andi berada di tenda tinggi."),
+          new AnswerChoiceModel("C", "Andi berada di bukan tenda."),
+          new AnswerChoiceModel("D", "Andi berada di tenda bukan beratap."),
+          new AnswerChoiceModel("E", "Andi berada di tenda bukan beratap dan bukan tinggi."),
+        ]
+      ),
+      new QuestionModel(
+        "52",
+        "tiu",
+        [
+          "Sebuah survei yang dilakukan pada 50 orang di sebuah toko kaset menghasilkan:",
+          "25 orang suka musik pop",
+          "27 orang suka musik rock",
+          "4 orang tidak suka musik pop atau rock",
+          "Berapa orang yang hanya suka satu jenis musik?",
+        ],
+        [
+          new AnswerChoiceModel("A", "6"),
+          new AnswerChoiceModel("B", "52"),
+          new AnswerChoiceModel("C", "40"),
+          new AnswerChoiceModel("D", "46"),
+          new AnswerChoiceModel("E", "12"),
+        ]
+      ),
+      new QuestionModel(
+        "53",
+        "tiu",
+        [
+          "Berapa lama waktu yang diperlukan untuk mengisi penuh air ke dalam sebuah tangki berkapasitas 3.750 sentimeter kubik jika air tersebut dipompakan ke dalam tangki dengan kecepatan 300 sentimeter kubik per menit?",
+        ],
+        [
+          new AnswerChoiceModel("A", "12 menit 30 detik"),
+          new AnswerChoiceModel("B", "12 menit"),
+          new AnswerChoiceModel("C", "10 menit 30 detik"),
+          new AnswerChoiceModel("D", "11 menit"),
+          new AnswerChoiceModel("E", "11 menit 25 detik"),
+        ]
+      ),
+      new QuestionModel(
+        "54",
+        "tiu",
+        [
+          "Enam orang mahasiswa masing - masing memiliki sejumlah uang. Jika uang yang dimiliki oleh setiap dua orang dari mereka dijumlahkan, besarnya adalah (dalam ribuan) 215, 197, 264, 236, 208, 229, 252, 244, 218, 241, 226, 249, 258, 256, 247. Jumlah uang keenam mahasiswa tersebut adalah ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "590"),
+          new AnswerChoiceModel("B", "688"),
+          new AnswerChoiceModel("C", "708"),
+          new AnswerChoiceModel("D", "780"),
+          new AnswerChoiceModel("E", "760"),
+        ]
+      ),
+      new QuestionModel(
+        "55",
+        "tiu",
+        [
+          "A, B, dan C mengumpulkan uang untuk membuka usaha, berturut - turut Rp 140.000, Rp 180.000, dan Rp 220.000. Pembagian keuntungan sebanding dengan jumlah modal yang disetorkan. Jika usaha mereka mendapat untung sebanyak Rp 150.000 berapa keuntungan yang diterima B?",
+        ],
+        [
+          new AnswerChoiceModel("A", "Rp50.000"),
+          new AnswerChoiceModel("B", "Rp75.000"),
+          new AnswerChoiceModel("C", "Rp70.000"),
+          new AnswerChoiceModel("D", "Rp62.000"),
+          new AnswerChoiceModel("E", "Rp65.000"),
+        ]
+      ),
+      new QuestionModel(
+        "56",
+        "tiu",
+        ["Nan lurah jua dituruti air.", "Makna peribahasa di atas adalah ..."],
+        [
+          new AnswerChoiceModel("A", "Orang angkuh selalu tidak peduli kata orang lain "),
+          new AnswerChoiceModel("B", "Orang kaya juga yang senantiasa bertambah kekayaanya, orang miskin tetap miskin"),
+          new AnswerChoiceModel("C", "Kehidupan sebaiknya seperti air mengalir"),
+          new AnswerChoiceModel("D", "Keadaan yang sangat sulit"),
+          new AnswerChoiceModel("E", "Kondisi yang biasa - biasa saja"),
+        ]
+      ),
+      new QuestionModel(
+        "57",
+        "tiu",
+        [
+          "Ada suatu apartemen yang terdiri dari beberapa lantai yang jaraknya sama. Apartemen tersebut diurutkan sesuai dengan syarat di bawah ini :",
+          "- Lantai U terletak persis di atas lantai X",
+          "- Lantai W terletak persis di atas lantai Y",
+          "- Lantai Z terletak empat lantai di bawah X",
+          "- Lantai W terletak dua lantai di atas lantai Z",
+          "- S dan V terpisah dua lantai",
+          "Urutan lantai dari bawah ke atas adalah....",
+        ],
+        [
+          new AnswerChoiceModel("A", "U W Y Z X"),
+          new AnswerChoiceModel("B", "Z Y W X U"),
+          new AnswerChoiceModel("C", "U X Z W Y"),
+          new AnswerChoiceModel("D", "W Y Z U X"),
+          new AnswerChoiceModel("E", "Tidak ada kesimpulan yang benar"),
+        ]
+      ),
+      new QuestionModel(
+        "58",
+        "tiu",
+        [
+          "Ada suatu apartemen yang terdiri dari beberapa lantai yang jaraknya sama. Apartemen tersebut diurutkan sesuai dengan syarat di bawah ini :",
+          "- Lantai U terletak persis di atas lantai X",
+          "- Lantai W terletak persis di atas lantai Y",
+          "- Lantai Z terletak empat lantai di bawah X",
+          "- Lantai W terletak dua lantai di atas lantai Z",
+          "- S dan V terpisah dua lantai",
+          "Posisi S maupun V tidak berimpit dengan U, W, X, Y maupun Z. Mana yang tidak mungkin benar?",
+        ],
+        [
+          new AnswerChoiceModel("A", "V terletak satu lantai di bawah U"),
+          new AnswerChoiceModel("B", "S terletak satu lantai di atas U"),
+          new AnswerChoiceModel("C", "S terletak empat lantai di bawah U"),
+          new AnswerChoiceModel("D", "V terletak di bawah S tetapi di atas Z"),
+          new AnswerChoiceModel("E", "Tidak ada kesimpulan yang benar"),
+        ]
+      ),
+      new QuestionModel(
+        "59",
+        "tiu",
+        [
+          "Karena adanya pandemi covid 19, sebuah hotel di tempat wisata untuk hari tertentu mengurangi jumlah pengunjung sebesar 25% menjadi 150 tamu sehari. Maka jumlah pengunjung setiap harinya sebelum adanya pengurangan adalah....",
+        ],
+        [
+          new AnswerChoiceModel("A", "320"),
+          new AnswerChoiceModel("B", "510"),
+          new AnswerChoiceModel("C", "80"),
+          new AnswerChoiceModel("D", "200"),
+          new AnswerChoiceModel("E", "195"),
+        ]
+      ),
+      new QuestionModel(
+        "60",
+        "tiu",
+        [
+          "Seorang dosen akan melakukan pembimbingan skripsi dengan mahasiswanya. Adapun urutannya adalah P akan bimbingan setelah S. Q  bimbingan sebelum R dan bersamaan dengan P. Maka urutan bimbingan yang benar adalah....",
+        ],
+        [
+          new AnswerChoiceModel("A", "Setelah R adalah P, Q, S"),
+          new AnswerChoiceModel("B", "Sebelum Q adalah R"),
+          new AnswerChoiceModel("C", "Sebelum S adalah Q"),
+          new AnswerChoiceModel("D", "Setelah P adalah Q, S"),
+          new AnswerChoiceModel("E", "Setelah S adalah P, Q, R"),
+        ]
+      ),
+      new QuestionModel(
+        "61",
+        "tiu",
+        [
+          "Suatu kegiatan organisasi akan dibentuk dengan pembagian tim yang terdiri dari masing-masing tiga orang. Reza harus berada satu tim dengan Nita. Zea tidak boleh satu tim dengan Yoel atau Wilda. Wilda tidak boleh terpisah dengan Nita. Sedangkan Firman hanya mau satu tim dengan Alisa. Panji akan satu tim dengan Zea dan Cho selalu menerima bergabung dengan tim siapa saja. Maka anggota yang tidak mungkin berada pada satu tim adalah....",
+        ],
+        [
+          new AnswerChoiceModel("A", "Reza dan Nita"),
+          new AnswerChoiceModel("B", "Panji dan Cho"),
+          new AnswerChoiceModel("C", "Reza dan Zea"),
+          new AnswerChoiceModel("D", "Firman dan Alisa"),
+          new AnswerChoiceModel("E", "Wilda dan Reza"),
+        ]
+      ),
+      new QuestionModel("62", "tiu", "https://i.ibb.co/v1JvznF/14.png", [
+        new AnswerChoiceModel("A", "https://i.ibb.co/BKCmChF/14a.png"),
+        new AnswerChoiceModel("B", "https://i.ibb.co/C1Mf5QP/14b.png"),
+        new AnswerChoiceModel("C", "https://i.ibb.co/P6p6PTm/14c.png"),
+        new AnswerChoiceModel("D", "https://i.ibb.co/QKHb92p/14d.png"),
+        new AnswerChoiceModel("E", "-"),
+      ]),
+      new QuestionModel("63", "tiu", "https://i.ibb.co/R0qdjSr/15.png", [
+        new AnswerChoiceModel("A", "https://i.ibb.co/DM0s4Qx/15a.png"),
+        new AnswerChoiceModel("B", "https://i.ibb.co/NnwHQQ1/15b.png"),
+        new AnswerChoiceModel("C", "https://i.ibb.co/fSMhwxP/15c.png"),
+        new AnswerChoiceModel("D", "https://i.ibb.co/wNMrPxY/15d.png"),
+        new AnswerChoiceModel("E", "-"),
+      ]),
+      new QuestionModel("64", "tiu", "https://i.ibb.co/hysZrDY/16.png", [
+        new AnswerChoiceModel("A", "https://i.ibb.co/d2D8nBr/16a.png"),
+        new AnswerChoiceModel("B", "https://i.ibb.co/KDntcyb/16b.png"),
+        new AnswerChoiceModel("C", "https://i.ibb.co/ZdGRVDB/16c.png"),
+        new AnswerChoiceModel("D", "https://i.ibb.co/5xS5Bwd/16d.png"),
+        new AnswerChoiceModel("E", "-"),
+      ]),
+      new QuestionModel("65", "tiu", "https://i.ibb.co/PGZkcKP/17.png", [
+        new AnswerChoiceModel("A", "https://i.ibb.co/RNdfsFP/17a.png"),
+        new AnswerChoiceModel("B", "https://i.ibb.co/BPLCm1Y/17b.png"),
+        new AnswerChoiceModel("C", "https://i.ibb.co/w0RM7xz/17c.png"),
+        new AnswerChoiceModel("D", "https://i.ibb.co/Jn8s9Dc/17d.png"),
+        new AnswerChoiceModel("E", "-"),
+      ]),
+      new QuestionModel(
+        "66",
+        "tkp",
+        ["Kakak Anda dimarahi orang tua karena uang SPP hilang. Maka yang anda lakukan adalah ..."],
+        [
+          new AnswerChoiceModel("A", "Membiarkannya untuk mengingat dimana uang tersebut"),
+          new AnswerChoiceModel("B", "Menenangkannya karena dimarahai oleh orang tua "),
+          new AnswerChoiceModel("C", "Membantu mencari uang yang hilang"),
+          new AnswerChoiceModel("D", "Ikut menyalahkannya"),
+          new AnswerChoiceModel("E", "Pura - pura tidak tahu"),
+        ]
+      ),
+      new QuestionModel(
+        "67",
+        "tkp",
+        ["Atasan anda melakukan rekayasa laporan keuangan kantor, maka anda ..."],
+        [
+          new AnswerChoiceModel("A", "Dalam hati tidak menyetujui hal tersebut"),
+          new AnswerChoiceModel("B", "Hal tersebut sering terjadi di kantor manapun"),
+          new AnswerChoiceModel("C", "Mengingatkan dan melaporkan kepada yang berwenang"),
+          new AnswerChoiceModel("D", "Tidak ingin terlibat dalam proses rekayasa tersebut"),
+          new AnswerChoiceModel("E", "Hal semacam itu memang sudah menjadi tradisi yang tidak baik di Indonesia"),
+        ]
+      ),
+      new QuestionModel(
+        "68",
+        "tkp",
+        [
+          "Saya dipercayakan mengatur suatu kegiatan yang belum dipublikasikan dan masih harus dijaga kerahasiaannya. Ketika saya berada di antara teman-teman dekat di kantor, saya .... ",
+        ],
+        [
+          new AnswerChoiceModel("A", "Akan mengalihkan ke pembicaraan lain bila mereka sudah mulai menyinggung mengenai tugas baru saya."),
+          new AnswerChoiceModel("B", "Akan merasa gelisah dan kurang senang bila mereka mulai membicarakan tugas baru saya"),
+          new AnswerChoiceModel("C", "Membatasi pembicaraan agar tidak menyangkut ke hal-hal tugas baru saya"),
+          new AnswerChoiceModel("D", "Membicarakan hal-hal lain yang tidak ada kaitannya dengan tugas baru saya"),
+          new AnswerChoiceModel("E", "Suka menerima masukan demi masukan dalam rangka pengembangan tugas baru saya dan tetap menjaga amanah"),
+        ]
+      ),
+      new QuestionModel(
+        "69",
+        "tkp",
+        [
+          "Hampir semua rekan kerja di departemen kamu berkeliaran selama jam kerja dan dengan sadar memperlambat waktu istirahat. Sedangkan kamu yang masih menjadi pegawai baru, mendapat banyak sekali tugas yang tidak sebanding dengan rekan-rekan senior kamu. Menyikapi hal ini, yang kamu lakukan adalah ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Mencoba memperbincangkan hal ini kepada atasan"),
+          new AnswerChoiceModel("B", "Melaporkan hal ini kepada unit kepatuhan internal di bagian saya"),
+          new AnswerChoiceModel("C", "Tetap melaksanakan pekerjaan"),
+          new AnswerChoiceModel("D", "Mengusahakan untuk tetap memberikan yang terbaik akan tugas dan mengerjakannya dengan sepenuh hati"),
+          new AnswerChoiceModel(
+            "E",
+            "Tidak perduli akan hal itu karena saya memegang kedisipinan dan sikap mawas diri dengan mengerjakan apa yang menjadi bagian saya dan tidak memperdulikan apa yang bukan menjadi wewenang saya"
+          ),
+        ]
+      ),
+      new QuestionModel(
+        "70",
+        "tkp",
+        [
+          "Anda adalah bagian dari suatu unit pada organisasi tertentu. Suatu saat Ada penyelewengan yang terjadi dalam unit Anda berupa pemalsuan data yang dilakukan oleh rekan unit Anda. Sikap Anda adalah ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Marah"),
+          new AnswerChoiceModel("B", "Menyampaikan dalam rapat unit tentang penyelewengan tersebut"),
+          new AnswerChoiceModel("C", "Pura - pura tidak tahu"),
+          new AnswerChoiceModel("D", "Menyampaikan bahwa apa yang dilakukan adalah kesalahan dan mencoba memperbaikinya"),
+          new AnswerChoiceModel("E", "Merasa malu, karena itu bagian dari kerja unit Anda"),
+        ]
+      ),
+      new QuestionModel(
+        "71",
+        "tkp",
+        [
+          "Suatu waktu anda diminta oleh kepala divisi secara mendadak untuk melaporkan hasil perkembangan pekerjaan yang dibebankan kepada anda, maka anda akan ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Panik"),
+          new AnswerChoiceModel("B", "Mencari alasan"),
+          new AnswerChoiceModel("C", "Semakin termotifasi"),
+          new AnswerChoiceModel("D", "Biasa saja"),
+          new AnswerChoiceModel("E", "Melaporkan perkembangan seadanya"),
+        ]
+      ),
+      new QuestionModel(
+        "72",
+        "tkp",
+        ["Salah seorang klien anda merupakan orang yang suka terlambat. Maka anda ..."],
+        [
+          new AnswerChoiceModel("A", "Tidak akan mencontohnya"),
+          new AnswerChoiceModel("B", "Tidak suka dengan sikapnya"),
+          new AnswerChoiceModel("C", "Memberikan nasihat kepadanya"),
+          new AnswerChoiceModel("D", "Mengingatkan dia agar tidak terlambat lagi"),
+          new AnswerChoiceModel("E", "Melaporkannya kepada atasan anda"),
+        ]
+      ),
+      new QuestionModel(
+        "73",
+        "tkp",
+        [
+          "Hampir semua pegawai di kantor instansi saya meminta uang tanda terima kasih atas pengurusan surat izin tertentu. Namun menurut peraturan kantor, hal itu tidaklah diperbolehkan, maka saya ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Ikut melakukannya karena bagaimana pun juga kawan - kawan kantor juga melakukannya"),
+          new AnswerChoiceModel("B", "Melakukannya hanya jika terpaksa membutuhkan uang tambahan untuk keperluan keluarga, sebab gaji kantor memang kecil"),
+          new AnswerChoiceModel("C", "Terkadang saja melakukan hal tersebut"),
+          new AnswerChoiceModel("D", "Berusaha semampunya untuk tidak melakukannya"),
+          new AnswerChoiceModel("E", "Tidak ingin melakukannya sama sekali"),
+        ]
+      ),
+      new QuestionModel(
+        "74",
+        "tkp",
+        ["Tim bola voli unit kami diperkirakan akan kalah melawan tim bola voli unit lain dalam instansi kami. Sikap saya dalam pertandingan adalah ..."],
+        [
+          new AnswerChoiceModel("A", "Lebih baik diam karena sadar akan kekuatan tim kami"),
+          new AnswerChoiceModel("B", "Berusaha bersembunyi agar tidak diketahui bahwa saya adalah pendukung tim lemah"),
+          new AnswerChoiceModel("C", "Tetap memberikan dukungan dengan penuh semangat"),
+          new AnswerChoiceModel("D", "Jika tim kami kalah tidaklah mengapa, toh sudah diperkirakan demikian"),
+          new AnswerChoiceModel("E", "Memberikan dukungan karena malu dianggap tidak setia kawan"),
+        ]
+      ),
+      new QuestionModel(
+        "75",
+        "tkp",
+        ["Keadaan yang sering terjadi saat ada masalah dalam sebuah tim kerja yang baru adalah ..."],
+        [
+          new AnswerChoiceModel("A", "Semua teman saya terlibat aktif untuk menyelesaikannya"),
+          new AnswerChoiceModel("B", "Tidak semua orang mau mengerjakan pekerjaan yang terkait dengan masalah tersebut"),
+          new AnswerChoiceModel("C", "Akhirnya saya juga yang harus membereskannya"),
+          new AnswerChoiceModel("D", "Saling mengharapkan ada yang menyelesaikan pekerjaan tersebut"),
+          new AnswerChoiceModel("E", "Pekerjaan akan selesai hanya jika ada yang memulai bekerja"),
+        ]
+      ),
+      new QuestionModel(
+        "76",
+        "tkp",
+        ["Saya mendapat kesempatan menjadi pengawal pribadi pejabat negara dalam pertemuan penting dengan para investor asing. Sikap saya ..."],
+        [
+          new AnswerChoiceModel("A", "Berusaha menghindari media masa yang membujuk untuk mengetahui hasil pertemuan tersebut"),
+          new AnswerChoiceModel("B", "Dengan bangga saya akan menceritakan kepada rekan media tentang pertemuan tersebut"),
+          new AnswerChoiceModel("C", "Memberitahu keluarga tentang hasil pertemuan"),
+          new AnswerChoiceModel("D", "Memberitahu sahabat saya di kantor tentang hasil pertemuan"),
+          new AnswerChoiceModel("E", "Tidak akan membocorkan hasil pertemuan karena bukan wewenang saya"),
+        ]
+      ),
+      new QuestionModel(
+        "77",
+        "tkp",
+        ["Terjadi pergantian pimpinan di unit kerja saya. Sikap saya adalah ..."],
+        [
+          new AnswerChoiceModel("A", "Tidak peduli"),
+          new AnswerChoiceModel("B", "Berusaha mengenal dan memahami visi dan misi pimpinan baru"),
+          new AnswerChoiceModel("C", "Tidak berusaha mendekati pimpinan baru karena takut dicap penjilat"),
+          new AnswerChoiceModel("D", "Berusaha mengenal pribadi pimpinan baru"),
+          new AnswerChoiceModel("E", "Pergantian pimpinan itu sesuatu yang biasa"),
+        ]
+      ),
+      new QuestionModel(
+        "78",
+        "tkp",
+        ["Saya sudah berusaha untuk memperbaiki kelemahan diri, tetapi belum juga menampakkan hasilnya. Sehingga saya ..."],
+        [
+          new AnswerChoiceModel("A", "menerimanya dengan terpaksa"),
+          new AnswerChoiceModel("B", "menerimanya, meski tentu saja dengan sedikit kekecewaan"),
+          new AnswerChoiceModel("C", "menerimanya dengan lapang dada"),
+          new AnswerChoiceModel("D", "membenci diri saya sendiri"),
+          new AnswerChoiceModel("E", "meratapi diri sendiri"),
+        ]
+      ),
+      new QuestionModel(
+        "79",
+        "tkp",
+        [
+          "Seorang kawan memiliki isteri yang akan melahirkan, dan karena tidak memiliki biaya Rumah Sakit, maka dia meminjam uang dari anda, padahal uang anda hanya cukup untuk kebutuhan sehari - hari.",
+        ],
+        [
+          new AnswerChoiceModel("A", "Saya meminta maaf dan mengatakan yang sebenarnya bahwa saya tidak punya uang untuk dipinjamkan"),
+          new AnswerChoiceModel("B", "Saya pinjamkan sisa uang saya yang sedikit tersebut"),
+          new AnswerChoiceModel("C", "Saya menolak meminjamkan uang saya, karena itu hanya cukup untuk kebutuhan sehari - hari"),
+          new AnswerChoiceModel("D", "Saya akan memberikan solusi dengan membantunya meminjam uang dari kawan lain"),
+          new AnswerChoiceModel("E", "Saya menyarankan agar dia meminjam dari orang lain"),
+        ]
+      ),
+      new QuestionModel(
+        "80",
+        "tkp",
+        ["Anda berada dalam satu kelompok untuk mengerjakan tugas dari Kampus dan teman - teman Anda merupakan orang - orang yang sibuk, maka anda akan ..."],
+        [
+          new AnswerChoiceModel("A", "Mencoba mengetahui jadwal masing - masing sehingga mereka semua dapat meluangkan waktunya untuk kerja kelompok"),
+          new AnswerChoiceModel("B", "Mulai mengajak mereka kerja kelompok ketika mereka tidak sibuk lagi"),
+          new AnswerChoiceModel("C", "Mulai mengajak mereka kerja kelompok ketika tenggak waktu penyelesaian sudah hampir tiba"),
+          new AnswerChoiceModel("D", "Cuek saja yang penting saya menyelesaikan apa yang menjadi tugas saya"),
+          new AnswerChoiceModel("E", "Menasehati rekan - rekan yang menurut Anda sangat sibuk sehingga tidak memiliki waktu untuk mengerjakan pekerjaan tim"),
+        ]
+      ),
+      new QuestionModel(
+        "81",
+        "tkp",
+        ["Apa yang anda lakukan bila terjadi kebakaran dikantor anda ..."],
+        [
+          new AnswerChoiceModel("A", "Segera memanggil pemadam kebakaran"),
+          new AnswerChoiceModel("B", "Melaporkan pada petugas gedung untuk menyelamatkan semua orang"),
+          new AnswerChoiceModel("C", "Meminta semua tenang"),
+          new AnswerChoiceModel("D", "Menjalankan prosedur penyelamatan diri, sehingga mengajak yang lain untuk keluar melalui pintu darurat"),
+          new AnswerChoiceModel("E", "Mematikan aliran listrik dan tidak menggunakan lift untuk meninggalkan gedung"),
+        ]
+      ),
+      new QuestionModel(
+        "82",
+        "tkp",
+        ["Banyak senior di kantor yang datang terlambat saat kerja, saya sebagai junior yang baru masuk ..."],
+        [
+          new AnswerChoiceModel("A", "Tidak ikut"),
+          new AnswerChoiceModel("B", "Memberi contoh dengan datang lebih awal"),
+          new AnswerChoiceModel("C", "Tergantung perintah pimpinan"),
+          new AnswerChoiceModel("D", "Ikut kebiasaan yang sudah ada"),
+          new AnswerChoiceModel("E", "Menegur senior"),
+        ]
+      ),
+      new QuestionModel(
+        "83",
+        "tkp",
+        [
+          "Pekerjaan Sita mendapat kritik dari orang lain, yaitu oleh warga yang pernah memiliki urusan administrasi dengannya, padahal banyak sekali warga yang menilai Sita sangat baik dalam melakukan pelayanan. Maka yang Sita lakukan adalah ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Mendiamkannya karena itu urusan dia"),
+          new AnswerChoiceModel("B", "Bertanya kepadanya terkait dengan pelayanan saya"),
+          new AnswerChoiceModel("C", "Tidak terima dan langsung marah"),
+          new AnswerChoiceModel("D", "Menanyakan kepadanya dan menunjukkan SOP "),
+          new AnswerChoiceModel("E", "Tidak peduli karena ia kurang memahami sistem"),
+        ]
+      ),
+      new QuestionModel(
+        "84",
+        "tkp",
+        [
+          "Ketika anda mengetik tugas dari atasan anda, tanpa sengaja teman anda mencabut kabel sambung dari stop kontak, secara otomatis komputer anda mati. Anda sangat panik karena data yang anda ketik belum tersimpan. Maka sikap yang akan anda tunjukan adalah ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Memarahi rekan yang melakukan hal tersebut"),
+          new AnswerChoiceModel("B", "Menerima permintaan maaf teman Anda"),
+          new AnswerChoiceModel("C", "Meminta teman anda bertanggung jawab atas perbuatannya"),
+          new AnswerChoiceModel("D", "Memaklumi ketidaksengajaan teman anda dan segera meneruskan tugas"),
+          new AnswerChoiceModel("E", "Menghela nafas panjang"),
+        ]
+      ),
+      new QuestionModel(
+        "85",
+        "tkp",
+        ["Ditengah pekerjaan besar dengan target yang tinggi saya mengalami kegagalan besar yang sangat mengancam karir saya, sebaiknya saya ..."],
+        [
+          new AnswerChoiceModel("A", "Meminta maaf atas kegagalan saya"),
+          new AnswerChoiceModel("B", "Bertanggung jawab sepenuhnya atas apa yang saya lakukan"),
+          new AnswerChoiceModel("C", "Tidak berputus asa, saya jadikan kegagalan ini sebagai penguat langkah kedepan"),
+          new AnswerChoiceModel("D", "Bertanggung jawab dengan segera mengundurkan diri dari pekerjaan"),
+          new AnswerChoiceModel("E", "Mencari - cari dalang dibalik kegagalan ini"),
+        ]
+      ),
+      new QuestionModel(
+        "86",
+        "tkp",
+        [
+          "Mugga merupakan siswa yang sering absen kehadirannya, sehingga prestasi akademiknya sangat rendah. Mugga sering absen karena ia harus mengikuti ritual acara keagamaannya. Nindy sebagai wali kelas Mugga sangat prihatin dengan situasi ini. Yang bisa dilakukan oleh Nindy adalah ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Meminta Mugga untuk lebih rajin masuk kelas dan mengikuti pelajaran"),
+          new AnswerChoiceModel("B", "Mencari informasi dari orang tua Mugga tentang ritual kepercayaan tersebut"),
+          new AnswerChoiceModel("C", "Mencari informasi kepada orang lain yang memiliki kepercayaan sama dengan Mugga "),
+          new AnswerChoiceModel("D", "Meminta sekolah mendiskusikan dispensasi ketidakhadiran karena ritual kepercayaan"),
+          new AnswerChoiceModel("E", "Bertanya kepada Mugga mengenai ritual yang wajib dilaksanakan menurut agama Mugga"),
+        ]
+      ),
+      new QuestionModel(
+        "87",
+        "tkp",
+        [
+          "Anda menerima perintah tugas ke luar kota. Kebetulan pekerjaan anda di kantor menumpuk dan harus diselesaikan. Maka tindakan yang akan anda lakukan adalah...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Meminta atasan untuk memberikan perpanjangan waktu menyelesaikan tugas tersebut"),
+          new AnswerChoiceModel("B", "Meminta atasan untuk keluar kota setelah anda menyelesaikan pekerjaan anda"),
+          new AnswerChoiceModel(
+            "C",
+            "Mengkoordinasikan tugas yang dapat dipercayakan kepada rekan kerja, selain tidak menyalahi prosedur pekerjaan dapat diselesaikan tepat waktu"
+          ),
+          new AnswerChoiceModel("D", "Membawa pekerjaan tersebut ke luar kota. Sehingga dapat diselesaikan tepat waktu"),
+          new AnswerChoiceModel("E", "Menyelesaikan semampu Anda"),
+        ]
+      ),
+      new QuestionModel(
+        "88",
+        "tkp",
+        ["Dibandingkan dengan rekan - rekan kerja saya yang lain, gaya kemarahan saya adalah ..."],
+        [
+          new AnswerChoiceModel("A", "Saya sering marah seperti lazimnya rekan lain"),
+          new AnswerChoiceModel("B", "Kemarahan saya lebih dahsyat dari rekan lain"),
+          new AnswerChoiceModel("C", "Saya tidak pernah marah"),
+          new AnswerChoiceModel("D", "Saya marah jika memang diperlukan untuk perbaikan kondisi agar lebih baik"),
+          new AnswerChoiceModel("E", "Saya cenderung lebih pemarah dari rekan lain"),
+        ]
+      ),
+      new QuestionModel(
+        "89",
+        "tkp",
+        [
+          "Anda adalah seorang artis yang sedang naik daun. Suatu hari manager Anda meminta Anda untuk syuting di luar kota, sedangkan masih banyak sekali beban pekerjaan kantor yang harus anda selesaikan, maka anda akan ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Keluar dari PNS"),
+          new AnswerChoiceModel("B", "Meminta izin atasan agar bisa melimpahkan pekerjaan ke rekan yang lain"),
+          new AnswerChoiceModel("C", "Segera menyelesaikan pekerjaan, kalau tidak terkejar, baru meminta izin atasan"),
+          new AnswerChoiceModel("D", "Mengundurkan diri dari perfilman"),
+          new AnswerChoiceModel("E", "Marah pada keadaan"),
+        ]
+      ),
+      new QuestionModel(
+        "90",
+        "tkp",
+        ["Saya mempunyai seorang saudara yang ingin sekali sekolah ditempat saya mengajar , yang saya lakukan..."],
+        [
+          new AnswerChoiceModel("A", "Memberinya alamat rumah kepala sekolah saya"),
+          new AnswerChoiceModel("B", "Memberitahukan pihak penyeleksi bahwa saudara saya akan mendaftar"),
+          new AnswerChoiceModel("C", "Memberikan trik dan celah untuk bisa lulus"),
+          new AnswerChoiceModel("D", "Menyemangatinya namun tak membantu apapun"),
+          new AnswerChoiceModel("E", "Tidak mempedulikannya"),
+        ]
+      ),
+      new QuestionModel(
+        "91",
+        "tkp",
+        ["Pimpinan ingin dibuatkan sebuah kumpulan berita - berita baru yang mudah dibaca, maka sebaiknya ..."],
+        [
+          new AnswerChoiceModel("A", "Saya buatkan kliping koran dengan jangka waktu tiap bulan"),
+          new AnswerChoiceModel("B", "Saya kumpulkan berita - berita dari internet internet dan saya bookmark tiap alamatnya"),
+          new AnswerChoiceModel("C", "Saya kumpulkan berita majalah dan koran yang berisi berita penting"),
+          new AnswerChoiceModel("D", "Saya bersama teman - teman menyimpan tiap koran dan majalah ke rak - rak khusus"),
+          new AnswerChoiceModel("E", "Saya meminta OB untuk mengkliping koran yang penting"),
+        ]
+      ),
+      new QuestionModel(
+        "92",
+        "tkp",
+        ["Saat makan siang saya mendapatkan makanan yang tidak sesuai dengan pesanan saya. Saya akan..."],
+        [
+          new AnswerChoiceModel("A", "Marah - marah dan meninggalkan tempat tersebut"),
+          new AnswerChoiceModel("B", "Meminta ganti sesuai pesanan"),
+          new AnswerChoiceModel("C", "Tetap memakannya dan membayar seperti biasa"),
+          new AnswerChoiceModel("D", "Tetap memakannya dan meminta potongan harga"),
+          new AnswerChoiceModel("E", "Menerima makanan tersebut, dan memesan lagi seperti keinginan"),
+        ]
+      ),
+      new QuestionModel(
+        "93",
+        "tkp",
+        [
+          "Sehubungan dengan pekerjaan Anda, kantor Anda memberikan jatah uang makan sebesar Rp.500.000, - untuk makan siang setiap harinya. Uang tersebut akan diganti sesuai dengan bukti pembayaran makan siang. Namun menurut Anda makan siang Anda selama ini tidak sebesar jumlah tersebut. Oleh karena itu Anda akan...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Tetap makan dengan jumlah tersebut demi mendapatkan uang reimburse"),
+          new AnswerChoiceModel("B", "Makan dengan jumlah yang secukupnya menurut Anda"),
+          new AnswerChoiceModel("C", "Makan secukupnya tapi memalsukan kwitansinya"),
+          new AnswerChoiceModel("D", "Makan secukupnya dengan kwitansi yang sebenarnya"),
+          new AnswerChoiceModel("E", "Ikut bagaimana rekan saya yang lain saja"),
+        ]
+      ),
+      new QuestionModel(
+        "94",
+        "tkp",
+        ["Musim hujan mengakibatkan dinding tempat anda bekerja bocor. Maka yang akan anda lakukan adalah ..."],
+        [
+          new AnswerChoiceModel("A", "Memindahkan benda - benda agar tidak basah"),
+          new AnswerChoiceModel("B", "Meminta cleaning service untuk membersihkan"),
+          new AnswerChoiceModel("C", "Memindahkan ruang kerja ke area yang lebih nyaman"),
+          new AnswerChoiceModel("D", "Segera memanggil tukang bangunan"),
+          new AnswerChoiceModel("E", "Memindahkan ruang kerja agar tukang bangunan dapat bekerja maksimal"),
+        ]
+      ),
+      new QuestionModel(
+        "95",
+        "tkp",
+        ["Jika salah seorang bawahan saya melakukan tugas yang saya berikan kepadanya dengan sangat baik, maka saya ..."],
+        [
+          new AnswerChoiceModel("A", "Puas, namun tak memuji karena hal itu akan membuatnya sombong"),
+          new AnswerChoiceModel("B", "Tak akan memuji"),
+          new AnswerChoiceModel("C", "Memuji setinggi langit agar dia juga senang kepada saya"),
+          new AnswerChoiceModel("D", "Memuji secara proposional"),
+          new AnswerChoiceModel("E", "Berpura-pura tidak tahu akan keberhasilannya melakukan tugas"),
+        ]
+      ),
+      new QuestionModel(
+        "96",
+        "tkp",
+        ["Bila ada rekan kerja yang salah memanggil nama saya, maka saya .."],
+        [
+          new AnswerChoiceModel("A", "Saya tersinggung, karena nama adalah kehornatan seseorang"),
+          new AnswerChoiceModel("B", "Saya tidak tersinggung"),
+          new AnswerChoiceModel("C", "Saya mengingatkan kekeliruannya dengan baik-baik"),
+          new AnswerChoiceModel("D", "Saya mengingatkannya dengan tegas agar dia jera"),
+          new AnswerChoiceModel("E", "Hal seperti itu tak menjadi masalah bagi saya"),
+        ]
+      ),
+      new QuestionModel(
+        "97",
+        "tkp",
+        ["Hal pertama yang akan saya lakukan saat saya memasuki tempat kerja yang baru adalah..."],
+        [
+          new AnswerChoiceModel("A", "Mempelajari sistem kerja di tempat tersebut dari peraturan dan data"),
+          new AnswerChoiceModel("B", "Mencari tahu apa yang harus saya kerjakan"),
+          new AnswerChoiceModel("C", "Menunggu perintah kerja dari atasan"),
+          new AnswerChoiceModel("D", "Mengamati sistem kerja pegawai di tempat kerja tersebut"),
+          new AnswerChoiceModel("E", "Menyapa rekan kerja baru dan bertanya tentang sistem kerja di tempat tersebut"),
+        ]
+      ),
+      new QuestionModel(
+        "98",
+        "tkp",
+        ["Anda baru saja mendapat teman satu tim. Maka anda dan rekan kerja anda akan ..."],
+        [
+          new AnswerChoiceModel("A", "Bersaing untuk mendapatkan simpati atasan"),
+          new AnswerChoiceModel("B", "Mengerjakan tugas masing - masing"),
+          new AnswerChoiceModel("C", "Berusaha saling menjatuhkan demi membangun simpati"),
+          new AnswerChoiceModel("D", "Mengenal rekan kerja dengan sering pergi bersama setelah pulang"),
+          new AnswerChoiceModel("E", "Berusaha saling memahami dan bahu - membahu dengan maksimal"),
+        ]
+      ),
+      new QuestionModel(
+        "99",
+        "tkp",
+        ["Anda adalah pimpinan pada suatu rapat penting kemudian anda mendapat kabar bahwa istri/ suami anda mengalami kecelakaan, maka anda akan ..."],
+        [
+          new AnswerChoiceModel("A", "Melanjutkan rapat karena harus bersikap profesional"),
+          new AnswerChoiceModel("B", "Pura - pura tidak tahu"),
+          new AnswerChoiceModel("C", "Menanyakan keadaan terlebih dahulu"),
+          new AnswerChoiceModel("D", "Menyuruh saudara untuk mengurus istri/ suami anda"),
+          new AnswerChoiceModel("E", "Panik"),
+        ]
+      ),
+      new QuestionModel(
+        "100",
+        "tkp",
+        ["Tempat saya bekerja mengalami pergantian kepala kantor. Padahal saya sangat dekat dengan kepala kantor yang lama. Saya akan ..."],
+        [
+          new AnswerChoiceModel("A", "Berusaha dekat dengan kepala kantor yang baru"),
+          new AnswerChoiceModel("B", "Tidak mau dekat dengan kepala kantor yang baru"),
+          new AnswerChoiceModel("C", "Tidak semangat dalam bekerja"),
+          new AnswerChoiceModel("D", "Segera menyesuaikan diri dengan pola kerja yang baru"),
+          new AnswerChoiceModel("E", "Tidak terpengaruh masalah pergantian kepala kantor"),
+        ]
+      ),
+      new QuestionModel(
+        "101",
+        "tkp",
+        [
+          "Rachmat menduduki jabatan penyedia di perusahaan. Belum lama ini, beberapa karyawan yang baru diterima memeluk agama yang termasuk ke dalam kelompok minoritas. Suatu kondisi yang memberikan nuasa yang berbeda dari waktu-waktu sebelumnya. Dalam hal ini, Rachmat ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "Menunjukkan kepada rekan kerjanya bahwa saling menghargai keyakinan adalah hal yang mudah di lakukan"),
+          new AnswerChoiceModel("B", "Mempelajari apa yang mereka butuhkan dan membangun rasa saling menghargai"),
+          new AnswerChoiceModel("C", "Mencoba menghargai apa yang menjadi keyakinan mereka"),
+          new AnswerChoiceModel("D", "Tidak terlalu peduli dengan keadaan tersebut karena masalah agama bukan urusannya"),
+          new AnswerChoiceModel("E", "Menghargai keyakinan mereka tanpa harus merasa terganggu"),
+        ]
+      ),
+      new QuestionModel(
+        "102",
+        "tkp",
+        [
+          "Anda memutuskan untuk memberikan ponsel pada adik anda yang berusia 16 tahun hal pertama yang harus dilakukan saat pertama kali memberi ponsel pada adik anda yaitu",
+        ],
+        [
+          new AnswerChoiceModel("A", "Membiarkan adik anda bermain ponsel sendiri"),
+          new AnswerChoiceModel("B", "Mencoba untuk selektif dalam memilih pertemanan dan lingkungan adik"),
+          new AnswerChoiceModel(
+            "C",
+            "Menjelaskan bagaimana menggunakan ponsel secara bijaksana baik secara agama maupun dari sisi kebangsaan sehingga tidak salah penggunaannya"
+          ),
+          new AnswerChoiceModel("D", "Membatasi fitur pada ponsel sehingga tidak ada konten yang mengandung radikalisme"),
+          new AnswerChoiceModel("E", "Memutuskan untuk tidak memberikan ponsel hingga cukup usia"),
+        ]
+      ),
+      new QuestionModel(
+        "103",
+        "tkp",
+        [
+          "Kamu memiliki client yang telah menjadi bagian dari perusahaan selama bertahun-tahun. Suatu hari, client tersebut dilayani oleh salah satu rekan kerja kamu. Dan ia melakukan sesuatu yang tidak disukai client tersebut. Bagaimana sikap anda dalam situasi tersebut?",
+        ],
+        [
+          new AnswerChoiceModel("A", "Meminta maaf atas nama rekan kerja anda"),
+          new AnswerChoiceModel("B", "Mengucapkan terimakasih banyak kepada client tersebut dan menjadikan sebagai tolak ukur kinerja anda"),
+          new AnswerChoiceModel("C", "Mendengarkan keluhan tersebut dengan seksama dan akan ditindaklanjuti."),
+          new AnswerChoiceModel("D", "Mendengarkan keluhan tersebut dengan seksama dan langsung chatting ke rekan kerja anda yang dimaksudkan."),
+          new AnswerChoiceModel("E", "Mendengarkan keluhan tersebut dengan seksama dan akan melaporkan ke atasan/pihak yang bewenang."),
+        ]
+      ),
+      new QuestionModel(
+        "104",
+        "tkp",
+        [
+          "Pak Ahmad selaku pemuka agama di Desa Maju, telah mendapatkan bantuan 100 juta. Sebagian masyarakat menginginkan dana itu digunakan untuk renovasi masjid. Sebagian masyarakat yang lain menginginkannya untuk membeli alat kesenian. Kebetulan saat itu ada penawaran alat kesenian dengan harga special. Sikap yang sebaiknya diambil Pak Ahmad adalah",
+        ],
+        [
+          new AnswerChoiceModel("A", "membicarakan permasalahan tersebut pada rapat bulanan sambll menunggu masukan dari warga"),
+          new AnswerChoiceModel("B", "memutuskan secara pribadl peruntukan alokasi dana daripada menunggu keputusan warga yang tidak jelas waktunya"),
+          new AnswerChoiceModel("C", "mengadakan rapat dengan warga karena tidak ingin disalahkan warga"),
+          new AnswerChoiceModel("D", "tidak membuat keputusan sebelum ada warga yang menanyakan tentang alokasi dana"),
+          new AnswerChoiceModel("E", "membangun komunikasi dengan warga dan mendengarkan aspirasi sebelum mengambil keputusan"),
+        ]
+      ),
+      new QuestionModel(
+        "105",
+        "tkp",
+        [
+          "Saat pergi ke kantor, seorang karyawan sering kali menghabiskan waktu sebelum bekerja untuk diskusi dengan teman-temannya. Namun ia selalu membicarakan mengenai organisasi berbasis agama dan mengajak teman lainnya untuk bergabung. teman-teman satu divisi anda kurang nyaman, hal yang dilakukan oleh anda adalah",
+        ],
+        [
+          new AnswerChoiceModel("A", "Cukup diam karena bukan urusan anda"),
+          new AnswerChoiceModel("B", "Melaporkan kepada atasan agar ditindak dengan cepat"),
+          new AnswerChoiceModel("C", "Mencoba untuk mengingatkan agar tidak memaksa dan mengajak ke organisasi radikalisme"),
+          new AnswerChoiceModel("D", "Ikut bergabung"),
+          new AnswerChoiceModel("E", "Mengatakan kepada teman-teman untuk menolak ajakannya"),
+        ]
+      ),
+      new QuestionModel(
+        "106",
+        "tkp",
+        [
+          "Andre dan juga Kadek merupakan teman dekat sejak kecil mereka selalu bersama dan juga pergi ke sekolah. Pada suatu hari, Kadek harus izin sekolah karena orang tuanya tengah mengadakan acara besar, untuk memperingati hari raya umat Hindu lalu apa yang harus dilakukan oleh Andre?",
+        ],
+        [
+          new AnswerChoiceModel("A", "Menjaga ketenangan dan juga menyampaikan informasi bahwa kadek izin untuk bisa melakukan hari raya sesuai agamanya"),
+          new AnswerChoiceModel("B", "Menghormati hari raya ataupun acara yang diperingati oleh Kadek"),
+          new AnswerChoiceModel("C", "Membiarkan Kadek untuk bisa beribadah dengan khusyuk dan bermain dengannya keesokan harinya"),
+          new AnswerChoiceModel("D", "Menjelaskan dengan baik kepada teman kelas apa yang dilakukan oleh Kadek di rumah"),
+          new AnswerChoiceModel("E", "Diam saja karena bukan urusan andre"),
+        ]
+      ),
+      new QuestionModel(
+        "107",
+        "tkp",
+        [
+          "Anda telah memasukkan data yang salah mengenai biaya perjalanan dinas rekan-rekan kerja Anda dari yang berada di unit teknis. Kesalahan yang Anda lakukan sangat fatal, yaitu biaya perjalanan yang seharusnya sebesar Rp 40.000.000,00 dicatat sebesar Rp 4.000.000. Sehingga terdapat selisih Rp36.000.000,00 pada jumlah total. Beruntung karena dokumen itu belum diselesaikan. Sebagai staff yang jujur dan konsekuen, maka yang Anda akan lakukan adalah ?",
+        ],
+        [
+          new AnswerChoiceModel("A", "Siap menerima konsekuensi dan siap digantikan oleh siapapun yang lebih berkompeten dari saya"),
+          new AnswerChoiceModel("B", "Berdiskusi dengan atasan bagaimana tindak selanjutnya dari kesalahan yang saya lakukan"),
+          new AnswerChoiceModel(
+            "C",
+            "Meminta maaf kepada pihak yang terkait dan menyelesaikan potensi kerugian negara tersebut melalui sidang penyalahgunaan keuangan"
+          ),
+          new AnswerChoiceModel("D", "Bersedia mengganti rugi atas nominal yang diinput dan bersedia posisi saya diganti akibat kelalaian saya "),
+          new AnswerChoiceModel("E", "Bertanggung jawab atas apa yang sudah saya lakukan"),
+        ]
+      ),
+      new QuestionModel(
+        "108",
+        "tkp",
+        [
+          "Tahun ini, pelaksanaan rangkaian perayaan ulang tahun Sunny Company bertepatan dengan Bulan Puasa. Sebagian besar karyawan mengkhawatirkan waktu pelaksanaan dapat mengganggu karyawan yang sedang berpuasa. Sebagai ketua pelaksana kegiatan, hal yang dilakukan Sunny adalah ...",
+        ],
+        [
+          new AnswerChoiceModel("A", "mendengarkan semua masukan dari rekan-rekan kerjanya"),
+          new AnswerChoiceModel("B", "melaksanakan kegiatan sesuai dengan direncanakannya"),
+          new AnswerChoiceModel("C", "melaksanakan kegiatan sesuai jadwal tahun-tahun sebelumnya"),
+          new AnswerChoiceModel("D", "mendengarkan masukan dari semua pihak dan memutuskan bersama jalan terbaiknya"),
+          new AnswerChoiceModel("E", "menerima masukan dari rekan kerja yang lain, jika tidak mengubah yang direncanakan"),
+        ]
+      ),
+      new QuestionModel(
+        "109",
+        "tkp",
+        [
+          "Pagi ini, kamu datang terburu-buru ke kantor, hal ini karena jalanan yang macet sekali sehingga kendaraan yang kamu bawa tidak bisa bergerak dan terjebak cukup lama di jalan raya, sehingga kamu hampir terlambat untuk tiba di kantor. Sedangkan semua karyawan melakukan absensi berbasis teknologi dimana jika terlambat melakukan presensi, maka akan dianggap tidak hadir. Namun, kamu melihat seorang wanita yang kebingungan mencari tempat pelayanan ketika kamu ingin bergegas ke tempat absensi. Sedangkan satpam yang biasa bertugas belum hadir, apa yang akan kamu lakukan?",
+        ],
+        [
+          new AnswerChoiceModel("A", "Memberitahu arah tempat layanan tersebut kemudian absen"),
+          new AnswerChoiceModel("B", "Menyuruh menunggu karena petugas belum hadir"),
+          new AnswerChoiceModel("C", "Menyapa ibu itu dan menanyakan keperluannya, kemudian kamu tinggal"),
+          new AnswerChoiceModel("D", "Mengajak ibu itu untuk ikut kamu absen sehingga bisa menanyakan keperluan dan mengantarkannya"),
+          new AnswerChoiceModel("E", "Mengantarkannya ke tempat yang dia tuju baru absen"),
+        ]
+      ),
+      new QuestionModel(
+        "110",
+        "tkp",
+        [
+          "Hari ini merupakan salah satu hari, dimana diumumkan akan adanya demo besar-besaran, untuk memprotes sebuah program, yang diberikan atau dilancarkan oleh pemerintah sikap anda sebagai ASN",
+        ],
+        [
+          new AnswerChoiceModel("A", "Mencoba mencari kejelasan informasi tersebut dan tetap fokus untuk bisa bekerja dengan baik"),
+          new AnswerChoiceModel("B", "Mengajak atau mencoba untuk ikut turun dan terjun demo pada hari yang sama"),
+          new AnswerChoiceModel(
+            "C",
+            "Mencoba untuk bersikap netral hingga mendapatkan informasi yang jelas mengingat protes yang dilakukan merupakan hal yang sangat wajar pada sebuah program"
+          ),
+          new AnswerChoiceModel("D", "Menyetujui adanya program tersebut karena anda adalah seorang pegawai negara"),
+          new AnswerChoiceModel("E", "Mencoba untuk mengkritisi program tersebut"),
+        ]
+      ),
+    ]),
   ];
 
-  const tryout = tryoutList[parseInt(tryoutId, 10) - 1]; // TryoutModel
+  const firstChar = tryoutId.charAt(0);
+  const tryoutNumber = firstChar === "p" ? tryoutId.slice(7) : tryoutId.slice(8);
+  const tryout = tryoutList[parseInt(tryoutNumber, 10) - 1]; // TryoutModel
   const questions = tryout.getQuestions(); // method in TryoutModel
   const question = questions[questionNumber - 1]; // QuestionModel
   const questionParagraphs = question.getQuestText(); // method in QuestionModel
