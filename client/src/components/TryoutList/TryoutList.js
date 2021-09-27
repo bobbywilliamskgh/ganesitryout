@@ -29,7 +29,7 @@ class TryoutList extends Component {
           <li className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
             <img className="w2 h2 w3-ns h3-ns br-100" src={exam} alt="exam-icon" />
             <div className="pl3 flex-auto">
-              <span className="b f6 db black-70">Tryout 5 Freemium</span>
+              <span className="b f6 db black-70">Tryout Part 6</span>
               {isCountDown ? (
                 <CountDownTryoutDay stopCountDown={this.stopCountDown} />
               ) : (
@@ -45,7 +45,7 @@ class TryoutList extends Component {
                       Instruksi
                     </div>
                   </Link>
-                  <Link to={"leaderboard/freemium5"} className="f5 fw6 button dark-green center no-underline" style={{ width: "fit-content" }}>
+                  <Link to={"leaderboard/freemium6"} className="f5 fw6 button dark-green center no-underline" style={{ width: "fit-content" }}>
                     Peringkat
                   </Link>
                 </div>
@@ -72,7 +72,7 @@ class TryoutList extends Component {
           <li className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
             <img className="w2 h2 w3-ns h3-ns br-100" src={exam} alt="exam-icon" />
             <div className="pl3 flex-auto">
-              <span className="b f6 db black-70">Tryout 1 Freemium</span>
+              <span className="b f6 db black-70">Tryout Part 1</span>
               <span className="f6 db black-70">08/05/2021</span>
             </div>
             <div>
@@ -84,7 +84,7 @@ class TryoutList extends Component {
           <li className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
             <img className="w2 h2 w3-ns h3-ns br-100" src={exam} alt="exam-icon" />
             <div className="pl3 flex-auto">
-              <span className="b f6 db black-70">Tryout 2 Freemium</span>
+              <span className="b f6 db black-70">Tryout Part 2</span>
               <span className="f6 db black-70">22/05/2021</span>
             </div>
             <div>
@@ -96,7 +96,7 @@ class TryoutList extends Component {
           <li className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
             <img className="w2 h2 w3-ns h3-ns br-100" src={exam} alt="exam-icon" />
             <div className="pl3 flex-auto">
-              <span className="b f6 db black-70">Tryout 3 Freemium</span>
+              <span className="b f6 db black-70">Tryout Part 3</span>
               <span className="f6 db black-70">18/06/2021</span>
             </div>
             <div>
@@ -108,7 +108,7 @@ class TryoutList extends Component {
           <li className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
             <img className="w2 h2 w3-ns h3-ns br-100" src={exam} alt="exam-icon" />
             <div className="pl3 flex-auto">
-              <span className="b f6 db black-70">Tryout 4 Freemium</span>
+              <span className="b f6 db black-70">Tryout Part 4</span>
               {/* <span class="f6 db black-70">Countdown</span> */}
               {/* <Link
                 to={{
@@ -186,6 +186,26 @@ class TryoutList extends Component {
               <Link to={"leaderboard/premium1"} className="f5 fw6 button dark-green center no-underline" style={{ width: "fit-content" }}>
                 Peringkat
               </Link>
+            </div>
+          </li>
+          <li className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
+            <img className="w2 h2 w3-ns h3-ns br-100" src={exam} alt="exam-icon" />
+            <div className="pl3 flex-auto">
+              <span className="b f6 db black-70">Tryout Part 5</span>
+              <span className="f6 db black-70">24/09/2021</span>
+              <Link to={"leaderboard/freemium5"} className="f5 fw6 button dark-green center no-underline" style={{ width: "fit-content" }}>
+                Peringkat
+              </Link>
+              <br />
+              <a
+                href="https://drive.google.com/file/d/18fKMMyXlM9VaRyfMYbRM_14TRO3BRz3H/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+                className="f5 fw6 button dark-green center no-underline"
+                style={{ width: "fit-content" }}
+              >
+                Kunci Jawaban
+              </a>
             </div>
           </li>
         </ul>
