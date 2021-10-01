@@ -27,9 +27,10 @@ class TestResult extends Component {
     };
 
     const userId = this.props.match.params.userId;
+    const tryoutId = this.props.match.params.tryoutId;
     console.log("userId...", userId);
     axios
-      .get(`${baseURL}/private/results/${userId}`, config)
+      .get(`${baseURL}/private/results/${userId}/${tryoutId}`, config)
       .then(({ data }) => {
         // console.log(data);
         if (!data.success) {

@@ -73,11 +73,12 @@ exports.getParticipant = async (req, res, next) => {
 };
 
 exports.getResult = async (req, res, next) => {
-  const { id } = req.params;
-  console.log("userId", id);
+  const { userId, tryoutId } = req.params;
+  // console.log("userId", userId);
+  // console.log("tryoutId", tryoutId);
   try {
     console.log("get results");
-    const results = await db.select("*").from("results").where("user_id", id);
+    const results = await db.select("*").from("results").where({ user_id: userId, tryout_id: tryoutId });
     const result = results[0];
     console.log("user result", result);
     if (!result) {
