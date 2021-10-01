@@ -37,7 +37,7 @@ class TryoutList extends Component {
                   <Link
                     to={{
                       pathname: "/instruksi",
-                      state: { userId: userId },
+                      state: { userId: userId, tryoutId: "freemium6" },
                     }}
                     className="no-underline"
                   >

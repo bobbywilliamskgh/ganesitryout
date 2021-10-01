@@ -35,7 +35,9 @@ class TestInstruction extends Component {
     // console.log("data from tryoutList", data);
 
     const userId = data.userId;
-    //console.log("user id", userId);
+    const tryoutId = data.tryoutId;
+    console.log("user id", userId);
+    console.log("tryoutId", tryoutId);
     fetch(`${baseURL}/private/participants/${userId}`, {
       method: "GET",
       headers: myHeaders,
@@ -51,7 +53,7 @@ class TestInstruction extends Component {
             console.log("user is not participant", data.participant);
             userStatus.isParticipant = false;
           }
-          fetch(`${baseURL}/private/results/${userId}`, {
+          fetch(`${baseURL}/private/results/${userId}/${tryoutId}`, {
             method: "GET",
             headers: myHeaders,
           })
@@ -90,12 +92,13 @@ class TestInstruction extends Component {
     const { history } = this.props;
     const data = this.props.location.state;
     const userId = data.userId;
+    const tryoutId = data.tryoutId;
     // console.log("userId in TestInstruction", userId);
     // const userId = this.props.userId;
     console.log("startTryout...");
     if (isParticipant && !isFinishTryout) {
       // history.push("/tryout/4", { userId: userId });
-      history.replace("tryout/freemium5", { userId: userId });
+      history.replace(`tryout/${tryoutId}`, { userId: userId });
       // setTryoutId("4");
       // onRouteChange("tryout");
     } else {
@@ -106,7 +109,7 @@ class TestInstruction extends Component {
     const { userStatus, isStartButtonClicked, isInstructionClicked } = this.state;
     return (
       <div>
-        <h1 className="tryout-title">Tryout 5 </h1>
+        <h1 className="tryout-title">Tryout 6 </h1>
 
         <p className="f4 attention ma6 mt0 lh-copy">
           <strong>{"Penting! "}</strong>

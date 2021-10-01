@@ -47,7 +47,7 @@ class AnswerKey {
   }
 }
 
-const answerKeys = [new AnswerKey(), new AnswerKey(), new AnswerKey(), new AnswerKey(), new AnswerKey(), new AnswerKey()];
+const answerKeys = [new AnswerKey(), new AnswerKey(), new AnswerKey(), new AnswerKey(), new AnswerKey(), new AnswerKey(), new AnswerKey()];
 
 class TryoutTest extends Component {
   constructor(props) {
@@ -1412,7 +1412,7 @@ class TryoutTest extends Component {
       .then((response) => response.json())
       .then((data) => {
         console.log("data", data);
-        this.props.history.replace(`/result/${userId}`, { userId: userId });
+        this.props.history.replace(`/result/${tryoutId}/${userId}`, { userId: userId });
       });
   };
 
@@ -1423,7 +1423,7 @@ class TryoutTest extends Component {
     const firstChar = tryoutId.charAt(0);
     const tryoutNumber = firstChar === "p" ? tryoutId.slice(7) : tryoutId.slice(8);
     // console.log("tryoutId", tryoutId);
-    const answerKey = answerKeys[parseInt(tryoutNumber, 10) - 1];
+    const answerKey = answerKeys[parseInt(tryoutNumber, 10)];
     const userAnswers = this.state.userAnswers;
     // console.log("userAnswers in onSubmitTest", userAnswers);
     const score = this.countScore(answerKey, userAnswers);
@@ -5617,6 +5617,1400 @@ class TryoutTest extends Component {
           {
             choiceId: "E",
             value: 1,
+          },
+        ],
+      },
+    ]);
+
+    // TRYOUT Freemium 6 KEY ANSWERS
+    answerKeys[6].setTryoutId("freemium6");
+    answerKeys[6].setTwkAnswers([
+      {
+        questId: "1",
+        answer: "B",
+      },
+      {
+        questId: "2",
+        answer: "C",
+      },
+      {
+        questId: "3",
+        answer: "B",
+      },
+      {
+        questId: "4",
+        answer: "E",
+      },
+      {
+        questId: "5",
+        answer: "B",
+      },
+      {
+        questId: "6",
+        answer: "A",
+      },
+      {
+        questId: "7",
+        answer: "E",
+      },
+      {
+        questId: "8",
+        answer: "E",
+      },
+      {
+        questId: "9",
+        answer: "D",
+      },
+      {
+        questId: "10",
+        answer: "A",
+      },
+      {
+        questId: "11",
+        answer: "B",
+      },
+      {
+        questId: "12",
+        answer: "B",
+      },
+      {
+        questId: "13",
+        answer: "A",
+      },
+      {
+        questId: "14",
+        answer: "B",
+      },
+      {
+        questId: "15",
+        answer: "A",
+      },
+      {
+        questId: "16",
+        answer: "E",
+      },
+      {
+        questId: "17",
+        answer: "B",
+      },
+      {
+        questId: "18",
+        answer: "C",
+      },
+      {
+        questId: "19",
+        answer: "A",
+      },
+      {
+        questId: "20",
+        answer: "B",
+      },
+      {
+        questId: "21",
+        answer: "C",
+      },
+      {
+        questId: "22",
+        answer: "C",
+      },
+      {
+        questId: "23",
+        answer: "E",
+      },
+      {
+        questId: "24",
+        answer: "E",
+      },
+      {
+        questId: "25",
+        answer: "A",
+      },
+      {
+        questId: "26",
+        answer: "D",
+      },
+      {
+        questId: "27",
+        answer: "E",
+      },
+      {
+        questId: "28",
+        answer: "A",
+      },
+      {
+        questId: "29",
+        answer: "A",
+      },
+      {
+        questId: "30",
+        answer: "B",
+      },
+    ]);
+    answerKeys[6].setTiuAnswers([
+      {
+        questId: "31",
+        answer: "D",
+      },
+      {
+        questId: "32",
+        answer: "C",
+      },
+      {
+        questId: "33",
+        answer: "A",
+      },
+      {
+        questId: "34",
+        answer: "B",
+      },
+      {
+        questId: "35",
+        answer: "B",
+      },
+      {
+        questId: "36",
+        answer: "E",
+      },
+      {
+        questId: "37",
+        answer: "B",
+      },
+      {
+        questId: "38",
+        answer: "A",
+      },
+      {
+        questId: "39",
+        answer: "D",
+      },
+      {
+        questId: "40",
+        answer: "B",
+      },
+      {
+        questId: "41",
+        answer: "C",
+      },
+      {
+        questId: "42",
+        answer: "C",
+      },
+      {
+        questId: "43",
+        answer: "A",
+      },
+      {
+        questId: "44",
+        answer: "C",
+      },
+      {
+        questId: "45",
+        answer: "B",
+      },
+      {
+        questId: "46",
+        answer: "A",
+      },
+      {
+        questId: "47",
+        answer: "A",
+      },
+      {
+        questId: "48",
+        answer: "E",
+      },
+      {
+        questId: "49",
+        answer: "C",
+      },
+      {
+        questId: "50",
+        answer: "A",
+      },
+      {
+        questId: "51",
+        answer: "B",
+      },
+      {
+        questId: "52",
+        answer: "C",
+      },
+      {
+        questId: "53",
+        answer: "A",
+      },
+      {
+        questId: "54",
+        answer: "C",
+      },
+      {
+        questId: "55",
+        answer: "B",
+      },
+      {
+        questId: "56",
+        answer: "A",
+      },
+      {
+        questId: "57",
+        answer: "D",
+      },
+      {
+        questId: "58",
+        answer: "C",
+      },
+      {
+        questId: "59",
+        answer: "D",
+      },
+      {
+        questId: "60",
+        answer: "A",
+      },
+      {
+        questId: "61",
+        answer: "C",
+      },
+      {
+        questId: "62",
+        answer: "A",
+      },
+      {
+        questId: "63",
+        answer: "A",
+      },
+      {
+        questId: "64",
+        answer: "B",
+      },
+      {
+        questId: "65",
+        answer: "C",
+      },
+    ]);
+    answerKeys[6].setTkpAnswers([
+      {
+        questId: "66",
+        answer: [
+          {
+            choiceId: "A",
+            value: 2,
+          },
+          {
+            choiceId: "B",
+            value: 4,
+          },
+          {
+            choiceId: "C",
+            value: 1,
+          },
+          {
+            choiceId: "D",
+            value: 3,
+          },
+          {
+            choiceId: "E",
+            value: 5,
+          },
+        ],
+      },
+      {
+        questId: "67",
+        answer: [
+          {
+            choiceId: "A",
+            value: 1,
+          },
+          {
+            choiceId: "B",
+            value: 3,
+          },
+          {
+            choiceId: "C",
+            value: 5,
+          },
+          {
+            choiceId: "D",
+            value: 4,
+          },
+          {
+            choiceId: "E",
+            value: 2,
+          },
+        ],
+      },
+      {
+        questId: "68",
+        answer: [
+          {
+            choiceId: "A",
+            value: 1,
+          },
+          {
+            choiceId: "B",
+            value: 2,
+          },
+          {
+            choiceId: "C",
+            value: 3,
+          },
+          {
+            choiceId: "D",
+            value: 4,
+          },
+          {
+            choiceId: "E",
+            value: 5,
+          },
+        ],
+      },
+      {
+        questId: "69",
+        answer: [
+          {
+            choiceId: "A",
+            value: 5,
+          },
+          {
+            choiceId: "B",
+            value: 1,
+          },
+          {
+            choiceId: "C",
+            value: 3,
+          },
+          {
+            choiceId: "D",
+            value: 2,
+          },
+          {
+            choiceId: "E",
+            value: 4,
+          },
+        ],
+      },
+      {
+        questId: "70",
+        answer: [
+          {
+            choiceId: "A",
+            value: 2,
+          },
+          {
+            choiceId: "B",
+            value: 3,
+          },
+          {
+            choiceId: "C",
+            value: 5,
+          },
+          {
+            choiceId: "D",
+            value: 4,
+          },
+          {
+            choiceId: "E",
+            value: 1,
+          },
+        ],
+      },
+      {
+        questId: "71",
+        answer: [
+          {
+            choiceId: "A",
+            value: 3,
+          },
+          {
+            choiceId: "B",
+            value: 5,
+          },
+          {
+            choiceId: "C",
+            value: 4,
+          },
+          {
+            choiceId: "D",
+            value: 1,
+          },
+          {
+            choiceId: "E",
+            value: 2,
+          },
+        ],
+      },
+      {
+        questId: "72",
+        answer: [
+          {
+            choiceId: "A",
+            value: 1,
+          },
+          {
+            choiceId: "B",
+            value: 5,
+          },
+          {
+            choiceId: "C",
+            value: 3,
+          },
+          {
+            choiceId: "D",
+            value: 2,
+          },
+          {
+            choiceId: "E",
+            value: 4,
+          },
+        ],
+      },
+      {
+        questId: "73",
+        answer: [
+          {
+            choiceId: "A",
+            value: 1,
+          },
+          {
+            choiceId: "B",
+            value: 2,
+          },
+          {
+            choiceId: "C",
+            value: 5,
+          },
+          {
+            choiceId: "D",
+            value: 3,
+          },
+          {
+            choiceId: "E",
+            value: 4,
+          },
+        ],
+      },
+      {
+        questId: "74",
+        answer: [
+          {
+            choiceId: "A",
+            value: 4,
+          },
+          {
+            choiceId: "B",
+            value: 2,
+          },
+          {
+            choiceId: "C",
+            value: 1,
+          },
+          {
+            choiceId: "D",
+            value: 3,
+          },
+          {
+            choiceId: "E",
+            value: 5,
+          },
+        ],
+      },
+      {
+        questId: "75",
+        answer: [
+          {
+            choiceId: "A",
+            value: 1,
+          },
+          {
+            choiceId: "B",
+            value: 2,
+          },
+          {
+            choiceId: "C",
+            value: 3,
+          },
+          {
+            choiceId: "D",
+            value: 5,
+          },
+          {
+            choiceId: "E",
+            value: 4,
+          },
+        ],
+      },
+      {
+        questId: "76",
+        answer: [
+          {
+            choiceId: "A",
+            value: 2,
+          },
+          {
+            choiceId: "B",
+            value: 1,
+          },
+          {
+            choiceId: "C",
+            value: 3,
+          },
+          {
+            choiceId: "D",
+            value: 4,
+          },
+          {
+            choiceId: "E",
+            value: 5,
+          },
+        ],
+      },
+      {
+        questId: "77",
+        answer: [
+          {
+            choiceId: "A",
+            value: 3,
+          },
+          {
+            choiceId: "B",
+            value: 5,
+          },
+          {
+            choiceId: "C",
+            value: 4,
+          },
+          {
+            choiceId: "D",
+            value: 2,
+          },
+          {
+            choiceId: "E",
+            value: 1,
+          },
+        ],
+      },
+      {
+        questId: "78",
+        answer: [
+          {
+            choiceId: "A",
+            value: 2,
+          },
+          {
+            choiceId: "B",
+            value: 5,
+          },
+          {
+            choiceId: "C",
+            value: 1,
+          },
+          {
+            choiceId: "D",
+            value: 4,
+          },
+          {
+            choiceId: "E",
+            value: 3,
+          },
+        ],
+      },
+      {
+        questId: "79",
+        answer: [
+          {
+            choiceId: "A",
+            value: 2,
+          },
+          {
+            choiceId: "B",
+            value: 1,
+          },
+          {
+            choiceId: "C",
+            value: 3,
+          },
+          {
+            choiceId: "D",
+            value: 4,
+          },
+          {
+            choiceId: "E",
+            value: 5,
+          },
+        ],
+      },
+      {
+        questId: "80",
+        answer: [
+          {
+            choiceId: "A",
+            value: 4,
+          },
+          {
+            choiceId: "B",
+            value: 3,
+          },
+          {
+            choiceId: "C",
+            value: 1,
+          },
+          {
+            choiceId: "D",
+            value: 2,
+          },
+          {
+            choiceId: "E",
+            value: 5,
+          },
+        ],
+      },
+      {
+        questId: "81",
+        answer: [
+          {
+            choiceId: "A",
+            value: 5,
+          },
+          {
+            choiceId: "B",
+            value: 2,
+          },
+          {
+            choiceId: "C",
+            value: 1,
+          },
+          {
+            choiceId: "D",
+            value: 3,
+          },
+          {
+            choiceId: "E",
+            value: 4,
+          },
+        ],
+      },
+      {
+        questId: "82",
+        answer: [
+          {
+            choiceId: "A",
+            value: 5,
+          },
+          {
+            choiceId: "B",
+            value: 1,
+          },
+          {
+            choiceId: "C",
+            value: 2,
+          },
+          {
+            choiceId: "D",
+            value: 3,
+          },
+          {
+            choiceId: "E",
+            value: 4,
+          },
+        ],
+      },
+      {
+        questId: "83",
+        answer: [
+          {
+            choiceId: "A",
+            value: 1,
+          },
+          {
+            choiceId: "B",
+            value: 2,
+          },
+          {
+            choiceId: "C",
+            value: 5,
+          },
+          {
+            choiceId: "D",
+            value: 4,
+          },
+          {
+            choiceId: "E",
+            value: 3,
+          },
+        ],
+      },
+      {
+        questId: "84",
+        answer: [
+          {
+            choiceId: "A",
+            value: 2,
+          },
+          {
+            choiceId: "B",
+            value: 1,
+          },
+          {
+            choiceId: "C",
+            value: 5,
+          },
+          {
+            choiceId: "D",
+            value: 3,
+          },
+          {
+            choiceId: "E",
+            value: 4,
+          },
+        ],
+      },
+      {
+        questId: "85",
+        answer: [
+          {
+            choiceId: "A",
+            value: 4,
+          },
+          {
+            choiceId: "B",
+            value: 3,
+          },
+          {
+            choiceId: "C",
+            value: 5,
+          },
+          {
+            choiceId: "D",
+            value: 2,
+          },
+          {
+            choiceId: "E",
+            value: 1,
+          },
+        ],
+      },
+      {
+        questId: "86",
+        answer: [
+          {
+            choiceId: "A",
+            value: 3,
+          },
+          {
+            choiceId: "B",
+            value: 1,
+          },
+          {
+            choiceId: "C",
+            value: 2,
+          },
+          {
+            choiceId: "D",
+            value: 5,
+          },
+          {
+            choiceId: "E",
+            value: 4,
+          },
+        ],
+      },
+      {
+        questId: "87",
+        answer: [
+          {
+            choiceId: "A",
+            value: 5,
+          },
+          {
+            choiceId: "B",
+            value: 4,
+          },
+          {
+            choiceId: "C",
+            value: 3,
+          },
+          {
+            choiceId: "D",
+            value: 1,
+          },
+          {
+            choiceId: "E",
+            value: 2,
+          },
+        ],
+      },
+      {
+        questId: "88",
+        answer: [
+          {
+            choiceId: "A",
+            value: 5,
+          },
+          {
+            choiceId: "B",
+            value: 2,
+          },
+          {
+            choiceId: "C",
+            value: 4,
+          },
+          {
+            choiceId: "D",
+            value: 3,
+          },
+          {
+            choiceId: "E",
+            value: 1,
+          },
+        ],
+      },
+      {
+        questId: "89",
+        answer: [
+          {
+            choiceId: "A",
+            value: 4,
+          },
+          {
+            choiceId: "B",
+            value: 5,
+          },
+          {
+            choiceId: "C",
+            value: 3,
+          },
+          {
+            choiceId: "D",
+            value: 2,
+          },
+          {
+            choiceId: "E",
+            value: 1,
+          },
+        ],
+      },
+      {
+        questId: "90",
+        answer: [
+          {
+            choiceId: "A",
+            value: 1,
+          },
+          {
+            choiceId: "B",
+            value: 4,
+          },
+          {
+            choiceId: "C",
+            value: 3,
+          },
+          {
+            choiceId: "D",
+            value: 5,
+          },
+          {
+            choiceId: "E",
+            value: 2,
+          },
+        ],
+      },
+      {
+        questId: "91",
+        answer: [
+          {
+            choiceId: "A",
+            value: 5,
+          },
+          {
+            choiceId: "B",
+            value: 4,
+          },
+          {
+            choiceId: "C",
+            value: 1,
+          },
+          {
+            choiceId: "D",
+            value: 3,
+          },
+          {
+            choiceId: "E",
+            value: 2,
+          },
+        ],
+      },
+      {
+        questId: "92",
+        answer: [
+          {
+            choiceId: "A",
+            value: 4,
+          },
+          {
+            choiceId: "B",
+            value: 5,
+          },
+          {
+            choiceId: "C",
+            value: 3,
+          },
+          {
+            choiceId: "D",
+            value: 1,
+          },
+          {
+            choiceId: "E",
+            value: 2,
+          },
+        ],
+      },
+      {
+        questId: "93",
+        answer: [
+          {
+            choiceId: "A",
+            value: 3,
+          },
+          {
+            choiceId: "B",
+            value: 4,
+          },
+          {
+            choiceId: "C",
+            value: 1,
+          },
+          {
+            choiceId: "D",
+            value: 5,
+          },
+          {
+            choiceId: "E",
+            value: 2,
+          },
+        ],
+      },
+      {
+        questId: "94",
+        answer: [
+          {
+            choiceId: "A",
+            value: 3,
+          },
+          {
+            choiceId: "B",
+            value: 4,
+          },
+          {
+            choiceId: "C",
+            value: 2,
+          },
+          {
+            choiceId: "D",
+            value: 1,
+          },
+          {
+            choiceId: "E",
+            value: 5,
+          },
+        ],
+      },
+      {
+        questId: "95",
+        answer: [
+          {
+            choiceId: "A",
+            value: 1,
+          },
+          {
+            choiceId: "B",
+            value: 2,
+          },
+          {
+            choiceId: "C",
+            value: 4,
+          },
+          {
+            choiceId: "D",
+            value: 5,
+          },
+          {
+            choiceId: "E",
+            value: 3,
+          },
+        ],
+      },
+      {
+        questId: "96",
+        answer: [
+          {
+            choiceId: "A",
+            value: 3,
+          },
+          {
+            choiceId: "B",
+            value: 2,
+          },
+          {
+            choiceId: "C",
+            value: 5,
+          },
+          {
+            choiceId: "D",
+            value: 4,
+          },
+          {
+            choiceId: "E",
+            value: 1,
+          },
+        ],
+      },
+      {
+        questId: "97",
+        answer: [
+          {
+            choiceId: "A",
+            value: 2,
+          },
+          {
+            choiceId: "B",
+            value: 5,
+          },
+          {
+            choiceId: "C",
+            value: 4,
+          },
+          {
+            choiceId: "D",
+            value: 1,
+          },
+          {
+            choiceId: "E",
+            value: 3,
+          },
+        ],
+      },
+      {
+        questId: "98",
+        answer: [
+          {
+            choiceId: "A",
+            value: 2,
+          },
+          {
+            choiceId: "B",
+            value: 1,
+          },
+          {
+            choiceId: "C",
+            value: 5,
+          },
+          {
+            choiceId: "D",
+            value: 4,
+          },
+          {
+            choiceId: "E",
+            value: 3,
+          },
+        ],
+      },
+      {
+        questId: "99",
+        answer: [
+          {
+            choiceId: "A",
+            value: 5,
+          },
+          {
+            choiceId: "B",
+            value: 4,
+          },
+          {
+            choiceId: "C",
+            value: 2,
+          },
+          {
+            choiceId: "D",
+            value: 1,
+          },
+          {
+            choiceId: "E",
+            value: 3,
+          },
+        ],
+      },
+      {
+        questId: "100",
+        answer: [
+          {
+            choiceId: "A",
+            value: 5,
+          },
+          {
+            choiceId: "B",
+            value: 1,
+          },
+          {
+            choiceId: "C",
+            value: 2,
+          },
+          {
+            choiceId: "D",
+            value: 4,
+          },
+          {
+            choiceId: "E",
+            value: 3,
+          },
+        ],
+      },
+      {
+        questId: "101",
+        answer: [
+          {
+            choiceId: "A",
+            value: 1,
+          },
+          {
+            choiceId: "B",
+            value: 3,
+          },
+          {
+            choiceId: "C",
+            value: 5,
+          },
+          {
+            choiceId: "D",
+            value: 4,
+          },
+          {
+            choiceId: "E",
+            value: 2,
+          },
+        ],
+      },
+      {
+        questId: "102",
+        answer: [
+          {
+            choiceId: "A",
+            value: 5,
+          },
+          {
+            choiceId: "B",
+            value: 1,
+          },
+          {
+            choiceId: "C",
+            value: 4,
+          },
+          {
+            choiceId: "D",
+            value: 2,
+          },
+          {
+            choiceId: "E",
+            value: 3,
+          },
+        ],
+      },
+      {
+        questId: "103",
+        answer: [
+          {
+            choiceId: "A",
+            value: 1,
+          },
+          {
+            choiceId: "B",
+            value: 2,
+          },
+          {
+            choiceId: "C",
+            value: 3,
+          },
+          {
+            choiceId: "D",
+            value: 4,
+          },
+          {
+            choiceId: "E",
+            value: 5,
+          },
+        ],
+      },
+      {
+        questId: "104",
+        answer: [
+          {
+            choiceId: "A",
+            value: 4,
+          },
+          {
+            choiceId: "B",
+            value: 2,
+          },
+          {
+            choiceId: "C",
+            value: 3,
+          },
+          {
+            choiceId: "D",
+            value: 1,
+          },
+          {
+            choiceId: "E",
+            value: 5,
+          },
+        ],
+      },
+      {
+        questId: "105",
+        answer: [
+          {
+            choiceId: "A",
+            value: 5,
+          },
+          {
+            choiceId: "B",
+            value: 1,
+          },
+          {
+            choiceId: "C",
+            value: 4,
+          },
+          {
+            choiceId: "D",
+            value: 3,
+          },
+          {
+            choiceId: "E",
+            value: 2,
+          },
+        ],
+      },
+      {
+        questId: "106",
+        answer: [
+          {
+            choiceId: "A",
+            value: 1,
+          },
+          {
+            choiceId: "B",
+            value: 4,
+          },
+          {
+            choiceId: "C",
+            value: 3,
+          },
+          {
+            choiceId: "D",
+            value: 5,
+          },
+          {
+            choiceId: "E",
+            value: 2,
+          },
+        ],
+      },
+      {
+        questId: "107",
+        answer: [
+          {
+            choiceId: "A",
+            value: 1,
+          },
+          {
+            choiceId: "B",
+            value: 2,
+          },
+          {
+            choiceId: "C",
+            value: 5,
+          },
+          {
+            choiceId: "D",
+            value: 3,
+          },
+          {
+            choiceId: "E",
+            value: 4,
+          },
+        ],
+      },
+      {
+        questId: "108",
+        answer: [
+          {
+            choiceId: "A",
+            value: 2,
+          },
+          {
+            choiceId: "B",
+            value: 5,
+          },
+          {
+            choiceId: "C",
+            value: 4,
+          },
+          {
+            choiceId: "D",
+            value: 3,
+          },
+          {
+            choiceId: "E",
+            value: 1,
+          },
+        ],
+      },
+      {
+        questId: "109",
+        answer: [
+          {
+            choiceId: "A",
+            value: 1,
+          },
+          {
+            choiceId: "B",
+            value: 5,
+          },
+          {
+            choiceId: "C",
+            value: 2,
+          },
+          {
+            choiceId: "D",
+            value: 3,
+          },
+          {
+            choiceId: "E",
+            value: 4,
+          },
+        ],
+      },
+      {
+        questId: "110",
+        answer: [
+          {
+            choiceId: "A",
+            value: 1,
+          },
+          {
+            choiceId: "B",
+            value: 5,
+          },
+          {
+            choiceId: "C",
+            value: 3,
+          },
+          {
+            choiceId: "D",
+            value: 4,
+          },
+          {
+            choiceId: "E",
+            value: 2,
           },
         ],
       },
