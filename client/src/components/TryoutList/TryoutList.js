@@ -217,15 +217,15 @@ class TryoutList extends Component {
                 Peringkat
               </Link>
               <br />
-              {/* <a
-                href="https://drive.google.com/file/d/18fKMMyXlM9VaRyfMYbRM_14TRO3BRz3H/view?usp=sharing"
+              <a
+                href="https://drive.google.com/file/d/1lTeZrl4h0Y9j23E26FnzGp756X1loLik/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
                 className="f5 fw6 button dark-green center no-underline"
                 style={{ width: "fit-content" }}
               >
                 Kunci Jawaban
-              </a> */}
+              </a>
             </div>
           </li>
         </ul>
