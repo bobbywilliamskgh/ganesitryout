@@ -109,7 +109,7 @@ class TestInstruction extends Component {
     const { userStatus, isStartButtonClicked, isInstructionClicked } = this.state;
     return (
       <div>
-        <h1 className="tryout-title">Tryout 6 </h1>
+        <h1 className="tryout-title">Tryout 7 </h1>
 
         <p className="f4 attention ma6 mt0 lh-copy">
           <strong>{"Penting! "}</strong>
