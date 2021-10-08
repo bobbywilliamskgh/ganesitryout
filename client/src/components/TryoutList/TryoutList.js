@@ -37,7 +37,7 @@ class TryoutList extends Component {
                   <Link
                     to={{
                       pathname: "/instruksi",
-                      state: { userId: userId, tryoutId: "freemium6" },
+                      state: { userId: userId, tryoutId: "freemium7" },
                     }}
                     className="no-underline"
                   >
@@ -45,7 +45,7 @@ class TryoutList extends Component {
                       Instruksi
                     </div>
                   </Link>
-                  <Link to={"leaderboard/freemium6"} className="f5 fw6 button dark-green center no-underline" style={{ width: "fit-content" }}>
+                  <Link to={"leaderboard/freemium7"} className="f5 fw6 button dark-green center no-underline" style={{ width: "fit-content" }}>
                     Peringkat
                   </Link>
                 </div>
