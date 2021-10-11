@@ -25,48 +25,7 @@ class TryoutList extends Component {
       <article className="br3 ba b--black-10 mv4 w-100 w-100-m w-100-l mw9 shadow-5">
         {isCountDown ? <p className="pl4 tl">Akan berlangsung</p> : <p className="pl4 tl">Sedang Berlangsung</p>}
 
-        <ul className="list pl4 mt0 measure">
-          <li className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
-            <img className="w2 h2 w3-ns h3-ns br-100" src={exam} alt="exam-icon" />
-            <div className="pl3 flex-auto">
-              <span className="b f6 db black-70">Tryout Part 7</span>
-              {isCountDown ? (
-                <CountDownTryoutDay stopCountDown={this.stopCountDown} />
-              ) : (
-                <div>
-                  <Link
-                    to={{
-                      pathname: "/instruksi",
-                      state: { userId: userId, tryoutId: "freemium7" },
-                    }}
-                    className="no-underline"
-                  >
-                    <div className="f5 fw6 dark-green button center" style={{ width: "fit-content" }}>
-                      Instruksi
-                    </div>
-                  </Link>
-                  <Link to={"leaderboard/freemium7"} className="f5 fw6 button dark-green center no-underline" style={{ width: "fit-content" }}>
-                    Peringkat
-                  </Link>
-                </div>
-              )}
-
-              {/* <Link to={"leaderboard/4"} className="f5 fw6 button dark-green center no-underline" style={{ width: "fit-content" }}>
-                Peringkat
-              </Link>
-              <br /> */}
-              {/* <a
-                href="https://drive.google.com/file/d/1mbLXuBf30jOXegHd3WJgo_6mRCOsWRUQ/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-                className="f5 fw6 button dark-green center no-underline"
-                style={{ width: "fit-content" }}
-              >
-                Kunci Jawaban
-              </a> */}
-            </div>
-          </li>
-        </ul>
+        <ul className="list pl4 mt0 measure"></ul>
         <p className="pl4 tl">Pernah Berlangsung</p>
         <ul className="list pl4 mt0 measure">
           <li className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
@@ -219,6 +178,46 @@ class TryoutList extends Component {
               <br />
               <a
                 href="https://drive.google.com/file/d/1lTeZrl4h0Y9j23E26FnzGp756X1loLik/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+                className="f5 fw6 button dark-green center no-underline"
+                style={{ width: "fit-content" }}
+              >
+                Kunci Jawaban
+              </a>
+            </div>
+          </li>
+          <li className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
+            <img className="w2 h2 w3-ns h3-ns br-100" src={exam} alt="exam-icon" />
+            <div className="pl3 flex-auto">
+              <span className="b f6 db black-70">Tryout Part 7</span>
+              <span className="f6 db black-70">08/10/2021</span>
+              {/* {isCountDown ? (
+                <CountDownTryoutDay stopCountDown={this.stopCountDown} />
+              ) : (
+                <div>
+                  <Link
+                    to={{
+                      pathname: "/instruksi",
+                      state: { userId: userId, tryoutId: "freemium7" },
+                    }}
+                    className="no-underline"
+                  >
+                    <div className="f5 fw6 dark-green button center" style={{ width: "fit-content" }}>
+                      Instruksi
+                    </div>
+                  </Link>
+                  <Link to={"leaderboard/freemium7"} className="f5 fw6 button dark-green center no-underline" style={{ width: "fit-content" }}>
+                    Peringkat
+                  </Link>
+                </div>
+              )} */}
+              <Link to={"leaderboard/freemium7"} className="f5 fw6 button dark-green center no-underline" style={{ width: "fit-content" }}>
+                Peringkat
+              </Link>
+              <br />
+              <a
+                href="https://drive.google.com/file/d/13HsDyYFPI784BH9Eyykbf3eGwuDusHC2/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
                 className="f5 fw6 button dark-green center no-underline"
